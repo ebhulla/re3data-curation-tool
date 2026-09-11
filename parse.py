@@ -10,13 +10,13 @@ def parse_repository(xml_text: str) -> dict:
     name = repo.find("r3d:repositoryName", NS).text
     url = repo.find("r3d:repositoryUrl", NS).text
 
-    doi_elem = repo.find("r3d:identifiers/r3d:doi", NS)          # optional — might be None, handle it
+    doi_elem = repo.find("r3d:identifiers/r3d:doi", NS)         
     doi = doi_elem.text if doi_elem is not None else None
 
     description_elem = repo.find("r3d:description", NS)
     description = description_elem.text if description_elem is not None else None
 
-    type_elem = repo.find("r3d:type", NS)         # takes first match automatically since it's .find not .findall
+    type_elem = repo.find("r3d:type", NS)         
     typology = type_elem.text if type_elem is not None else None
 
     # --- repeating fields: subjects ---
