@@ -32,6 +32,16 @@ def parse_repository(xml_text: str) -> dict:
         ctype = ctype_elem.text if ctype_elem is not None else None
         contacts.append({"contact_info": info, "contact_type": ctype})
 
+    # --- Insitituions --- #
+    institutions = []
+    for inst_elem in repo.findall("r3d:institution",NS):
+        inst_name = inst_elem.find("r3d:institutionName",NS).text
+        inst_country = inst_elem.find("r3d:institutionCountry",NS).text
+        inst_type = inst_elem.find("r3d:institutionType",NS).text
+        inst_url = inst_elem.find("r3d:institutionUrl",NS).text
+        institutions.append({"institution_name": inst_name, "institution_country":inst_country,"institution_type":inst_type,"institution_url": inst_url})
+
+
     return {
         "id": repo_id,
         "name": name,
@@ -41,6 +51,7 @@ def parse_repository(xml_text: str) -> dict:
         "typology": typology,
         "subjects": subjects,
         "contacts": contacts,
+        "institutions": institutions
     }
 
 import requests
