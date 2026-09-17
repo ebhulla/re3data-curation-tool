@@ -54,7 +54,10 @@ def parse_repository(xml_text: str) -> dict:
         "institutions": institutions
     }
 
-import requests
-if __name__ == "__main__":
-    resp = requests.get("https://www.re3data.org/api/v40/repository/r3d100010299")
-    print(parse_repository(resp.text))
+
+#----------- TESTING -----------#
+
+# import requests
+# if __name__ == "__main__":
+#     resp = requests.get("https://www.re3data.org/api/v40/repository/r3d100010299")
+#     print(parse_repository(resp.text))

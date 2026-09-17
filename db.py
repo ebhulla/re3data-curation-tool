@@ -50,16 +50,16 @@ def insert_repository(cur, data: dict):
 
 # ------------- TESTING ----------------- #
 
-if __name__ == "__main__":
-    import requests
-    from parse import parse_repository
+# if __name__ == "__main__":
+#     import requests
+#     from parse import parse_repository
 
-    conn = get_connection()
-    with conn.cursor() as cur:
-        for repo_id in ["r3d100010299", "r3d100010468"]:  # WDCC + Zenodo, your two known-good test cases
-            resp = requests.get(f"https://www.re3data.org/api/v40/repository/{repo_id}")
-            data = parse_repository(resp.text)
-            insert_repository(cur, data)
-    conn.commit()
-    conn.close()
-    print("Done — check the database")
+#     conn = get_connection()
+#     with conn.cursor() as cur:
+#         for repo_id in ["r3d100010299", "r3d100010468"]:  # WDCC + Zenodo, your two known-good test cases
+#             resp = requests.get(f"https://www.re3data.org/api/v40/repository/{repo_id}")
+#             data = parse_repository(resp.text)
+#             insert_repository(cur, data)
+#     conn.commit()
+#     conn.close()
+#     print("Done — check the database")

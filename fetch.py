@@ -16,7 +16,11 @@ def get_repository_xml(repo_id: str) -> str:
     resp.raise_for_status()
     return resp.text
 
-if __name__ == "__main__":
-    ids = get_all_repo_ids()
-    print(len(ids))
-    print(ids[:3])
+
+# ------ TESTING ------------ #
+
+
+# if __name__ == "__main__":
+#     ids = get_all_repo_ids()
+#     print(len(ids))
+#     print(ids[:3])
