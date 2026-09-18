@@ -120,7 +120,7 @@ Failed records (if any) are logged to `ingest_failures.log`.
 python export.py
 ```
 
-This creates `re3data_export.xlsx` with one row per repository. Subjects,
+This creates `r3d_export.xlsx` with one row per repository. Subjects,
 contacts, and institutions are joined into one column each, separated by
 `; `.
 
