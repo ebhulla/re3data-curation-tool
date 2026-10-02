@@ -1,0 +1,31 @@
+ID,Name A,Name B,Label,Reasoning
+126,"NIH, NIMH, Research Domain Criteria Initiative",National Institutes of Health,Hierarchy,A specific research initiative nested inside an institute inside NIH.
+265,University of California Santa Cruz,University of California,Hierarchy,"A distinct campus, not the university system as a whole."
+282,"University of California, Bancroft Library",University of California,Hierarchy,A specific library that is part of a campus.
+340,"Oak Ridge National Laboratory, Physics Division",Oak Ridge National Laboratory,Hierarchy,A division within the laboratory.
+342,Ocean Networks Canada Society,Ocean Networks Canada,Duplicate,"""Society"" appears to be a legal designation, not a separate organization."
+626,Bilkent University Library IT,Bilkent University,Hierarchy,An IT unit within the university library.
+857,Excellence Cluster TOPOI,Excellence Cluster Topoi,Duplicate,Capitalization difference only; names are the same length.
+945,University of Colorado Anschutz Medical Campus,University of Colorado,Hierarchy,A distinct campus within the university system.
+1017,"KTH Royal Institute of Technology, FLOW",Royal Institute of Technology,Hierarchy,FLOW is a research group at KTH; core institution name matches.
+1035,"Government of Canada, Public Health Agency of Canada",Government of Canada,Hierarchy,An agency within the government.
+1107,SIB Swiss Institute of Bioinformatics,Institute of Bioinformatics,Uncertain,"Could be the same institute referenced in shortened form, or a different, unrelated institute. Repository-level context is needed to resolve this with confidence."
+1189,The Andrew W. Mellon Foundation,Andrew W. Mellon Foundation,Duplicate,"Difference is only the leading article ""The."""
+1347,"University of Cambridge, InterMine",University of Cambridge,Hierarchy,InterMine is a specific project hosted at the university.
+1395,"U.S. Dept. of Health and Human Services, Office of Head Start",U.S. Department of Health and Human Services,Hierarchy,A program office within the department.
+1484,Fraunhofer FOKUS,Fraunhofer Fokus,Duplicate,Capitalization difference only; names are the same length.
+1499,National Science Foundation,National Science foundation,Duplicate,Capitalization difference only; names are the same length.
+1514,U.S. Environmental Protection Agency,Environmental Protection Agency,Duplicate,"Difference is only the ""U.S."" prefix."
+1528,"Universitat Basel, Center for Molecular Life Sciences, Swiss Institute of Bioinformatics",Swiss Institute of Bioinformatics,Hierarchy,Basel is a specific host site of the national institute.
+1543,"U.S. HHS, NIH, National Institute of Allergy and Infectious Diseases","HHS, National Institutes of Health",Hierarchy,"A specific institute nested within the larger department, plus a prefix difference."
+1586,"Univ. of Duisburg-Essen, Faculty of Social Sciences, Institute of Political Science",University of Duisburg-Essen,Hierarchy,An institute within a faculty within the university.
+1588,"Univ. of Alaska Fairbanks, Geophysical Institute, EarthScope National Office","Univ. of Alaska Fairbanks, Geophysical Institute",Hierarchy,A specific program hosted at the institute.
+1637,"CDC, National Center for Health Statistics",National Center for Health Statistics,Hierarchy,A center within the CDC.
+1719,"UK Research and Innovation, STFC, Rutherford Appleton Laboratory","UK Research and Innovation, STFC",Hierarchy,A specific laboratory within the research council.
+1760,"Texas A&M University, Corpus Christi",Texas A&M University,Hierarchy,A distinct campus within the university system.
+1961,"OECD Nuclear Energy Agency, Computer Program Services",Nuclear Energy Agency,Hierarchy,"A division within the agency, plus an OECD prefix."
+2164,"U.S. Dept. of Commerce, NOAA, Oceanic and Atmospheric Research",U.S. Department of Commerce,Hierarchy,NOAA and a sub-office nested within the department.
+2180,"University of Belgrade, Computer Centre",University of Belgrade,Hierarchy,A centre within the university.
+2182,"University of Belgrade, Faculty of Veterinary Medicine",University of Belgrade,Hierarchy,A faculty within the university.
+2265,"National Center for Atmospheric Research, UCAR, Computational and Information Systems Laboratory",National Center for Atmospheric Research,Hierarchy,A laboratory within the umbrella organization.
+2394,"University of Alaska Fairbanks, Geophysical Institute",University of Alaska Fairbanks,Hierarchy,An institute within the university.
