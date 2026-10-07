@@ -1,2 +1,15 @@
+# Environments
+venv/
+.venv/
 .env
-echo "venv/" >> .gitignore
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large or regenerable data (rebuild with the scripts in this repo)
+data/ror_matches.jsonl
+data/candidate_pairs.csv
+data/institutions_clean.csv
+data/*.log
