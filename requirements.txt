@@ -4,3 +4,10 @@ idna==3.19
 psycopg2-binary==2.9.12
 requests==2.34.2
 urllib3==2.7.0
+
+# added for the institution-matching and embedding work
+pandas
+numpy
+openpyxl
+sentence-transformers
+pytest
