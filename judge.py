@@ -39,10 +39,21 @@ def load_env(path=".env"):
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
-def build_messages(pairs):
-    """pairs: list of (name_a, name_b). Ids are positions 0..n-1 within the batch."""
-    body = "\n".join(f'{i}. A: "{a}" | B: "{b}"' for i, (a, b) in enumerate(pairs))
-    return [{"role": "system", "content": RUBRIC}, {"role": "user", "content": body}]
+CONTEXT_NOTE = """
+Some pairs include a line of ROR registry facts. ROR matches are automatic and can be wrong, so treat
+them as evidence to weigh against the names, not as the answer."""
+
+
+def build_messages(pairs, contexts=None):
+    """pairs: list of (name_a, name_b); contexts: optional list of ROR-facts strings, one per pair.
+    Ids are positions 0..n-1 within the batch."""
+    lines = []
+    for i, (a, b) in enumerate(pairs):
+        lines.append(f'{i}. A: "{a}" | B: "{b}"')
+        if contexts:
+            lines.append(f"   {contexts[i]}")
+    system = RUBRIC + (CONTEXT_NOTE if contexts else "")
+    return [{"role": "system", "content": system}, {"role": "user", "content": "\n".join(lines)}]
 
 
 def parse_response(text, n):
@@ -78,9 +89,9 @@ def call_api(cfg, messages, retries=6):
     raise RuntimeError("rate-limited too many times")
 
 
-def judge_batch(cfg, pairs):
-    fwd = parse_response(call_api(cfg, build_messages(pairs)), len(pairs))
-    bwd = parse_response(call_api(cfg, build_messages([(b, a) for a, b in pairs])), len(pairs))
+def judge_batch(cfg, pairs, ctx_ab=None, ctx_ba=None):
+    fwd = parse_response(call_api(cfg, build_messages(pairs, ctx_ab)), len(pairs))
+    bwd = parse_response(call_api(cfg, build_messages([(b, a) for a, b in pairs], ctx_ba)), len(pairs))
     return [
         {"label": merge_swapped(f[0], b[0]), "label_ab": f[0], "label_ba": b[0], "reason_ab": f[1], "reason_ba": b[1]}
         for f, b in zip(fwd, bwd)
@@ -94,6 +105,7 @@ if __name__ == "__main__":
     ap.add_argument("--provider", default="groq")
     ap.add_argument("--batch", type=int, default=10)
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--use-context", action="store_true", help="input CSV must have ctx_ab / ctx_ba columns (see ror_context.py)")
     args = ap.parse_args()
 
     load_env()
@@ -111,7 +123,9 @@ if __name__ == "__main__":
     with open(args.out, "a", encoding="utf-8") as f:
         for s in range(0, len(todo), args.batch):
             chunk = todo.iloc[s:s + args.batch]
-            results = judge_batch(cfg, list(zip(chunk.name_a, chunk.name_b)))
+            ctx_ab = chunk.ctx_ab.tolist() if args.use_context else None
+            ctx_ba = chunk.ctx_ba.tolist() if args.use_context else None
+            results = judge_batch(cfg, list(zip(chunk.name_a, chunk.name_b)), ctx_ab, ctx_ba)
             for (_, row), res in zip(chunk.iterrows(), results):
                 f.write(json.dumps({"name_a": row.name_a, "name_b": row.name_b, **res}, ensure_ascii=False) + "\n")
             f.flush()
