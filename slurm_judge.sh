@@ -12,6 +12,7 @@
 #SBATCH --qos=standby
 #SBATCH --time=03:30:00
 #SBATCH --nodes=1
+#SBATCH --mem=4G
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --job-name=judge_mined

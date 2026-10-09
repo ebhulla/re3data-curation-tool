@@ -13,6 +13,7 @@
 #SBATCH --qos=standby
 #SBATCH --time=02:00:00
 #SBATCH --nodes=1
+#SBATCH --mem=16G
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --job-name=ft_institutions
