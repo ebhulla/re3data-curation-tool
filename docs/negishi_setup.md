@@ -4,6 +4,8 @@ Written by Claude on 2026-10-09 from the cluster notes in the project (account `
 QOS `standby`). **Nothing here has been run yet.** Do the steps in order and stop at the first surprise.
 Compute must never run on the login node: only via `sbatch` or `sinteractive`.
 
+**Verified 2026-10-09:** a compute node reaches the internet (Groq returned HTTP 401, i.e. reachable); the setup in step 2 ran and 9 tests passed.
+
 ## 1. Get the code on Negishi (login node)
 ```bash
 ssh <your-username>@negishi.rcac.purdue.edu
@@ -17,7 +19,11 @@ If git asks for a password, use a GitHub personal access token (create one in Gi
 ```bash
 module avail python anaconda 2>&1 | head -20
 ```
-Pick a Python 3.10+ module, load it, then:
+The system Python is 3.6.8 (too old). There is no plain `python` module; use anaconda:
+```bash
+module load anaconda/2024.10-py312
+```
+Then build the environment (do this inside `sinteractive`, not on the login node):
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -42,7 +48,7 @@ chmod 600 .env
 
 ## 5. THE KEY TEST: can a compute node reach Groq?
 ```bash
-sinteractive -A standby --time=00:20:00 -N 1 -n 1
+sinteractive -A surf -p cpu -q standby -t 00:30:00 -N 1 -n 2
 curl -sS -m 15 -o /dev/null -w "%{http_code}\n" https://api.groq.com/openai/v1/models
 exit
 ```

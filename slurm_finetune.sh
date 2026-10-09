@@ -27,9 +27,9 @@ LR=${LRS[$(( SLURM_ARRAY_TASK_ID % 3 ))]}
 SEED=${SEEDS[$(( SLURM_ARRAY_TASK_ID / 3 ))]}
 OUT=models/ft_lr${LR}_s${SEED}
 
-# --- environment (EDIT: load whatever Python you set up on Negishi) ---
-# module load anaconda
-# source .venv/bin/activate
+# --- environment (confirmed on Negishi 2026-10-09) ---
+module load anaconda/2024.10-py312
+source .venv/bin/activate
 
 echo "task ${SLURM_ARRAY_TASK_ID}: lr=${LR} seed=${SEED} -> ${OUT}"
 python finetune.py --lr "${LR}" --epochs 3 --seed "${SEED}" --out "${OUT}"
