@@ -4,8 +4,9 @@
 # Written by Claude under the one-time exception of 2026-10-08 -- FOR EKAM TO REVIEW after Fall Break.
 # Environment verified on a compute node; the job itself has not been submitted yet. See docs/negishi_setup.md.
 #
-# Each run: judge.py resumes from data/judged_mined.jsonl until Groq's daily token cap stops it,
-# then this script resubmits itself to start ~23 hours later, up to MAX_RESUBMITS times.
+# Each run FIRST queues its successor (~23 hours later, up to MAX_RESUBMITS times), THEN runs judge.py,
+# which resumes from data/judged_mined.jsonl until Groq's daily token cap stops it. Queuing first matters:
+# if the cap makes judge.py wait past the time limit, Slurm kills this job, but the next one is already queued.
 # Only ONE machine may write data/judged_mined.jsonl at a time (stop the Codespace job first).
 #SBATCH --account=surf
 #SBATCH --partition=cpu
@@ -28,13 +29,17 @@ RESUBMIT_COUNT=${RESUBMIT_COUNT:-0}
 module load anaconda/2024.10-py312
 source .venv/bin/activate
 
-python judge.py --input data/mined_pairs.csv --out data/judged_mined.jsonl --limit ${TOTAL} || echo "judge.py exited early (expected when the daily cap is hit)"
-
 DONE=$(wc -l < data/judged_mined.jsonl)
-echo "labeled so far: ${DONE} / ${TOTAL}"
+if [ "${DONE}" -ge "${TOTAL}" ]; then
+    echo "all ${TOTAL} pairs already labeled; nothing to do"
+    exit 0
+fi
 
-if [ "${DONE}" -lt "${TOTAL}" ] && [ "${RESUBMIT_COUNT}" -lt "${MAX_RESUBMITS}" ]; then
+if [ "${RESUBMIT_COUNT}" -lt "${MAX_RESUBMITS}" ]; then
     NEXT=$(( RESUBMIT_COUNT + 1 ))
     sbatch --begin=now+23hours --export=ALL,RESUBMIT_COUNT=${NEXT} slurm_judge.sh
-    echo "resubmitted (${NEXT}/${MAX_RESUBMITS}) to start in ~23 hours"
+    echo "queued successor ${NEXT}/${MAX_RESUBMITS} to start in ~23 hours"
 fi
+
+python judge.py --input data/mined_pairs.csv --out data/judged_mined.jsonl --limit ${TOTAL} || echo "judge.py exited early (expected when the daily cap is hit)"
+echo "labeled at end of run: $(wc -l < data/judged_mined.jsonl) / ${TOTAL}"
