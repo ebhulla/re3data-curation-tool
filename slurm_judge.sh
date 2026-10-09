@@ -2,7 +2,7 @@
 # Run the LLM judge on Negishi and keep going day after day until all mined pairs are labeled.
 #
 # Written by Claude under the one-time exception of 2026-10-08 -- FOR EKAM TO REVIEW after Fall Break.
-# NOT YET RUN on Negishi. Follow docs/negishi_setup.md first (environment, .env key, internet test).
+# Environment verified on a compute node; the job itself has not been submitted yet. See docs/negishi_setup.md.
 #
 # Each run: judge.py resumes from data/judged_mined.jsonl until Groq's daily token cap stops it,
 # then this script resubmits itself to start ~23 hours later, up to MAX_RESUBMITS times.
@@ -23,9 +23,9 @@ TOTAL=2800
 MAX_RESUBMITS=5
 RESUBMIT_COUNT=${RESUBMIT_COUNT:-0}
 
-# --- environment (EDIT to match docs/negishi_setup.md) ---
-# module load anaconda
-# source .venv/bin/activate
+# --- environment (confirmed on Negishi 2026-10-09) ---
+module load anaconda/2024.10-py312
+source .venv/bin/activate
 
 python judge.py --input data/mined_pairs.csv --out data/judged_mined.jsonl --limit ${TOTAL} || echo "judge.py exited early (expected when the daily cap is hit)"
 
