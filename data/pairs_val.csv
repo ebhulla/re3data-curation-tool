@@ -1,0 +1,51 @@
+name_a,name_b,label,is_duplicate,source_file
+Ludwig-Maximilians-Universität München,"Ludwig-Maximilians-Universität München, Systematik, Biodiversität & Evolution der Pflanzen",hierarchy,0,judged_600.jsonl
+"United States Department of Agriculture, Agricultural Research Services","United States Department of Agriculture, Risk Management Agency",unrelated,0,judged_600.jsonl
+"United States Department of Agriculture, Forest Service, Willamette National Forest","United States Department of Agriculture, Risk Management Agency",unrelated,0,judged_600.jsonl
+Wellcome,Wellcome trust,duplicate,1,judged_600.jsonl
+Universität Paderborn,"Universität Paderborn, Zentrum für Informations- und Medientechnologien",hierarchy,0,judged_600.jsonl
+"UK Research and Innovation, Arts and Humanities Research Council","UKRI, Arts and Humanities Research Council",duplicate,1,judged_600.jsonl
+Herzog August Bibliothek,Herzog August Bibliothek Wolfenbüttel,duplicate,1,judged_600.jsonl
+Wellcome,Wellcome Trust,duplicate,1,judged_600.jsonl
+"National Institute of Allergy and Infectious Deseases, Bioinformatics Resource Centers","University of California, Mutant Mouse Resource & Research Centers",unrelated,0,judged_600.jsonl
+United States Department of Agriculture,"United States Department of Agriculture, Economics, Statistics, and Market Information System",hierarchy,0,judged_600.jsonl
+University of Innsbruck,"Universität Innsbruck, Central IT-Services",hierarchy,0,judged_600.jsonl
+Institute of Sciences of Food Production,wellcome trust,unrelated,0,judged_600.jsonl
+Singapore Management University,Gdańsk Medical University,unrelated,0,judged_600.jsonl
+Centro de Investigación y Tecnologia Agroalimentaria de Aragón,"Centro de Investigación y Tecnologia Agroalimentaria de Aragón, Biblioteca",hierarchy,0,judged_mined.jsonl
+International Agency for Research on Cancer,National Cancer Institute,unrelated,0,judged_mined.jsonl
+The William and Flora Hewlett Foundation,William and Flora Hewlett Foundation,duplicate,1,judged_mined.jsonl
+Department of Health and Human Services,US Department of Health & Human Services,duplicate,1,judged_mined.jsonl
+University of Lausanne,"University of Lausanne, Center for Primary Care and Public Health",hierarchy,0,judged_mined.jsonl
+U.S.Department of Health and Human Services,US Department of Health & Human Services,duplicate,1,judged_mined.jsonl
+Wrocław University of Science and Technology,Wrocław University of Science andTechnology,duplicate,1,judged_mined.jsonl
+Natural Environment Research Council,"Natural Environment Research Council,  Centre for Ecology & Hydrology",hierarchy,0,judged_mined.jsonl
+Pompeu Fabra University Barcelona,Universitat Pompeu Fabra,duplicate,1,judged_mined.jsonl
+"Heinrich Heine Universität Düsseldorf, Universitäts- und Landesbibliothek","Ludwig-Maximilians-Universität München, Universitätsbibliothek",unrelated,0,judged_mined.jsonl
+"Simon Fraser University, Department of Molecular Biology and Biochemistry, Fiona Brinkman Lab","Simon Fraser University, Department of Molecular Biology and Biochemistry, Fiona Brinkman Laboratory",duplicate,1,judged_mined.jsonl
+Wellcome,wellcome trust,duplicate,1,judged_mined.jsonl
+"International Atomic Energy Agency, Nuclear Data Section, Atomic and Molecular  Unit","International Atomic Energy Agency, Nuclear Data Section, Atomic and Molecular Data Unit",duplicate,1,judged_mined.jsonl
+Monash University,"Monash University, e-reserach Centre",hierarchy,0,judged_mined.jsonl
+Norwegian Institute for Air Research,"Norwegian Institute for Air Research, Chemical Coordinating Centre",hierarchy,0,judged_mined.jsonl
+United States Department of Agriculture,"United States Department of Agriculture, Risk Management Agency",hierarchy,0,judged_mined.jsonl
+Queensland University of Technology,"University of Technology, Sydney",unrelated,0,judged_mined.jsonl
+"U.S. Department of Agriculture, Digital Infrastructure Services Center, Data Center Hosting Services","United States Department of Agriculture, Foreign Agricultural Service",unrelated,0,judged_mined.jsonl
+"University of Alaska Fairbanks, Geophysical Institute","University of Alaska Fairbanks, Geophysical Institute, EarthScope National Office",hierarchy,0,judged_mined.jsonl
+"National Institute of Health, National Institute of Neurological Disorders and Stroke",National Institute of Neurological Disorders and Stroke,hierarchy,0,judged_mined.jsonl
+United States Department of Agriculture,"United States Department of Agriculture, Foreign Agricultural Service",hierarchy,0,judged_mined.jsonl
+University of Innsbruck,Universität Innsbruck,duplicate,1,judged_mined.jsonl
+Leibniz Institute for Applied Geophysics,"Polish Academy of Sciences, Institute of Geophysics",unrelated,0,judged_mined.jsonl
+Imperial College London,"Imperial College London, School of Public Health",hierarchy,0,judged_mined.jsonl
+National Institute of Geophysics and Volcanology,"National Institute of Geophysics and Volcanology, Etna Observatory",hierarchy,0,judged_mined.jsonl
+"The University of Dublin, Trinity College Dublin","University College Dublin, Library",unrelated,0,judged_mined.jsonl
+United States Department of Agriculture,"United States Department of Agriculture,  Agricultural Marketing Service",hierarchy,0,judged_mined.jsonl
+Wellcome trust,wellcome trust,duplicate,1,judged_mined.jsonl
+Ludwig-Maximilians Universität München,"Ludwig-Maximilians-Universität München, Universitätsbibliothek",hierarchy,0,judged_mined.jsonl
+Department of Health and Human Services,U.S.Department of Health and Human Services,duplicate,1,judged_mined.jsonl
+University of Wisconsin - Madison,University of Wisconsin-Milwaukee,unrelated,0,judged_mined.jsonl
+Universidad Autónoma de Baja California,Universidad Autónoma de Bucaramanga,unrelated,0,judged_mined.jsonl
+International Astronomical Union,"International Astronomical Union , Central Bureau for Astronomical Telegrams",hierarchy,0,judged_mined.jsonl
+University of Strathclyde,"University of Strathclyde, Glasgow",duplicate,1,judged_mined.jsonl
+"University of Zurich, Institute of Molecular Life Sciences","University of Zurich, Institute of Molecular Life Sciences, Baudis Group",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Agriculture, Agricultural Research Service","United States Department of Agriculture, Agricultural Research Services",duplicate,1,judged_mined.jsonl
+Ludwig-Maximilians Universität München,Ludwig-Maximilians-Universität München,duplicate,1,judged_mined.jsonl
