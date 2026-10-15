@@ -81,7 +81,8 @@ def main():
     rows = []
     for name, fn in methods.items():
         s_tr, s_te = fn(train), fn(test)
-        t = best_threshold(s_tr, train.is_duplicate.values)
+        # exact_norm and substring are yes/no rules: a threshold search can degenerate to "everything is a duplicate"
+        t = 1.0 if name in ("exact_norm", "substring") else best_threshold(s_tr, train.is_duplicate.values)
         p, r, f = prf(s_te, test.is_duplicate.values, t)
         ap = average_precision_score(test.is_duplicate, s_te) if test.is_duplicate.sum() else float("nan")
         means = {lab: s_te[(test.label == lab).values].mean() for lab in ["duplicate", "hierarchy", "unrelated"]}

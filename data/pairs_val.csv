@@ -49,3 +49,24 @@ University of Strathclyde,"University of Strathclyde, Glasgow",duplicate,1,judge
 "University of Zurich, Institute of Molecular Life Sciences","University of Zurich, Institute of Molecular Life Sciences, Baudis Group",hierarchy,0,judged_mined.jsonl
 "U.S. Department of Agriculture, Agricultural Research Service","United States Department of Agriculture, Agricultural Research Services",duplicate,1,judged_mined.jsonl
 Ludwig-Maximilians Universität München,Ludwig-Maximilians-Universität München,duplicate,1,judged_mined.jsonl
+"The University of Dublin, Trinity College Dublin",University College Dublin,unrelated,0,judged_mined.jsonl
+"United States Department of Agriculture,  Forest Service","United States Department of Agriculture, National Resources Conservation Service",unrelated,0,judged_mined.jsonl
+KTH Royal Institute of Technology,Royal Institute of Technology,duplicate,1,judged_mined.jsonl
+Universidad de Cádiz,Universidad de Salamanca,unrelated,0,judged_mined.jsonl
+"United States Department of Agriculture,  Agricultural Marketing Service","United States Department of Agriculture, Agricultural Research Services",unrelated,0,judged_mined.jsonl
+Bioinformatics Resource Centers,Queensland Facility for Advanced Bioinformatics,unrelated,0,judged_mined.jsonl
+"United States Department of Agriculture, National Resources Conservation Service","United States Department of Agriculture, National Resources Inventory",unrelated,0,judged_mined.jsonl
+University of Strasbourg,Université de Strasbourg,duplicate,1,judged_mined.jsonl
+Protein Data Bank in Europe,Worldwide Protein Data Bank,hierarchy,0,judged_mined.jsonl
+Leibniz Institute for Applied Geophysics,Leibniz-Institute for Applied Geophysics,duplicate,1,judged_mined.jsonl
+"International Atomic Energy Agency, Department of Nuclear Sciences & Applications, Division of Physical and Chemical Sciences","International Atomic Energy Agency, Nuclear Data Section, Atomic and Molecular Data Unit",unrelated,0,judged_mined.jsonl
+University of Alaska Fairbanks,"University of Alaska Fairbanks, Elmer E. Rasmuson Library",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Agriculture, Agricultural Research Service","United States Department of Agriculture, Economic Research Service",unrelated,0,judged_mined.jsonl
+"National Institute of Health, National Institute of Neurological Disorders and Stroke","National Institutes of Health, National Institute of Neurological Disorders and Stroke",duplicate,1,judged_mined.jsonl
+European Organization for Nuclear Research,"European Organization for Nuclear Research, Information Technology Department, Collaboration & Information Services",hierarchy,0,judged_mined.jsonl
+"United States Department of Agriculture, Forest Service","United States Department of Agriculture, Forest Service, Willamette National Forest",hierarchy,0,judged_mined.jsonl
+"Library of Lodz University of Technology, Library of Lodz",University of Lodz,unrelated,0,judged_mined.jsonl
+"United States Department of Agriculture, Agricultural Research Services","United States Department of Agriculture, Economic Research Service",unrelated,0,judged_mined.jsonl
+"Canadian Cancer Society, Research Institute","University of Bayreuth, Department of Mycology",unrelated,0,judged_mined.jsonl
+Earth System Science Organization - Indian National Centre for Ocean Information Services,Indian National Centre for Ocean Information Services,hierarchy,0,judged_mined.jsonl
+"Goddard Space Flight Center, High Energy Astrophysics Science Archive Research Center",The High Energy Astrophysics Science Archive Research Center,hierarchy,0,judged_mined.jsonl

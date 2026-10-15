@@ -81,3 +81,32 @@ Saints Cyril and Methodius University of Skopje,University of Belgrade,unrelated
 "National Oceanic and Atmospheric Administration, Office of the Chief Information Officer and High-Performance Computing and Communications Office",National Oceanic and Atmospheric Adminstration,hierarchy,0,judged_mined.jsonl
 Data.gov,Federal Statistical Office,unrelated,0,judged_mined.jsonl
 Leibniz Institute for Baltic Sea Research,Leibniz Institute for Baltic Sea Research Warnemünde,duplicate,1,judged_mined.jsonl
+"U.S. Department of Commerce, U.S. Census Bureau, TheDataWeb","U.S. Department of Commerce, United States Census Bureau",hierarchy,0,judged_mined.jsonl
+"TU Wien, Department of Geodesy and Geoinformation","Vienna University of Technology, Department of Geodesy and Geoinformation",duplicate,1,judged_mined.jsonl
+Swiss Institute of Bioinformatics,"Swiss Institute of Bioinformatics, Swiss-Prot group",hierarchy,0,judged_mined.jsonl
+"Bundesamt für Kartographie und Geodäsie, Dienstleistungszentrum","Bundesamt für Kartographie und Geodäsie, Zentrale Stelle Geotopographie",unrelated,0,judged_mined.jsonl
+Fleet Numerical Meteorology and Oceanography Center,"United States Naval Research Laboratory, Marine Meteorology Division",unrelated,0,judged_mined.jsonl
+"University of Michigan, Institute for Social Research, Inter-university Consortium for Political and Social Research","University of Michigan, Inter-university Consortium for Political and Social Research",hierarchy,0,judged_mined.jsonl
+University of Manitoba,"University of Manitoba, Libraries",hierarchy,0,judged_mined.jsonl
+Landesarchiv Baden-Württemberg,Württembergische Landesbibliothek Stuttgart,unrelated,0,judged_mined.jsonl
+"U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory","U.S Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service",unrelated,0,judged_mined.jsonl
+Parkinson's Disease United Kingdom,Parkinson's UK,duplicate,1,judged_mined.jsonl
+"University of California Santa Cruz, Genomics Institute","University of California, Santa Cruz, Genomics Institute",duplicate,1,judged_mined.jsonl
+"National Oceanic and Atmospheric Administration, Coral Health and Monitoring Program","National Oceanographic and Atmospheric Administration, Monterey Bay National Marine Sanctuary",unrelated,0,judged_mined.jsonl
+"National Oceanic and Atmospheric Administration, National Weather Service, Climate Prediction Center","U.S Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service",hierarchy,0,judged_mined.jsonl
+National Oceanic & Atmospheric Administration,"National Oceanic and Atmospheric Administration, National Weather Service",hierarchy,0,judged_mined.jsonl
+"National Institute of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development","National Institutes of Health,  Eunice Kennedy Shriver National Institute of Child Health and Human Development",duplicate,1,judged_mined.jsonl
+Swiss Institute of Bioinformatics,Swiss Institute of Bioniformatics,duplicate,1,judged_mined.jsonl
+National Oceanic & Atmospheric Administration,National Oceanic and Atmospheric Administration's National Ocean Service,hierarchy,0,judged_mined.jsonl
+National Oceanic and Atmospheric Adminstration,"U.S. Department of Commerce, National Oceanic & Atmospheric Administration, Oceanic & Atmospheric Research",hierarchy,0,judged_mined.jsonl
+National Oceanic and Atmospheric Administration,"National Oceanic and Atmospheric Administration, National Weather Service",hierarchy,0,judged_mined.jsonl
+National Oceanic & Atmospheric Administration,"U.S. Department of Commerce, National Oceanic & Atmospheric Administration, Oceanic & Atmospheric Research",hierarchy,0,judged_mined.jsonl
+"European Molecular Biology Laboratory Australia, Lynn Group","Pacific Northwest National Laboratory, Environmental Molecular Sciences Laboratory",unrelated,0,judged_mined.jsonl
+Leibniz Institute for Baltic Sea Research Warnemünde,Leibniz-Institute for Baltic Sea Research Warnemünde,duplicate,1,judged_mined.jsonl
+"National Institute of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development","U.S. Department of Health and Human Services, National Institutes of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development",hierarchy,0,judged_mined.jsonl
+Government of the United Kingdom,"Government of the United Kingdom, Ministry of Defence",hierarchy,0,judged_mined.jsonl
+"National Oceanic and Atmospheric Administration, National Ocean Service","U.S Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service",unrelated,0,judged_mined.jsonl
+"Australian Government, Department of the Environment and Energy, Australian Antarctic Division","Australian Government, Department of the Environment, Australian Antarctic Division",duplicate,1,judged_mined.jsonl
+"U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory","U.S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Laboratory",hierarchy,0,judged_mined.jsonl
+Inter University Consortium for Political and Social Research,Inter-University Consortium for Political and Social Research,duplicate,1,judged_mined.jsonl
+Université catholique de Louvain,Université de Paris-Sorbonne,unrelated,0,judged_mined.jsonl
