@@ -30,6 +30,14 @@ def test_merge_swapped():
     assert judge.merge_swapped("duplicate", "hierarchy") == "disagree"
 
 
+def test_context_is_included_only_when_given():
+    plain = judge.build_messages([("A1", "B1")])
+    assert "ROR facts" not in plain[1]["content"] and "ROR matches are automatic" not in plain[0]["content"]
+    with_ctx = judge.build_messages([("A1", "B1")], ["ROR facts: same record"])
+    assert "ROR facts: same record" in with_ctx[1]["content"]
+    assert "ROR matches are automatic" in with_ctx[0]["content"]
+
+
 def test_build_messages_numbers_pairs():
     msgs = judge.build_messages([("A1", "B1"), ("A2", "B2")])
     assert '0. A: "A1" | B: "B1"' in msgs[1]["content"]
