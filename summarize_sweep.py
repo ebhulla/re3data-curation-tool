@@ -41,4 +41,4 @@ if all_f1:
     print(f"\nall runs: F1 {st.mean(all_f1):.2f} (range {min(all_f1):.2f}-{max(all_f1):.2f})   AP {st.mean(all_ap):.2f} (range {min(all_ap):.2f}-{max(all_ap):.2f})")
 for name, r in baseline.items():
     print(f"baseline {name}: F1 {r['f1']}   AP {r['ap']}")
-print("off-the-shelf MiniLM (not in these logs): F1 0.82, AP 0.91 from docs/results_2026-10-14.md")
+print("off-the-shelf MiniLM (not in these logs; current split, 111 test pairs): F1 0.81, AP 0.90 -- update if the split changes")
