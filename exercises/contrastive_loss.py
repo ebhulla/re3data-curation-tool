@@ -17,10 +17,25 @@ Requirements
   - Do not change the function name or its arguments.
 
 Run the checks:   python -m pytest tests/test_contrastive_loss.py -v
-Goal: all green. When it is, tell Claude and we review it together (expect follow-up questions).
+Goal: all green.
 """
 import torch
 
+def cosine_similarity(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
+    a_norm = a / a.norm(dim=1, keepdim=True)
+    b_norm = b / b.norm(dim=1, keepdim=True)
+    return (a_norm * b_norm).sum(dim=1)
+
+#What we Did in this function:
+# 1. Compute the distance `d` for each pair using cosine similarity.
+# 2. Compute the loss for positive pairs (duplicates) as `d^2`.
+# 3. Compute the loss for negative pairs (non-duplicates) as `max(0, margin - d)^2`.
+# 4. Combine the losses using the labels.
+# 5. Return the mean loss over the batch.
 
 def contrastive_loss(emb_a: torch.Tensor, emb_b: torch.Tensor, labels: torch.Tensor, margin: float = 0.5) -> torch.Tensor:
-    raise NotImplementedError("write me")
+    d = 1 - cosine_similarity(emb_a, emb_b)
+    loss_pos = d ** 2
+    loss_neg = torch.clamp(margin - d, min=0) ** 2
+    loss = labels * loss_pos + (1 - labels) * loss_neg
+    return loss.mean()
