@@ -33,12 +33,10 @@ def norm(s):
 
 # ---- ROR lookup: for each name, which ROR record it matched (if confident) and that record's relatives ----------
 ror_id, ror_links = {}, {}
-for line in open("data/ror_matches.jsonl", encoding="utf-8"):
+for line in open("data/ror_slim.jsonl", encoding="utf-8"):   # slim copy of data/ror_matches.jsonl, small enough for git
     rec = json.loads(line)
-    if rec["candidates"] and rec["candidates"][0]["chosen"]:
-        c = rec["candidates"][0]
-        ror_id[rec["name"]] = c["ror_id"]
-        ror_links[rec["name"]] = {r["id"] for r in c["relationships"] if r["type"] in ("parent", "child")}
+    ror_id[rec["name"]] = rec["ror_id"]
+    ror_links[rec["name"]] = set(rec["links"])
 
 
 # ---- the signals ("features"): every one is a number computed from the two names --------------------------------
