@@ -42,8 +42,7 @@ if args.label or args.predicted:
 else:
     rows = df[df.predicted != df.label]
     title = f"{len(rows)} mistakes; first {min(args.show, len(rows))}:"
-print("
-" + title)
+print("\n" + title)
 cut = 400 if args.full else 60
 for _, r in rows.head(args.show).iterrows():
     print(f"  judge: {r.label:<9} you: {r.predicted:<9} | {r.name_a[:cut]} | {r.name_b[:cut]}")
