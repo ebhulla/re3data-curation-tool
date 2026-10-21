@@ -10,7 +10,7 @@ How to work (error-driven development):
   3. Only when you are happy, run:   python evaluate_decider.py --split test    (do this rarely: it is your final exam)
 
 Level 1 scaffold: the tools are named in the hints, the rules are yours. Look at the cheat sheet (docs/cheatsheet.md) for syntax.
-Stuck on syntax? Start a message to Claude with "Q:".
+Stuck on syntax?.
 """
 import re
 
@@ -35,8 +35,22 @@ def decide(name_a: str, name_b: str) -> str:
     #   len(na.split()), len(nb.split())           how many words in each name
 
     # TODO 1: if the names are the same after norm(), what are they?
+    if na == nb:
+        print("Exact match fired for:", na, nb)
+        return "duplicate"
     # TODO 2: if the fuzzy score is very high, what are they?
+    if fuzz.token_sort_ratio(na, nb) / 100 >= DUPLICATE_FUZZY:
+        print("Fuzzy score fired for:", na, nb)
+        return "duplicate"
+    
     # TODO 3: if one name contains the other (and they are not the same), what are they?
+    if na in nb or nb in na:
+        print("One name contains the other fired for:", na, nb)
+        return "hierarchy"
+    
     # TODO 4: everything else.
+    # if ("," in name_a) != ("," in name_b):
+    #     print("Comma difference fired for:", na, nb)
+    #     return "hierarchy"
 
     return "unrelated"          # starting point: calls everything unrelated. Replace with your rules.
