@@ -3,6 +3,8 @@
 Usage:  python evaluate_decider.py                 (train split: use this while developing)
         python evaluate_decider.py --split test    (final check: use sparingly)
         python evaluate_decider.py --show 40       (show more mistakes)
+        python evaluate_decider.py --label unrelated --predicted hierarchy --full
+                                                   (show only the pairs in ONE cell of the confusion matrix, with full names)
 """
 import argparse
 
@@ -13,6 +15,9 @@ from decider import decide
 ap = argparse.ArgumentParser()
 ap.add_argument("--split", default="train", choices=["train", "val", "test"])
 ap.add_argument("--show", type=int, default=20, help="how many wrongly decided pairs to print")
+ap.add_argument("--label", choices=["duplicate", "hierarchy", "unrelated"], help="only pairs the judge labeled this")
+ap.add_argument("--predicted", choices=["duplicate", "hierarchy", "unrelated"], help="only pairs your decide() answered this")
+ap.add_argument("--full", action="store_true", help="print full names instead of cutting them at 60 characters")
 args = ap.parse_args()
 
 CLASSES = ["duplicate", "hierarchy", "unrelated"]
@@ -31,7 +36,14 @@ for c in CLASSES:
 print("\nconfusion matrix (rows = judge label, columns = your answer):")
 print(pd.crosstab(df.label, df.predicted).reindex(index=CLASSES, columns=CLASSES, fill_value=0).to_string())
 
-bad = df[df.predicted != df.label]
-print(f"\n{len(bad)} mistakes; first {min(args.show, len(bad))}:")
-for _, r in bad.head(args.show).iterrows():
-    print(f"  judge: {r.label:<9} you: {r.predicted:<9} | {r.name_a[:60]} | {r.name_b[:60]}")
+if args.label or args.predicted:
+    rows = df[((df.label == args.label) if args.label else True) & ((df.predicted == args.predicted) if args.predicted else True)]
+    title = f"{len(rows)} pairs where judge = {args.label or 'any'} and you = {args.predicted or 'any'}; first {min(args.show, len(rows))}:"
+else:
+    rows = df[df.predicted != df.label]
+    title = f"{len(rows)} mistakes; first {min(args.show, len(rows))}:"
+print("
+" + title)
+cut = 400 if args.full else 60
+for _, r in rows.head(args.show).iterrows():
+    print(f"  judge: {r.label:<9} you: {r.predicted:<9} | {r.name_a[:cut]} | {r.name_b[:cut]}")
