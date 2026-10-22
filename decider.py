@@ -18,11 +18,18 @@ from rapidfuzz import fuzz
 
 # ---- settings you can tune (try changing these first) -----------------------------------------------------------
 DUPLICATE_FUZZY = 0.90     # fuzzy score at or above this may mean "duplicate"
-
+Replace = {"universität": "university", "dept": "department", "univ": "university", "inst": "institution", "lab": "laboratory", "center": "centre","universitetet": "university","universitat": "university"}
 
 def norm(s: str) -> str:
     """Lowercase, remove punctuation, collapse spaces:  'U.S. Dept.' -> 'u s dept'."""
-    return re.sub(r"\s+", " ", re.sub(r"[^\w ]", " ", s.lower())).strip()
+    NewS = re.sub(r"\s+", " ", re.sub(r"[^\w ]", " ", s.lower())).strip()
+    STOP = {"of", "the", "and", "de", "du", "des", "la", "le", "der", "die", "das", "i", "for"}
+
+    result = []
+    for word in NewS.split():
+        if word not in STOP:
+            result.append(Replace.get(word, word)) #It replaces the word with the replacement if it exists, otherwise keeps the original word.
+    return " ".join(result)
 
 
 def decide(name_a: str, name_b: str) -> str:
@@ -36,16 +43,16 @@ def decide(name_a: str, name_b: str) -> str:
 
     # TODO 1: if the names are the same after norm(), what are they?
     if na == nb:
-        print("Exact match fired for:", na, nb)
+        #print("Exact match fired for:", na, nb)
         return "duplicate"
     # TODO 2: if the fuzzy score is very high, what are they?
     if fuzz.token_sort_ratio(na, nb) / 100 >= DUPLICATE_FUZZY:
-        print("Fuzzy score fired for:", na, nb)
+        #print("Fuzzy score fired for:", na, nb)
         return "duplicate"
     
     # TODO 3: if one name contains the other (and they are not the same), what are they?
     if na in nb or nb in na:
-        print("One name contains the other fired for:", na, nb)
+        #print("One name contains the other fired for:", na, nb)
         return "hierarchy"
     
     # TODO 4: everything else.
