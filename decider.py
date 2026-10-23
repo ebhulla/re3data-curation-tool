@@ -41,6 +41,17 @@ def decide(name_a: str, name_b: str) -> str:
     #   ("," in name_a) != ("," in name_b)         only one name has a comma: often "Institution, Unit"
     #   len(na.split()), len(nb.split())           how many words in each name
 
+    if(len(na) > len(nb)):
+        long_name, short_name = na, nb
+    else:
+        long_name, short_name = nb, na
+    if(len(long_name) != len(short_name)):
+        if(long_name.startswith(short_name)):
+            Extra = long_name[len(short_name):].split()
+            count = len(Extra)
+            if("," not in name_a and "," not in name_b and count <= 1):
+                return "duplicate"
+    
     # TODO 1: if the names are the same after norm(), what are they?
     if na == nb:
         #print("Exact match fired for:", na, nb)
