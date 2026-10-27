@@ -1,7 +1,6 @@
 #!/bin/bash
 # Run the LLM judge on Negishi and keep going day after day until all mined pairs are labeled.
 #
-# Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
 # Environment verified on Negishi; used for the Oct 2026 labeling runs. See docs/negishi_setup.md.
 #
 # Each run FIRST queues its successor (~23 hours later, up to MAX_RESUBMITS times), THEN runs judge.py,

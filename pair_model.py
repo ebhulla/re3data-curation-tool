@@ -1,6 +1,6 @@
 """Worked example: predict duplicate / hierarchy / unrelated for a pair of institution names by combining several signals.
 
-Developed with AI assistance (Claude); see docs/AUTHORSHIP.md. A worked example to read, run and modify (see the missions at the bottom).
+A worked example to read, run and modify (see the missions at the bottom).
 
 The idea: no single score separates the three classes (fuzzy misses names with extra words, MiniLM thinks a sub-unit
 and its parent are near-duplicates). A model can learn how to weigh several signals together.

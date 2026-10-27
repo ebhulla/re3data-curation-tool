@@ -1,6 +1,6 @@
 """Error analysis on the 82-pair test set: where do fuzzy, MiniLM and fine-tuned MiniLM go wrong?
 
-Developed with AI assistance (Claude); see docs/AUTHORSHIP.md. Read-only: it changes no data.
+Read-only: it changes no data.
 
 Usage: python error_analysis.py [path_to_finetuned_model]
 Thresholds are the best-F1 thresholds picked on the TRAIN pairs (same rule as baselines.py).

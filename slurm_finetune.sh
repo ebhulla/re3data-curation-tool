@@ -1,7 +1,6 @@
 #!/bin/bash
 # Fine-tuning sweep on Negishi: 3 learning rates x 2 seeds = 6 array tasks, CPU only.
 #
-# Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
 # NOT YET RUN on Negishi. First submit ONE task as a test:   sbatch --array=0 slurm_finetune.sh
 # Then the full sweep:                                       sbatch --array=0-5 slurm_finetune.sh
 #

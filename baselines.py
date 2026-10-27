@@ -1,7 +1,5 @@
 """Baselines for 'are these two institution names the SAME institution?' (duplicate vs everything else).
 
-Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
-
 Task: positive = judge label 'duplicate'; negative = 'hierarchy' or 'unrelated'.
 Hierarchy pairs are the hard negatives: one name contains the other but they are NOT the same entity.
 

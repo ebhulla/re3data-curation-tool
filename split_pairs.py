@@ -1,7 +1,5 @@
 """Build the labeled pair dataset and split it into train / val / test without leakage.
 
-Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
-
 Leakage guard: each NAME is assigned to a split by a stable hash of its group, where the group is its
 ROR id (names matched to the same organization stay together) or the name itself if unmatched.
 A pair is kept only if both names land in the same split, so no name and no ROR cluster ever appears

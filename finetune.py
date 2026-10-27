@@ -1,7 +1,5 @@
 """Fine-tune all-MiniLM-L6-v2 so DUPLICATE name pairs score high and HIERARCHY / UNRELATED pairs score low.
 
-Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
-
 Idea: the off-the-shelf model puts "X University" and "X University, Library" close together because they
 share words. Training pairs with label 1 (duplicate) are pulled together and pairs with label 0 (hierarchy,
 unrelated) are pushed apart -- hierarchy pairs act as the hard negatives.

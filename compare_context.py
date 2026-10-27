@@ -1,7 +1,5 @@
 """Compare judge labels WITHOUT vs WITH ROR context on the same 600 pairs.
 
-Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
-
 Usage: python compare_context.py data/judged_600.jsonl data/judged_600_ctx.jsonl
 Prints label shares by pair source for both runs, how many labels changed, and the flips that changed most.
 """

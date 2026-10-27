@@ -1,7 +1,5 @@
 """End-to-end demo: collapse duplicate institution names into canonical clusters and audit the result.
 
-Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
-
 Steps:
   1. Score every pair of distinct names with a duplicate detector (fuzzy or MiniLM).
   2. Merge pairs scoring >= the threshold chosen on the TRAIN pairs (baselines.py) into clusters (connected components).
