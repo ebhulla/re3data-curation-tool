@@ -1,6 +1,6 @@
 """End-to-end demo: collapse duplicate institution names into canonical clusters and audit the result.
 
-Written by Claude on 2026-10-14 under an extra exception for the Oct 14 abstract -- FOR EKAM TO REVIEW.
+Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
 
 Steps:
   1. Score every pair of distinct names with a duplicate detector (fuzzy or MiniLM).

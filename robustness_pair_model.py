@@ -1,6 +1,6 @@
 """Does the name-only combined model beat fuzzy matching alone across 10 different leakage-safe splits?
 
-Written by Claude on 2026-10-20 -- plumbing around pair_model.py's features (copied, name-only: no ROR features).
+Developed with AI assistance (Claude); see docs/AUTHORSHIP.md. Plumbing around pair_model.py's features (copied, name-only: no ROR features).
 For each split: train 3-class gradient boosting on that split's train part, score on its test part.
 Reports duplicate-vs-rest F1 and AP, and hierarchy F1, for the model vs fuzzy alone (threshold picked on train).
 """

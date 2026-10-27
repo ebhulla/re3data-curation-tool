@@ -1,8 +1,8 @@
 #!/bin/bash
 # Run the LLM judge on Negishi and keep going day after day until all mined pairs are labeled.
 #
-# Written by Claude under the one-time exception of 2026-10-08 -- FOR EKAM TO REVIEW after Fall Break.
-# Environment verified on a compute node; the job itself has not been submitted yet. See docs/negishi_setup.md.
+# Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
+# Environment verified on Negishi; used for the Oct 2026 labeling runs. See docs/negishi_setup.md.
 #
 # Each run FIRST queues its successor (~23 hours later, up to MAX_RESUBMITS times), THEN runs judge.py,
 # which resumes from data/judged_mined.jsonl until Groq's daily token cap stops it. Queuing first matters:

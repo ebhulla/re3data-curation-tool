@@ -1,6 +1,6 @@
 """Does 'average of fuzzy and MiniLM' beat each alone across DIFFERENT random leakage-safe splits?
 
-Written by Claude on 2026-10-14 -- FOR EKAM TO REVIEW. Read-only.
+Developed with AI assistance (Claude); see docs/AUTHORSHIP.md. Read-only.
 
 Re-splits the judged pairs 10 times (different hash salts; same no-name-in-two-splits rule as split_pairs.py),
 picks each method's threshold on that split's train part, and scores on that split's test part.

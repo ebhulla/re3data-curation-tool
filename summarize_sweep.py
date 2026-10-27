@@ -1,6 +1,6 @@
 """Summarize the fine-tuning sweep from the Slurm logs (run on Negishi, in the repo folder).
 
-Written by Claude on 2026-10-14 -- FOR EKAM TO REVIEW.
+Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
 
 Reads logs/ft_*.out. Each finished task prints 'saved to models/ft_lr<LR>_s<SEED>' and then a result row for the
 fine-tuned model (the row whose method is 'minilm'). Prints one line per run, then mean and range per learning rate,

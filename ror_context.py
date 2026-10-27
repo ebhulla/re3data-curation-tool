@@ -1,6 +1,6 @@
 """Add ROR registry facts to each pair, so the judge can be run with and without them.
 
-Written by Claude under the one-time exception of 2026-10-08 -- FOR EKAM TO REVIEW after Fall Break.
+Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
 
 Inspired by Sundaram et al. 2024 (PMID 40417549): an LLM grounded in a structured knowledge base
 does better than an LLM alone. Here the knowledge base is ROR.

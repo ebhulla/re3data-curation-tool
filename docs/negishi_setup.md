@@ -1,7 +1,8 @@
 # Negishi setup for the judge and fine-tuning jobs
 
-Written by Claude on 2026-10-09 from the cluster notes in the project (account `surf`, partition `cpu`,
-QOS `standby`). **Nothing here has been run yet.** Do the steps in order and stop at the first surprise.
+Developed with AI assistance (Claude); see docs/AUTHORSHIP.md. Based on the cluster notes in the project (account `surf`,
+partition `cpu`, QOS `standby`). The steps below were run on Negishi in Oct 2026 (environment, judge job, fine-tuning sweep).
+Do the steps in order and stop at the first surprise.
 Compute must never run on the login node: only via `sbatch` or `sinteractive`.
 
 **Verified 2026-10-09:** a compute node reaches the internet (Groq returned HTTP 401, i.e. reachable); the setup in step 2 ran and 9 tests passed.

@@ -1,6 +1,6 @@
 """Build the labeled pair dataset and split it into train / val / test without leakage.
 
-Written by Claude under the one-time exception of 2026-10-08 -- FOR EKAM TO REVIEW after Fall Break.
+Developed with AI assistance (Claude); see docs/AUTHORSHIP.md.
 
 Leakage guard: each NAME is assigned to a split by a stable hash of its group, where the group is its
 ROR id (names matched to the same organization stay together) or the name itself if unmatched.
