@@ -39,6 +39,8 @@ Levels are judged from what actually happened (evidence in brackets), and are re
 - Computed `count` but never used it in a condition -> unused variables are a smell; check each computed value is used.
 - Stale `import` in an open Python prompt -> test with `python -c` from the shell.
 - Terminal copy dropped spaces at line breaks -> looked like a data bug; it was a paste artifact.
+- Blocking cutoff compared `len(word)` (letters in the word) instead of `len(names)` (institutions containing it) -> counts jumped at cutoff 10 ("university" has 10 letters) and plateaued after 20. Found by a hand-computed upper bound (5,456 words x 10 pairs = 54,560 < 127,354 observed). Habit: when a number looks off, bound it by hand before trusting it. (2026-10-28, found by Ekam with hints)
+- `finetune.py` showed a stray `import argparse1.` in the Codespace -> `git diff` before discarding anything separates a typo from real work.
 - (Mine) A shell heredoc turned `\n` into a real newline and I pushed broken code; a hardcoded baseline line was stale. Verify before pushing.
 
 ## Experimental findings (with caveats)
