@@ -2,13 +2,13 @@
 
 Steps:
   1. Score every pair of distinct names with a duplicate detector (fuzzy or MiniLM).
-  2. Merge pairs scoring >= the threshold chosen on the TRAIN pairs (baselines.py) into clusters (connected components).
+  2. Merge pairs scoring >= the threshold chosen on the TRAIN pairs (experiments/baselines.py) into clusters (connected components).
   3. Canonical name = the spelling used by the most repositories (ties: shorter, then alphabetical).
   4. Audit against the judge labels: wrong merges (judged hierarchy/unrelated but same cluster) and missed duplicates.
 
 Hierarchy is NOT merged here: a sub-unit stays its own institution (parent links are future work).
 
-Usage: python cluster_names.py fuzzy      or      python cluster_names.py minilm
+Usage: python experiments/cluster_names.py fuzzy      or      python experiments/cluster_names.py minilm
 Outputs: data/normalized_names_<method>.csv  (name, cluster_id, canonical, n_repos, cluster_size)
 """
 import json
@@ -20,7 +20,7 @@ import pandas as pd
 from rapidfuzz import fuzz, process
 
 METHOD = sys.argv[1] if len(sys.argv) > 1 else "fuzzy"
-THRESHOLD = {"fuzzy": 0.885, "minilm": 0.916}[METHOD]  # best-F1 thresholds from train (baselines.py, 2026-10-14)
+THRESHOLD = {"fuzzy": 0.885, "minilm": 0.916}[METHOD]  # best-F1 thresholds from train (experiments/baselines.py, 2026-10-14)
 KEEP = {"duplicate", "hierarchy", "unrelated"}
 
 

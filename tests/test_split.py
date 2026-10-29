@@ -5,7 +5,7 @@ import pandas as pd
 import pytest
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "pipeline"))
 
 import split_pairs  # noqa: E402
 
@@ -20,7 +20,7 @@ def test_fractions_sum_to_100():
     assert sum(split_pairs.FRACTIONS.values()) == 100
 
 
-@pytest.mark.skipif(not (ROOT / "data/pairs_train.csv").exists(), reason="run split_pairs.py first")
+@pytest.mark.skipif(not (ROOT / "data/pairs_train.csv").exists(), reason="run pipeline/split_pairs.py first")
 def test_no_name_appears_in_two_splits():
     seen = {}
     for split in split_pairs.FRACTIONS:

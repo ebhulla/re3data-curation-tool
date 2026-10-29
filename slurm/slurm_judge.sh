@@ -3,9 +3,9 @@
 #
 # Environment verified on Negishi; used for the Oct 2026 labeling runs. See docs/negishi_setup.md.
 #
-# Each run FIRST queues its successor (~23 hours later, up to MAX_RESUBMITS times), THEN runs judge.py,
+# Each run FIRST queues its successor (~23 hours later, up to MAX_RESUBMITS times), THEN runs pipeline/judge.py,
 # which resumes from data/judged_mined.jsonl until Groq's daily token cap stops it. Queuing first matters:
-# if the cap makes judge.py wait past the time limit, Slurm kills this job, but the next one is already queued.
+# if the cap makes pipeline/judge.py wait past the time limit, Slurm kills this job, but the next one is already queued.
 # Only ONE machine may write data/judged_mined.jsonl at a time (stop the Codespace job first).
 #SBATCH --account=surf
 #SBATCH --partition=cpu
@@ -36,9 +36,9 @@ fi
 
 if [ "${RESUBMIT_COUNT}" -lt "${MAX_RESUBMITS}" ]; then
     NEXT=$(( RESUBMIT_COUNT + 1 ))
-    sbatch --begin=now+23hours --export=ALL,RESUBMIT_COUNT=${NEXT} slurm_judge.sh
+    sbatch --begin=now+23hours --export=ALL,RESUBMIT_COUNT=${NEXT} slurm/slurm_judge.sh
     echo "queued successor ${NEXT}/${MAX_RESUBMITS} to start in ~23 hours"
 fi
 
-python judge.py --input data/mined_pairs.csv --out data/judged_mined.jsonl --limit ${TOTAL} || echo "judge.py exited early (expected when the daily cap is hit)"
+python pipeline/judge.py --input data/mined_pairs.csv --out data/judged_mined.jsonl --limit ${TOTAL} || echo "pipeline/judge.py exited early (expected when the daily cap is hit)"
 echo "labeled at end of run: $(wc -l < data/judged_mined.jsonl) / ${TOTAL}"

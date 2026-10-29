@@ -5,8 +5,8 @@ A worked example to read, run and modify (see the missions at the bottom).
 The idea: no single score separates the three classes (fuzzy misses names with extra words, MiniLM thinks a sub-unit
 and its parent are near-duplicates). A model can learn how to weigh several signals together.
 
-    python pair_model.py            # all features
-    python pair_model.py --no-ror   # drop the ROR features (see mission 3 for why you would)
+    python experiments/pair_model.py            # all features
+    python experiments/pair_model.py --no-ror   # drop the ROR features (see mission 3 for why you would)
 """
 import json
 import re

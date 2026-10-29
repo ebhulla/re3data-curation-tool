@@ -4,7 +4,7 @@ Follows Zheng et al. 2023 (arXiv 2306.05685): every pair is judged twice with th
 names swapped to control position bias, and only pairs where both runs agree keep a label.
 Provider-agnostic: any OpenAI-compatible chat endpoint, configured through .env.
 
-Usage:  python judge.py --input data/gold_pairs_30.csv --out data/judged_gold.jsonl
+Usage:  python pipeline/judge.py --input data/gold_pairs_30.csv --out data/judged_gold.jsonl
 """
 import argparse
 import json
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     ap.add_argument("--provider", default="groq")
     ap.add_argument("--batch", type=int, default=10)
     ap.add_argument("--limit", type=int, default=None)
-    ap.add_argument("--use-context", action="store_true", help="input CSV must have ctx_ab / ctx_ba columns (see ror_context.py)")
+    ap.add_argument("--use-context", action="store_true", help="input CSV must have ctx_ab / ctx_ba columns (see pipeline/ror_context.py)")
     args = ap.parse_args()
 
     load_env()

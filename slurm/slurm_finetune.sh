@@ -1,8 +1,8 @@
 #!/bin/bash
 # Fine-tuning sweep on Negishi: 3 learning rates x 2 seeds = 6 array tasks, CPU only.
 #
-# NOT YET RUN on Negishi. First submit ONE task as a test:   sbatch --array=0 slurm_finetune.sh
-# Then the full sweep:                                       sbatch --array=0-5 slurm_finetune.sh
+# NOT YET RUN on Negishi. First submit ONE task as a test:   sbatch --array=0 slurm/slurm_finetune.sh
+# Then the full sweep:                                       sbatch --array=0-5 slurm/slurm_finetune.sh
 #
 # Settings below come from the confirmed-working test job notes: account surf, partition cpu,
 # QOS standby (free, idle nodes, under 4 hours). Edit the 'module load' / venv lines to match the
@@ -32,5 +32,5 @@ module load anaconda/2024.10-py312
 source .venv/bin/activate
 
 echo "task ${SLURM_ARRAY_TASK_ID}: lr=${LR} seed=${SEED} -> ${OUT}"
-python finetune.py --lr "${LR}" --epochs 3 --seed "${SEED}" --out "${OUT}"
-python baselines.py "${OUT}"
+python experiments/finetune.py --lr "${LR}" --epochs 3 --seed "${SEED}" --out "${OUT}"
+python experiments/baselines.py "${OUT}"

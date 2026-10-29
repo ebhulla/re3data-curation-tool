@@ -34,7 +34,7 @@ open.
   matching (edit distance), embeddings, or manual review were used at this
   stage — this is meant to be a baseline before applying anything more
   sophisticated.
-- **Full query set:** `quantify.sql` in this repo. Every query below is
+- **Full query set:** `ingest/quantify.sql` in this repo. Every query below is
   numbered to match that file.
 
 ---
@@ -215,5 +215,5 @@ should be presented as "not yet done" rather than glossed over:
 
 ## Appendix: Query Reference
 
-All queries are in `quantify.sql`, numbered to match the section headers
+All queries are in `ingest/quantify.sql`, numbered to match the section headers
 above. Each query has an inline comment explaining its purpose.

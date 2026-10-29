@@ -12,7 +12,7 @@ Methods (all produce a score; higher = more likely duplicate):
 Threshold rule: pick the threshold with best F1 on TRAIN, apply it unchanged to TEST.
 Also reports average precision (threshold-free) and the mean score per label, to show separation.
 
-Usage: python baselines.py [model_name_or_path]   (default: off-the-shelf MiniLM)
+Usage: python experiments/baselines.py [model_name_or_path]   (default: off-the-shelf MiniLM)
 """
 import re
 import sys

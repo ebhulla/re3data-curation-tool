@@ -3,7 +3,7 @@
 Inspired by Sundaram et al. 2024 (PMID 40417549): an LLM grounded in a structured knowledge base
 does better than an LLM alone. Here the knowledge base is ROR.
 
-Usage: python ror_context.py data/judge_sample_600.csv data/judge_sample_600_ctx.csv
+Usage: python pipeline/ror_context.py data/judge_sample_600.csv data/judge_sample_600_ctx.csv
 Adds two columns, ctx_ab and ctx_ba: the same facts phrased for A/B order and for the swapped order.
 """
 import json

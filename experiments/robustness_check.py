@@ -2,7 +2,7 @@
 
 Read-only.
 
-Re-splits the judged pairs 10 times (different hash salts; same no-name-in-two-splits rule as split_pairs.py),
+Re-splits the judged pairs 10 times (different hash salts; same no-name-in-two-splits rule as pipeline/split_pairs.py),
 picks each method's threshold on that split's train part, and scores on that split's test part.
 Reports F1 and AP per method per split, then mean and spread across splits.
 """

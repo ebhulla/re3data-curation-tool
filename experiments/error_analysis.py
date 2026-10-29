@@ -2,8 +2,8 @@
 
 Read-only: it changes no data.
 
-Usage: python error_analysis.py [path_to_finetuned_model]
-Thresholds are the best-F1 thresholds picked on the TRAIN pairs (same rule as baselines.py).
+Usage: python experiments/error_analysis.py [path_to_finetuned_model]
+Thresholds are the best-F1 thresholds picked on the TRAIN pairs (same rule as experiments/baselines.py).
 """
 import sys
 

@@ -7,8 +7,8 @@ unrelated) are pushed apart -- hierarchy pairs act as the hard negatives.
 Loss: OnlineContrastiveLoss. Within each batch it only uses the hardest examples (positives that are still
 too far apart and negatives that are still too close), then applies a contrastive penalty with a margin.
 
-Usage: python finetune.py --lr 2e-5 --epochs 3 --seed 1 --out models/ft_lr2e-5_s1
-Then evaluate with: python baselines.py models/ft_lr2e-5_s1
+Usage: python experiments/finetune.py --lr 2e-5 --epochs 3 --seed 1 --out models/ft_lr2e-5_s1
+Then evaluate with: python experiments/baselines.py models/ft_lr2e-5_s1
 """
 import argparse
 import random
