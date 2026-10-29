@@ -33,7 +33,7 @@ pip install pandas numpy requests rapidfuzz scikit-learn sentence-transformers d
 python -m pytest tests -q
 ```
 All 10 tests should pass. Then edit the `module load` / `source .venv/bin/activate` lines in
-`slurm_judge.sh` and `slurm_finetune.sh` to match what you just did.
+`slurm/slurm_judge.sh` and `slurm/slurm_finetune.sh` to match what you just did.
 
 ## 3. Download the embedding model once (login node, needs internet)
 ```bash
@@ -59,7 +59,7 @@ Negishi, and the fallback is to run it on the Codespace by hand each day. Fine-t
 
 ## 6. Start the judge job (only after the Codespace job is stopped and its labels are pushed)
 ```bash
-sbatch slurm_judge.sh
+sbatch slurm/slurm_judge.sh
 squeue -u $USER
 tail -f logs/judge_<jobid>.out
 ```

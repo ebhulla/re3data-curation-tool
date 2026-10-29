@@ -1,2 +1,6 @@
 .env
 echo "venv/" >> .gitignore
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
