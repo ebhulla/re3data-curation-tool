@@ -1,7 +1,5 @@
 """Embed every distinct institution name and mine candidate pairs from nearest neighbors.
 
-Written by Claude under the one-time exception of 2026-10-08 -- FOR EKAM TO REVIEW after Fall Break.
-
 Why: random pairs are ~99% unrelated, so labeling them wastes judge budget. Nearest neighbors in
 embedding space are exactly the pairs that look alike, which is where duplicates, hierarchies and
 confusable (hard negative) pairs live.
