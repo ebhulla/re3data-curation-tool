@@ -22,10 +22,12 @@ for line in open("data/ror_slim.jsonl", encoding="utf-8"):
     r = json.loads(line)
     groups[r["name"]] = r["ror_id"]          # only used to keep a ROR cluster inside one split, never as a feature
 
-data = pd.concat([pd.read_json(p, lines=True) for p in ["data/judged_600.jsonl", "data/judged_mined.jsonl"]], ignore_index=True)
+data = pd.concat([pd.read_json(p, lines=True)
+                 for p in ["data/judged_600.jsonl", "data/judged_mined.jsonl"]], ignore_index=True)
 data = data[data.label.isin(KEEP)].reset_index(drop=True)
 names = sorted(set(data.name_a) | set(data.name_b))
-vec = dict(zip(names, SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2").encode(names, normalize_embeddings=True, batch_size=64)))
+vec = dict(zip(names, SentenceTransformer(
+    "sentence-transformers/all-MiniLM-L6-v2").encode(names, normalize_embeddings=True, batch_size=64)))
 
 
 def features(a, b):
@@ -71,6 +73,8 @@ res = pd.DataFrame(rows).round(2)
 print(res.to_string(index=False))
 print()
 for m in ("model", "fuzzy"):
-    print(f"{m:<6} duplicate-vs-rest F1 {res[m + '_F1'].mean():.2f} (+/-{res[m + '_F1'].std():.2f})   AP {res[m + '_AP'].mean():.2f} (+/-{res[m + '_AP'].std():.2f})")
+    print(
+        f"{m:<6} duplicate-vs-rest F1 {res[m + '_F1'].mean():.2f} (+/-{res[m + '_F1'].std():.2f})   AP {res[m + '_AP'].mean():.2f} (+/-{res[m + '_AP'].std():.2f})")  # noqa: E501
 print(f"model hierarchy F1 {res.model_hier_F1.mean():.2f} (+/-{res.model_hier_F1.std():.2f})")
-print(f"model beats fuzzy on F1 in {(res.model_F1 > res.fuzzy_F1).sum()}/{len(res)} splits, on AP in {(res.model_AP > res.fuzzy_AP).sum()}/{len(res)} splits")
+print(
+    f"model beats fuzzy on F1 in {(res.model_F1 > res.fuzzy_F1).sum()}/{len(res)} splits, on AP in {(res.model_AP > res.fuzzy_AP).sum()}/{len(res)} splits")  # noqa: E501

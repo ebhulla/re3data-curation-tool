@@ -6,10 +6,11 @@ from parse import parse_repository
 from db import get_connection, insert_repository
 
 logging.basicConfig(
-    filename = "ingest_failures.log",
-    level = logging.INFO,
-    format = "%(asctime)s %(message)s"
+    filename="ingest_failures.log",
+    level=logging.INFO,
+    format="%(asctime)s %(message)s"
 )
+
 
 def main():
     ids = get_all_repo_ids()
@@ -20,11 +21,11 @@ def main():
     fail_count = 0
 
     with conn.cursor() as cur:
-        for i, repo_id in enumerate(ids, start = 1):
+        for i, repo_id in enumerate(ids, start=1):
             try:
                 xml_text = get_repository_xml(repo_id)
                 data = parse_repository(xml_text)
-                insert_repository(cur,data)
+                insert_repository(cur, data)
                 conn.commit()
                 success_count += 1
             except Exception as e:
@@ -33,10 +34,11 @@ def main():
                 fail_count += 1
             time.sleep(0.5)
 
-            if(i % 100 == 0):
+            if (i % 100 == 0):
                 print(f"{i}/{len(ids)} processed ({success_count} ok, {fail_count} failed)")
         conn.close()
         print(f"Done. {success_count} succeeded, {fail_count} failed. See ingest_failures.log for details.")
+
 
 if __name__ == "__main__":
     main()
