@@ -16,9 +16,13 @@ import re
 
 from rapidfuzz import fuzz
 
+TAIL_MATCH = 0.90  # how similar the last comma-part of two names must be to count as "same unit"
+
 # ---- settings you can tune (try changing these first) -----------------------------------------------------------
 DUPLICATE_FUZZY = 0.90     # fuzzy score at or above this may mean "duplicate"
-Replace = {"universität": "university", "dept": "department", "univ": "university", "inst": "institution", "lab": "laboratory", "center": "centre","universitetet": "university","universitat": "university"}
+Replace = {"universität": "university", "dept": "department", "univ": "university", "inst": "institution",
+           "lab": "laboratory", "center": "centre", "universitetet": "university", "universitat": "university"}
+
 
 def norm(s: str) -> str:
     """Lowercase, remove punctuation, collapse spaces:  'U.S. Dept.' -> 'u s dept'."""
@@ -28,8 +32,18 @@ def norm(s: str) -> str:
     result = []
     for word in NewS.split():
         if word not in STOP:
-            result.append(Replace.get(word, word)) #It replaces the word with the replacement if it exists, otherwise keeps the original word.
+            # It replaces the word with the replacement if it exists, otherwise keeps the original word.
+            result.append(Replace.get(word, word))
     return " ".join(result)
+
+
+def tails_differ(name_a: str, name_b: str):
+
+    if ("," not in name_a and "," not in name_b):
+        return False
+    tail_a = norm(name_a.split(",")[-1]) if "," in name_a else ""
+    tail_b = norm(name_b.split(",")[-1]) if "," in name_b else ""
+    return fuzz.token_sort_ratio(tail_a, tail_b) / 100 < TAIL_MATCH
 
 
 def decide(name_a: str, name_b: str) -> str:
@@ -41,31 +55,31 @@ def decide(name_a: str, name_b: str) -> str:
     #   ("," in name_a) != ("," in name_b)         only one name has a comma: often "Institution, Unit"
     #   len(na.split()), len(nb.split())           how many words in each name
 
-    if(len(na) > len(nb)):
+    if (len(na) > len(nb)):
         long_name, short_name = na, nb
     else:
         long_name, short_name = nb, na
-    if(len(long_name) != len(short_name)):
-        if(long_name.startswith(short_name)):
+    if (len(long_name) != len(short_name)):
+        if (long_name.startswith(short_name)):
             Extra = long_name[len(short_name):].split()
             count = len(Extra)
-            if("," not in name_a and "," not in name_b and count <= 1):
+            if ("," not in name_a and "," not in name_b and count <= 1):
                 return "duplicate"
-    
+
     # TODO 1: if the names are the same after norm(), what are they?
     if na == nb:
-        #print("Exact match fired for:", na, nb)
+        # print("Exact match fired for:", na, nb)
         return "duplicate"
     # TODO 2: if the fuzzy score is very high, what are they?
-    if fuzz.token_sort_ratio(na, nb) / 100 >= DUPLICATE_FUZZY:
-        #print("Fuzzy score fired for:", na, nb)
+    if fuzz.token_sort_ratio(na, nb) / 100 >= DUPLICATE_FUZZY and not tails_differ(name_a, name_b):
+        # print("Fuzzy score fired for:", na, nb)
         return "duplicate"
-    
+
     # TODO 3: if one name contains the other (and they are not the same), what are they?
     if na in nb or nb in na:
-        #print("One name contains the other fired for:", na, nb)
+        # print("One name contains the other fired for:", na, nb)
         return "hierarchy"
-    
+
     # TODO 4: everything else.
     # if ("," in name_a) != ("," in name_b):
     #     print("Comma difference fired for:", na, nb)
