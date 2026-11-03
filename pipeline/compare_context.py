@@ -10,7 +10,8 @@ import pandas as pd
 plain = pd.read_json(sys.argv[1], lines=True)
 ctx = pd.read_json(sys.argv[2], lines=True)
 src = pd.read_csv("data/judge_sample_600.csv")[["name_a", "name_b", "source"]]
-df = plain[["name_a", "name_b", "label"]].merge(ctx[["name_a", "name_b", "label"]], on=["name_a", "name_b"], suffixes=("_plain", "_ctx")).merge(src, on=["name_a", "name_b"])
+df = plain[["name_a", "name_b", "label"]].merge(ctx[["name_a", "name_b", "label"]], on=[
+                                                "name_a", "name_b"], suffixes=("_plain", "_ctx")).merge(src, on=["name_a", "name_b"])
 print("pairs compared:", len(df))
 
 for col in ["label_plain", "label_ctx"]:

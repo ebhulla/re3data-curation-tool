@@ -53,9 +53,10 @@ print("\nduplicates MISSED by fuzzy or MiniLM (score shown; threshold in bracket
 print(f"  fuzzy [{thr['fuzzy']:.2f}]  minilm [{thr['minilm']:.2f}]")
 missed = dup[~dup.fuzzy_hit | ~dup.minilm_hit]
 for _, r in missed.iterrows():
-    print(f"  fuzzy {r.fuzzy:.2f} {'ok ' if r.fuzzy_hit else 'MISS'}  minilm {r.minilm:.2f} {'ok ' if r.minilm_hit else 'MISS'} | {r.name_a[:55]} | {r.name_b[:55]}")
+    print(
+        f"  fuzzy {r.fuzzy:.2f} {'ok ' if r.fuzzy_hit else 'MISS'}  minilm {r.minilm:.2f} {'ok ' if r.minilm_hit else 'MISS'} | {r.name_a[:55]} | {r.name_b[:55]}")  # noqa: E501
 both = int((~dup.fuzzy_hit & ~dup.minilm_hit).sum())
-print(f"  missed by both: {both}   only fuzzy missed: {int((~dup.fuzzy_hit & dup.minilm_hit).sum())}   only MiniLM missed: {int((dup.fuzzy_hit & ~dup.minilm_hit).sum())}")
+print(f"  missed by both: {both}   only fuzzy missed: {int((~dup.fuzzy_hit & dup.minilm_hit).sum())}   only MiniLM missed: {int((dup.fuzzy_hit & ~dup.minilm_hit).sum())}")  # noqa: E501
 
 print("\nFALSE ALARMS (judge says NOT a duplicate, method says duplicate):")
 nd = test[yte == 0].copy()
@@ -63,5 +64,5 @@ for name in ("fuzzy", "minilm"):
     nd[name] = scores[name][yte == 0]
     nd[name + "_flag"] = pred[name][yte == 0]
 for _, r in nd[nd.fuzzy_flag | nd.minilm_flag].iterrows():
-    print(f"  [{r.label}] fuzzy {r.fuzzy:.2f}{'*' if r.fuzzy_flag else ' '} minilm {r.minilm:.2f}{'*' if r.minilm_flag else ' '} | {r.name_a[:50]} | {r.name_b[:50]}")
+    print(f"  [{r.label}] fuzzy {r.fuzzy:.2f}{'*' if r.fuzzy_flag else ' '} minilm {r.minilm:.2f}{'*' if r.minilm_flag else ' '} | {r.name_a[:50]} | {r.name_b[:50]}")  # noqa: E501
 print("  (* = this method flagged it)")

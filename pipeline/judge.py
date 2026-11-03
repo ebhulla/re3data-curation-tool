@@ -100,12 +100,14 @@ def judge_batch(cfg, pairs, ctx_ab=None, ctx_ba=None):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="CSV with name_a,name_b (gold file columns 'Name A','Name B' also accepted)")
+    ap.add_argument("--input", required=True,
+                    help="CSV with name_a,name_b (gold file columns 'Name A','Name B' also accepted)")
     ap.add_argument("--out", required=True)
     ap.add_argument("--provider", default="groq")
     ap.add_argument("--batch", type=int, default=10)
     ap.add_argument("--limit", type=int, default=None)
-    ap.add_argument("--use-context", action="store_true", help="input CSV must have ctx_ab / ctx_ba columns (see pipeline/ror_context.py)")
+    ap.add_argument("--use-context", action="store_true",
+                    help="input CSV must have ctx_ab / ctx_ba columns (see pipeline/ror_context.py)")
     args = ap.parse_args()
 
     load_env()

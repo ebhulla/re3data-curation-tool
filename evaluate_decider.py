@@ -16,7 +16,8 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--split", default="train", choices=["train", "val", "test"])
 ap.add_argument("--show", type=int, default=20, help="how many wrongly decided pairs to print")
 ap.add_argument("--label", choices=["duplicate", "hierarchy", "unrelated"], help="only pairs the judge labeled this")
-ap.add_argument("--predicted", choices=["duplicate", "hierarchy", "unrelated"], help="only pairs your decide() answered this")
+ap.add_argument("--predicted", choices=["duplicate", "hierarchy", "unrelated"],
+                help="only pairs your decide() answered this")
 ap.add_argument("--full", action="store_true", help="print full names instead of cutting them at 60 characters")
 args = ap.parse_args()
 
@@ -37,7 +38,8 @@ print("\nconfusion matrix (rows = judge label, columns = your answer):")
 print(pd.crosstab(df.label, df.predicted).reindex(index=CLASSES, columns=CLASSES, fill_value=0).to_string())
 
 if args.label or args.predicted:
-    rows = df[((df.label == args.label) if args.label else True) & ((df.predicted == args.predicted) if args.predicted else True)]
+    rows = df[((df.label == args.label) if args.label else True) & (
+        (df.predicted == args.predicted) if args.predicted else True)]
     title = f"{len(rows)} pairs where judge = {args.label or 'any'} and you = {args.predicted or 'any'}; first {min(args.show, len(rows))}:"
 else:
     rows = df[df.predicted != df.label]
