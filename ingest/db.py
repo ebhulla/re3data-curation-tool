@@ -1,12 +1,14 @@
 import psycopg2
 
+
 def get_connection():
     return psycopg2.connect(
-        dbname = "re3data_toolkit",
-        host = "localhost",
-        user = "postgres",
-        password = "r3d",
+        dbname="re3data_toolkit",
+        host="localhost",
+        user="postgres",
+        password="r3d",
     )
+
 
 def insert_repository(cur, data: dict):
     # --- repositories: one row per repo ---
@@ -28,7 +30,7 @@ def insert_repository(cur, data: dict):
     for subject in data["subjects"]:
         cur.execute(
             "INSERT INTO subjects (repo_id, subject_name) VALUES (%s, %s)",
-            (data["id"],subject),
+            (data["id"], subject),
         )
 
     # --- contacts: one row per contact --- #
@@ -36,7 +38,7 @@ def insert_repository(cur, data: dict):
         cur.execute(
             "INSERT INTO contacts (repo_id, contact_info,contact_type) VALUES (%s, %s, %s)",
 
-            (data["id"],contact["contact_info"],contact["contact_type"]),
+            (data["id"], contact["contact_info"], contact["contact_type"]),
 
         )
 
@@ -45,7 +47,8 @@ def insert_repository(cur, data: dict):
         cur.execute(
             "INSERT INTO institutions (repo_id,institution_name,institution_country,institution_type,institution_url) VALUES(%s, %s, %s, %s, %s)",
 
-            (data["id"],institution["institution_name"],institution["institution_country"],institution["institution_type"],institution["institution_url"]),
+            (data["id"], institution["institution_name"], institution["institution_country"],
+             institution["institution_type"], institution["institution_url"]),
         )
 
 # ------------- TESTING ----------------- #

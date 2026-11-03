@@ -25,7 +25,8 @@ for line in open("data/ror_matches.jsonl", encoding="utf-8"):
     if rec["candidates"] and rec["candidates"][0]["chosen"]:
         groups[rec["name"]] = rec["candidates"][0]["ror_id"]
 
-data = pd.concat([pd.read_json(p, lines=True) for p in ["data/judged_600.jsonl", "data/judged_mined.jsonl"]], ignore_index=True)
+data = pd.concat([pd.read_json(p, lines=True)
+                 for p in ["data/judged_600.jsonl", "data/judged_mined.jsonl"]], ignore_index=True)
 data = data[data.label.isin(KEEP)].reset_index(drop=True)
 data["y"] = (data.label == "duplicate").astype(int)
 print("judged usable pairs:", len(data), " duplicates:", data.y.sum())
@@ -65,7 +66,8 @@ res = pd.DataFrame(rows).round(2)
 print(res.to_string(index=False))
 print("\nmean over splits (and std):")
 for m in ("fuzzy", "minilm", "combo"):
-    print(f"  {m:<7} F1 {res[m + '_F1'].mean():.2f} (+/-{res[m + '_F1'].std():.2f})   AP {res[m + '_AP'].mean():.2f} (+/-{res[m + '_AP'].std():.2f})")
+    print(
+        f"  {m:<7} F1 {res[m + '_F1'].mean():.2f} (+/-{res[m + '_F1'].std():.2f})   AP {res[m + '_AP'].mean():.2f} (+/-{res[m + '_AP'].std():.2f})")
 wins = int((res.combo_F1 > res[["fuzzy_F1", "minilm_F1"]].max(axis=1)).sum())
 winsap = int((res.combo_AP > res[["fuzzy_AP", "minilm_AP"]].max(axis=1)).sum())
 print(f"\ncombo beats BOTH single methods on F1 in {wins}/{len(res)} splits, on AP in {winsap}/{len(res)} splits")

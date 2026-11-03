@@ -53,12 +53,14 @@ for path in ["data/judged_600.jsonl", "data/judged_gold.jsonl"]:
 df = df[[tuple(sorted(p)) not in seen for p in zip(df.name_a, df.name_b)]]
 print("after removing already-judged:", len(df))
 
-df["sim_bin"] = pd.cut(df.cos_sim, [0.6, 0.7, 0.8, 0.9, 1.01], right=False, labels=["0.6-0.7", "0.7-0.8", "0.8-0.9", "0.9+"])
+df["sim_bin"] = pd.cut(df.cos_sim, [0.6, 0.7, 0.8, 0.9, 1.01], right=False,
+                       labels=["0.6-0.7", "0.7-0.8", "0.8-0.9", "0.9+"])
 print(df.sim_bin.value_counts().sort_index().to_string())
 df.to_csv("data/mined_pairs_all.csv", index=False, encoding="utf-8")
 
 # Stratified pick, weighted toward high similarity where duplicates concentrate.
-picked = pd.concat([g.sample(min(len(g), PER_BIN[str(b)]), random_state=SEED) for b, g in df.groupby("sim_bin", observed=True)])
+picked = pd.concat([g.sample(min(len(g), PER_BIN[str(b)]), random_state=SEED)
+                   for b, g in df.groupby("sim_bin", observed=True)])
 picked = picked.sample(frac=1, random_state=SEED)
 picked.to_csv("data/mined_pairs.csv", index=False, encoding="utf-8")
 print("picked:", len(picked))

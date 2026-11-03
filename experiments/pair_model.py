@@ -12,7 +12,6 @@ import json
 import re
 import sys
 
-import numpy as np
 import pandas as pd
 from rapidfuzz import fuzz
 from sentence_transformers import SentenceTransformer
@@ -56,7 +55,8 @@ def features(a, b, vec):
     if USE_ROR:
         f["both_in_ror"] = float(a in ror_id and b in ror_id)
         f["same_ror"] = float(a in ror_id and b in ror_id and ror_id[a] == ror_id[b])
-        f["ror_linked"] = float(a in ror_id and b in ror_id and (ror_id[b] in ror_links[a] or ror_id[a] in ror_links[b]))
+        f["ror_linked"] = float(a in ror_id and b in ror_id and (
+            ror_id[b] in ror_links[a] or ror_id[a] in ror_links[b]))
     return f
 
 

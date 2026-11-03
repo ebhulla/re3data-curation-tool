@@ -21,14 +21,15 @@ Edge cases (the tests check each):
 
 Run:  python -m pytest tests/test_online_contrastive_loss.py -v      Goal: all green.
 """
-from itertools import count
 
 import torch
+
 
 def cosine_similarity(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
     a_norm = a / a.norm(dim=1, keepdim=True)
     b_norm = b / b.norm(dim=1, keepdim=True)
     return (a_norm * b_norm).sum(dim=1)
+
 
 def online_contrastive_loss(emb_a: torch.Tensor, emb_b: torch.Tensor, labels: torch.Tensor, margin: float = 0.5) -> torch.Tensor:
     d = 1 - cosine_similarity(emb_a, emb_b)
@@ -45,7 +46,7 @@ def online_contrastive_loss(emb_a: torch.Tensor, emb_b: torch.Tensor, labels: to
     else:
         keep = (labels == 1) & (d > closest_negative) | (labels == 0) & (d < farthest_positive)
 
-    total =  (per_pair_loss * keep).sum()
+    total = (per_pair_loss * keep).sum()
     count = keep.float().sum().clamp(min=1)
-    #loss = (labels * loss_pos + (1 - labels) * loss_neg)[keep]
+    # loss = (labels * loss_pos + (1 - labels) * loss_neg)[keep]
     return total / count

@@ -24,7 +24,7 @@ def compact(item):
         "chosen": item["chosen"],
         "matching_type": item["matching_type"],
         "types": org["types"],
-        "countries": [l["geonames_details"]["country_code"] for l in org["locations"]],
+        "countries": [loc["geonames_details"]["country_code"] for loc in org["locations"]],
         "relationships": [{"type": r["type"], "id": r["id"], "label": r["label"]} for r in org["relationships"]],
     }
 

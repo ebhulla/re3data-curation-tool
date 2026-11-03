@@ -1,7 +1,7 @@
 import pandas as pd
 
-JUDGED  = "data/judged_600.jsonl"
-SAMPLE  = "data/judge_sample_600.csv"
+JUDGED = "data/judged_600.jsonl"
+SAMPLE = "data/judge_sample_600.csv"
 
 judged = pd.read_json(JUDGED, lines=True)
 sample = pd.read_csv(SAMPLE)

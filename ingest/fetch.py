@@ -1,8 +1,9 @@
 import requests
 import xml.etree.ElementTree as ET
 
+
 def get_all_repo_ids() -> list[str]:
-    resp =  requests.get("https://www.re3data.org/api/v40/repositories")
+    resp = requests.get("https://www.re3data.org/api/v40/repositories")
     root = ET.fromstring(resp.text)
 
     ids = []
@@ -11,6 +12,8 @@ def get_all_repo_ids() -> list[str]:
         ids.append(id_elem.text)
 
     return ids
+
+
 def get_repository_xml(repo_id: str) -> str:
     resp = requests.get(f"https://www.re3data.org/api/v40/repository/{repo_id}")
     resp.raise_for_status()
