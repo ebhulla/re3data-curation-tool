@@ -52,6 +52,22 @@ def union(a,b):
     if root_a != root_b:
         parent[root_b] = root_a
 
+def build_clusters(institutions,CUTOFF=150):
+     parent.clear()
+     index = cluster(institutions)
+     pairs = candidate_pairs(index, CUTOFF)
+
+     dup_edges = [(a, b) for a, b in pairs if decide(a, b) == "duplicate"]
+     #hier_edges = [(a, b) for a, b in pairs if decide(a, b) == "hierarchy"]
+     for a, b in dup_edges:
+         union(a, b)
+
+     clusters = defaultdict(list)
+     for name in institutions:
+         clusters[find(name)].append(name)
+
+     return clusters
+
 if __name__ == "__main__":
     institutions = pd.read_csv('data/institutions_clean.csv')['institution_name'].dropna().unique()
     judged = pd.concat([pd.read_csv(f"data/pairs_{s}.csv") for s in ["train", "val", "test"]])

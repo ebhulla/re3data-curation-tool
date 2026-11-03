@@ -16,6 +16,8 @@ import re
 
 from rapidfuzz import fuzz
 
+TAIL_MATCH = 0.90 #how similar the last comma-part of two names must be to count as "same unit"
+
 # ---- settings you can tune (try changing these first) -----------------------------------------------------------
 DUPLICATE_FUZZY = 0.90     # fuzzy score at or above this may mean "duplicate"
 Replace = {"universität": "university", "dept": "department", "univ": "university", "inst": "institution", "lab": "laboratory", "center": "centre","universitetet": "university","universitat": "university"}
@@ -31,6 +33,13 @@ def norm(s: str) -> str:
             result.append(Replace.get(word, word)) #It replaces the word with the replacement if it exists, otherwise keeps the original word.
     return " ".join(result)
 
+def tails_differ(name_a: str, name_b: str):
+
+    if("," not in name_a and "," not in name_b):
+        return False
+    tail_a = norm(name_a.split(",")[-1]) if "," in name_a else ""
+    tail_b = norm(name_b.split(",")[-1]) if "," in name_b else ""
+    return fuzz.token_sort_ratio(tail_a, tail_b) / 100 < TAIL_MATCH
 
 def decide(name_a: str, name_b: str) -> str:
     na, nb = norm(name_a), norm(name_b)
@@ -57,7 +66,7 @@ def decide(name_a: str, name_b: str) -> str:
         #print("Exact match fired for:", na, nb)
         return "duplicate"
     # TODO 2: if the fuzzy score is very high, what are they?
-    if fuzz.token_sort_ratio(na, nb) / 100 >= DUPLICATE_FUZZY:
+    if fuzz.token_sort_ratio(na, nb) / 100 >= DUPLICATE_FUZZY and not tails_differ(name_a, name_b):
         #print("Fuzzy score fired for:", na, nb)
         return "duplicate"
     
