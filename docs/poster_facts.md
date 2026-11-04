@@ -57,6 +57,9 @@ Trust: optimistic. Measured on pairs we labeled, which favor similar-looking nam
 v1.1 scored against judged pairs: train merge precision 90.1%; test merge precision 90.9% (20 of 22 merged pairs were duplicates; 1 hierarchy and 1 unrelated pair wrongly merged); true duplicates grouped: 62% train, 64.5% test.
 Decider edges on the 269,771 candidates (v1.1): 776 duplicate, 3,329 hierarchy.
 
+First full output (`data/normalized_names.csv`, 2026-11-04): 6,148 rows; 5,546 clusters; 602 names are non-canonical spellings; 1,455 names have a parent (comma-prefix rule).
+**Known flaw found by a consistency check:** 4 clusters contain a name and its own parent (e.g. University of Toronto + University of Toronto Libraries), caused by the "one extra word" prefix rule plus chaining. Use as the poster's "what a check caught" example; fix = restrict the rule to legal/generic suffix words.
+
 ## Best story for the poster (one line each)
 1. **Problem:** a department is not a duplicate of its university, so string-similarity merging goes wrong.
 2. **Finding:** simple rules matched AI models; fine-tuning did not help; hierarchy is the hard part.
