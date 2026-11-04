@@ -75,6 +75,36 @@ def build_clusters(institutions, CUTOFF=150):
 
     return clusters
 
+def direct_parent(name,by_norm):
+    parts = [p.strip() for p in name.split(",")]
+
+    for k in range (len(parts)-1, 0, -1):
+        parent_name = ", ".join(parts[:k])
+        clean = norm(parent_name)
+        if(clean == norm(name)):
+            continue
+        if clean in by_norm:
+            return by_norm[clean]
+    return None
+
+def canonical(members,repo_counts):
+    return max(members, key=lambda m: (repo_counts.get(m, 0), -len(m)))
+
+def build_table(institutions, repo_counts):
+    clusters = build_clusters(institutions, 150)                 # {root: [names]}
+    canon = {root: canonical(members, repo_counts) for root, members in clusters.items()}
+    root_of = {name: root for root, members in clusters.items() for name in members}
+    by_norm = {norm(n): n for n in institutions}
+
+    rows = []
+    for name in institutions:
+        root = root_of[name]
+        parent = direct_parent(name, by_norm)                    # a raw name or None
+        parent_canonical = canon.get(root_of.get(parent), None) if parent else None                                # BLANK 1: the canonical name of the parent's cluster (None if no parent)
+        rows.append({"name": name, "cluster_id": root, "canonical_name": canon[root],
+                     "parent_name": parent, "parent_canonical": parent_canonical,
+                     "n_repos": int(repo_counts[name]), "cluster_size": len(clusters[root])})
+    return pd.DataFrame(rows)
 
 if __name__ == "__main__":
     institutions = pd.read_csv('data/institutions_clean.csv')['institution_name'].dropna().unique()
@@ -116,3 +146,15 @@ if __name__ == "__main__":
     biggest = max(clusters.values(), key=len)
     for name in biggest:
         print(name)
+
+    by_norm = {norm(n): n for n in institutions}
+    for name in institutions:
+        parent = direct_parent(name, by_norm)
+        if parent:
+            union(name, parent)
+    repo_counts = pd.read_csv("data/institutions_clean.csv").dropna(subset=["institution_name"]).groupby("institution_name").repo_id.nunique()
+    for members in clusters.values():
+        canonical_name = canonical(members, repo_counts)
+        print("canonical:", canonical_name)
+        for name in members:
+            union(name, canonical_name)
