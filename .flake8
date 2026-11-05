@@ -13,3 +13,4 @@ exclude =
 per-file-ignores =
     # the judge prompt (RUBRIC) contains long sentences that should not be re-wrapped
     pipeline/judge.py:E501
+    experiments/make_poster_figures.py:E501

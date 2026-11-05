@@ -34,7 +34,9 @@ Trust: medium. 31 test duplicates means one pair moves recall about 3 points; th
 | Version | train acc | val acc | test acc |
 |---|---|---|---|
 | v1 (frozen) | 0.84 | 0.90 | **0.80** (duplicate precision 0.96 = 22/23; recall 0.71) |
-| v1.1 (+ tail-aware fuzzy rule) | 0.83 | 0.92 | **not run yet** (run it once, report both versions) |
+| v1.1 (+ tail-aware fuzzy rule) | 0.83 | 0.90 | **0.784** (duplicate precision 20/21, recall 20/31, F1 0.769; Wilson 95% interval 70-85%) |
+
+Report both versions. v1.1 is not better than v1 on test (0.784 vs 0.80, well inside noise); it exists to fix the NIH chain-merge flaw.
 
 Val was partly tuned on (I read its mistakes), so test is the honest number. Rules fire in order: prefix rule, exact match, fuzzy >= 0.90 (unless the parts after the last comma differ), containment -> hierarchy, else unrelated.
 
@@ -70,17 +72,16 @@ First full output (`data/normalized_names.csv`, 2026-11-04): 6,148 rows; 5,546 c
 - That fine-tuning "doesn't work" (only: no gain in our tests).
 - That the pipeline is X% accurate overall (we measured pieces, on small sets).
 - Anything about acronym/translation duplicates (under-sampled and unsolved).
-- That v1.1 beats v1 on test (not measured).
+- That v1.1 beats v1 on test (measured: 0.784 vs 0.80, no gain; it fixes a clustering flaw, not accuracy).
 
-## Figures worth making (in this order)
-1. Pipeline diagram: names -> blocking -> decider -> clusters (+ parent links, review list).
-2. Blocking curve: cutoff vs pairs and vs true duplicates kept (pick 150).
-3. Method comparison bar chart with spread (section 3).
-4. Before/after cluster: the NIH chain (11 names, 4 institutes) vs the fixed result.
-5. Confusion matrix of the decider on test.
-6. Honest-limits box.
+## Figures (made: `experiments/make_poster_figures.py` -> `figures/`, PNG + SVG)
+1. `1_pipeline`: 6,148 names -> 269,771 candidate pairs -> 776 duplicate + 3,329 hierarchy -> 5,546 clusters -> 1,455 parent links.
+2. `2_blocking`: cutoff curve, 150 keeps 99.2% of true duplicates at 1.4% of pairs.
+3. `3_methods`: F1 bars; string matching ties embeddings; my rules in blue.
+4. `4_confusion`: v1.1 test confusion matrix with Wilson interval.
+5. `5_nih_before_after`: 1 wrong cluster -> 5; note the leftover cancer-institute spelling.
+6. `6_headline_numbers`: 70x, 99%, 5,546, ~90%, 78%.
+Caveat for 6: the ~90% is merge precision on labeled pairs only; 99% is on a slightly optimistic sample.
 
 ## Still to compute (small jobs)
-1. Run `python evaluate_decider.py --split test` ONCE for v1.1 and report both versions.
-2. Bootstrap confidence interval for the test accuracy (error bar for the poster).
-3. Cluster-level audit: sample 30 merged pairs from the final clusters and check them by eye.
+1. Cluster-level audit: sample 30 merged pairs from the final clusters and check them by eye.
