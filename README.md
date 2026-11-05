@@ -6,12 +6,27 @@ Postgres database. It has four tables: `repositories`, `subjects`,
 
 ## Project files
 
-- `fetch.py` — gets data from the re3data API
-- `parse.py` — turns the raw XML into clean fields
-- `db.py` — saves data into the database
-- `main.py` — runs the full pipeline (fetch, parse, save) for all repositories
-- `export.py` — exports the database to an Excel file
-- `schema.sql` — creates the database tables
+- `ingest/fetch.py` — gets data from the re3data API
+- `ingest/parse.py` — turns the raw XML into clean fields
+- `ingest/db.py` — saves data into the database
+- `ingest/main.py` — runs the full pipeline (fetch, parse, save) for all repositories
+- `ingest/export.py` — exports the database to an Excel file
+- `ingest/schema.sql` — creates the database tables
+
+## Repository layout (reorganized Oct 2026)
+
+Run everything from the repository root, e.g. `python pipeline/judge.py ...`.
+
+| Folder / file | What it holds |
+|---|---|
+| `decider.py`, `cluster.py`, `evaluate_decider.py` | The rule-based pair decider, the clustering step in progress, and the harness that scores the decider |
+| `pipeline/` | Data and labeling pipeline: ROR matching, candidate/mined pairs, the LLM judge, train/val/test split |
+| `experiments/` | Baselines, fine-tuning, error analysis, robustness checks, the combined pair model, clustering demo |
+| `slurm/` | Negishi job scripts (judge labeling, fine-tuning sweep) |
+| `ingest/` | The original re3data -> Postgres ingestion (`fetch`, `parse`, `db`, `main`, `export`, `schema.sql`) |
+| `exercises/`, `tests/` | PyTorch exercises (stubs/solutions) and the test suite (`python -m pytest tests -q`) |
+| `docs/` | Results notes, learning log, authorship record, Negishi setup, cheat sheet |
+| `data/` | Inputs, labels and splits |
 
 ## Starting Postgres
 
@@ -83,7 +98,7 @@ If the tables do not exist yet, or you want to start clean:
 
 ```bash
 sudo su - postgres -c "psql -d re3data_toolkit -c 'DROP SCHEMA public CASCADE; CREATE SCHEMA public;'"
-sudo su - postgres -c "psql -d re3data_toolkit -f schema.sql"
+sudo su - postgres -c "psql -d re3data_toolkit -f ingest/schema.sql"
 ```
 
 The first command wipes everything. Only run it if you mean to.
@@ -96,14 +111,14 @@ repositories.
 
 ```bash
 source venv/bin/activate
-python -u main.py
+python -u ingest/main.py
 ```
 
 To run it in the background, so it keeps going even if you close the
 terminal:
 
 ```bash
-nohup python -u main.py > run_output.log 2>&1 &
+nohup python -u ingest/main.py > run_output.log 2>&1 &
 ```
 
 Check progress with:
@@ -117,7 +132,7 @@ Failed records (if any) are logged to `ingest_failures.log`.
 ## Exporting to Excel
 
 ```bash
-python export.py
+python ingest/export.py
 ```
 
 This creates `r3d_export.xlsx` with one row per repository. Subjects,

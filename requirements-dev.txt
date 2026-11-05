@@ -1,0 +1,7 @@
+# Tools for linting and testing (used by CI and locally). torch (CPU) is installed separately in CI.
+flake8
+autopep8
+pytest
+pandas
+numpy
+requests
