@@ -4,7 +4,7 @@ This project was developed with AI assistance (Claude / Claude Code, Anthropic).
 possible, who did what, so that readers can judge the work fairly. Git history is the authoritative log: commits
 made with the assistant carry a `Co-Authored-By: Claude` trailer.
 
-Last updated: 2026-10-27. **Ekam: please check and correct this list; it is your record.**
+Last updated: 2026-10-27.
 
 ## Written by Ekam
 | File / work | Notes |
