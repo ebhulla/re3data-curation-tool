@@ -248,9 +248,8 @@ tiles = [  # big number, caption, honest caveat
     ("70x", "fewer comparisons", "270,000 instead of 18.9 million pairs"),
     ("99%", "of true duplicates kept", "of 492 labeled pairs (a slightly optimistic sample)"),
     (f"{n_clusters:,}", "institutions from 6,148 spellings", f"{N - n_clusters} spelling variants merged"),
-    ("~90%", "of merges were correct", "on labeled pairs: 90% train, 91% test"),
-    (f"{acc:.0%}", "accuracy on held-out pairs", f"95% interval {wilson(int(np.trace(cm.values)), int(cm.values.sum()))[0]:.0%} to "
-     f"{wilson(int(np.trace(cm.values)), int(cm.values.sum()))[1]:.0%} (111 test pairs)"),
+    ("78%", "of merges were correct", "95% interval 69% to 85% (AI-judged random sample)"),
+    ("98%", "of parent links were correct", "95% interval 89% to 100% (AI-judged random sample)"),
 ]
 fig, axes = plt.subplots(1, 5, figsize=(17, 3.6))
 for ax, (big, cap, cav) in zip(axes, tiles):

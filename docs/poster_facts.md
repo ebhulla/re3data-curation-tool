@@ -62,6 +62,18 @@ Decider edges on the 269,771 candidates (v1.1): 776 duplicate, 3,329 hierarchy.
 First full output (`data/normalized_names.csv`, 2026-11-04): 6,148 rows; 5,546 clusters; 602 names are non-canonical spellings; 1,455 names have a parent (comma-prefix rule).
 **Known flaw found by a consistency check:** 4 clusters contain a name and its own parent (e.g. University of Toronto + University of Toronto Libraries), caused by the "one extra word" prefix rule plus chaining. Use as the poster's "what a check caught" example; fix = restrict the rule to legal/generic suffix words.
 
+## 7. Audit of the tool's real output (2026-11-11; `experiments/audit_sample.py`, `experiments/audit_score.py`)
+Random samples drawn from `data/normalized_names.csv` (seed 7), labeled by the AI judge (both name orders). Not human-labeled.
+| Check | Result |
+|---|---|
+| Merge precision (A): 100 random merged pairs | **74 of 95 decided = 78%** (95% interval 69-85%; 74% if the 5 undecided count as wrong) |
+| Types of wrong merge | 12 different institutions (one-word-different names, e.g. Ohio State / Iowa State); 9 sub-unit merged into its parent (prefix rule) |
+| Parent links (C): 50 random links | **48 of 49 decided = 98%** (95% interval 89-100%) |
+| Tool vs simple methods (B): 30 names, 139 decided lookalike pairs, only 12 truly the same | do nothing: 0 merges; exact match: precision 100%, recall 17% (2 of 12); fuzzy: 88% (7 of 8), recall 58% (7 of 12); tool: 100% (5 of 5), recall 42% (5 of 12) |
+
+Reading B: the tool is conservative (high precision, misses abbreviations and translations). With 12 true pairs the gap to fuzzy (5 vs 7) is not meaningful; do not claim either wins. Recall is over names that have lookalikes, not all names.
+This replaces the earlier "~90% of merges correct" (that was measured on judged pairs only, which never included the one-word-different merges). Both error types are decider rules to fix; re-run the sampler and judge after the fix to report before and after.
+
 ## Best story for the poster (one line each)
 1. **Problem:** a department is not a duplicate of its university, so string-similarity merging goes wrong.
 2. **Finding:** simple rules matched AI models; fine-tuning did not help; hierarchy is the hard part.
@@ -72,6 +84,8 @@ First full output (`data/normalized_names.csv`, 2026-11-04): 6,148 rows; 5,546 c
 - That fine-tuning "doesn't work" (only: no gain in our tests).
 - That the pipeline is X% accurate overall (we measured pieces, on small sets).
 - Anything about acronym/translation duplicates (under-sampled and unsolved).
+- "~90% of merges correct" (superseded by the audit: 78%, interval 69-85%).
+- That the tool beats fuzzy matching on recall (12 true pairs; 5 vs 7 is noise).
 - That v1.1 beats v1 on test (measured: 0.784 vs 0.80, no gain; it fixes a clustering flaw, not accuracy).
 
 ## Figures (made: `experiments/make_poster_figures.py` -> `figures/`, PNG + SVG)
