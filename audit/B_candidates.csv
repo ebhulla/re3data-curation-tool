@@ -1,0 +1,147 @@
+name_id,name,candidate,human_label,notes,tool_same_cluster,exact_after_cleaning,fuzzy_ge_threshold
+B01,Swiss National Supercomputing Centre,Leibniz Supercomputing Centre,,,False,False,False
+B01,Swiss National Supercomputing Centre,Jülich Supercomputing Centre,,,False,False,False
+B01,Swiss National Supercomputing Centre,Pittsburgh Supercomputing Center,,,False,False,False
+B01,Swiss National Supercomputing Centre,"University of Illinois, National Center for Supercomputing Applications",,,False,False,False
+B01,Swiss National Supercomputing Centre,Swiss National Data and Service Center for the Humanities,,,False,False,False
+B02,Structural Genomics Consortium,Consortium for Top Down Proteomics,,,False,False,False
+B02,Structural Genomics Consortium,Gene Ontology Consortium,,,False,False,False
+B02,Structural Genomics Consortium,International Human Epigenome Consortium,,,False,False,False
+B02,Structural Genomics Consortium,Uniprot consortium,,,False,False,False
+B02,Structural Genomics Consortium,EUROLAS Consortium,,,False,False,False
+B03,Research Center for Energy Economics,UK Energy Research Centre,,,False,False,False
+B03,Research Center for Energy Economics,National Energy Research Scientific Computing Center,,,False,False,False
+B03,Research Center for Energy Economics,Federal Ministry for Economic Affairs and Energy,,,False,False,False
+B03,Research Center for Energy Economics,High Energy Astrophysics Archive Research Center,,,False,False,False
+B03,Research Center for Energy Economics,Vienna University of Economics and Business,,,False,False,False
+B04,The Hospital for Sick Children,Hospital for Sick Children,,,True,True,True
+B04,The Hospital for Sick Children,Boston Children’s Hospital,,,False,False,False
+B04,The Hospital for Sick Children,St. Jude Children's Research Hospital,,,False,False,False
+B04,The Hospital for Sick Children,Children's Hospital of Eastern Ontario,,,False,False,False
+B04,The Hospital for Sick Children,"The Hospital for Sick Children, Cystic Fibrosis Centre",,,False,False,False
+B05,Swissuniversities,swissuniversities,,,True,True,True
+B06,"Academia Sinica, Institute of Information Science, Taiwan","Academia Sinica, Research Center for Information Technology Innovation, Taiwan",,,False,False,False
+B06,"Academia Sinica, Institute of Information Science, Taiwan","Academia Sinica, Biodiversity Research Center",,,False,False,False
+B06,"Academia Sinica, Institute of Information Science, Taiwan",Taiwan Forestry Research Institute,,,False,False,False
+B06,"Academia Sinica, Institute of Information Science, Taiwan","Academia Sinica Taiwan, Research Center for Humanities and Social Sciences,  Center for Survey Research",,,False,False,False
+B06,"Academia Sinica, Institute of Information Science, Taiwan",Taiwan Biodiversity Information Facility,,,False,False,False
+B07,"University of Namur, Namur Institute for Complex Systems",Rhone Alpes Complex Systems Institute,,,False,False,False
+B07,"University of Namur, Namur Institute for Complex Systems","Luxembourg Centre for Systems Biomedicine, University of Luxembourg",,,False,False,False
+B07,"University of Namur, Namur Institute for Complex Systems","University of Connecticut, Institute for Systems Genomics, Computational Biology Core",,,False,False,False
+B07,"University of Namur, Namur Institute for Complex Systems","University of Prince Edward Island,  IT Systems and Services",,,False,False,False
+B07,"University of Namur, Namur Institute for Complex Systems","University of Oxford, Bodleian Digital Library Systems and Services",,,False,False,False
+B08,University of Florida,Florida State University,,,False,False,False
+B08,University of Florida,Florida International University,,,False,False,False
+B08,University of Florida,"Florida State University, Libraries",,,False,False,False
+B08,University of Florida,University of South Florida Libraries,,,False,False,False
+B08,University of Florida,"University of Florida, Department of Astronomy",,,False,False,False
+B09,"Government of India, National Informatics Centre",National Informatic Centre  of the Government of India,,,False,False,True
+B09,"Government of India, National Informatics Centre",National Informatics Center,,,False,False,False
+B09,"Government of India, National Informatics Centre",National Informatics Centre,,,False,False,False
+B09,"Government of India, National Informatics Centre","National Informatics Centre, Open Government Data Division",,,False,False,False
+B09,"Government of India, National Informatics Centre","Government of India, National Knowledge Commission",,,False,False,False
+B10,"Beijing Institute of Genomics, Chinese Academy of Sciences, China National Center for BioInformation, National Genomics Data Center","Chinese Academy of Sciences, Beijing Institute of Genomics, China National Center for Bioinformation, National Genomics Data Center",,,True,False,True
+B10,"Beijing Institute of Genomics, Chinese Academy of Sciences, China National Center for BioInformation, National Genomics Data Center","China National Center for Bioinformation / Beijing Institute of Genomics, Chinese Academy of Sciences",,,False,False,False
+B10,"Beijing Institute of Genomics, Chinese Academy of Sciences, China National Center for BioInformation, National Genomics Data Center","China National Center for Bioinformation,  National Genomics Data Center",,,False,False,False
+B10,"Beijing Institute of Genomics, Chinese Academy of Sciences, China National Center for BioInformation, National Genomics Data Center","Chinese Academy of Sciences, Shanghai Institute of Nutrition and Health, Bio-Med Big Data Center",,,False,False,False
+B10,"Beijing Institute of Genomics, Chinese Academy of Sciences, China National Center for BioInformation, National Genomics Data Center","Chinese Academy of Sciences, Institute of Hydrobiology, National Aquatic Biological Resource Center",,,False,False,False
+B11,"Carnegie Institution for Science, Department of Terrestrial Magnetism","Stanford University, Carnegie Institution for Science, Biosphere Sciences & Engineering",,,False,False,False
+B11,"Carnegie Institution for Science, Department of Terrestrial Magnetism",Carnegie Institution of Washington,,,False,False,False
+B11,"Carnegie Institution for Science, Department of Terrestrial Magnetism","Department of Conservation, Terrestrial and Freshwater Biodiversity Information System Programme",,,False,False,False
+B11,"Carnegie Institution for Science, Department of Terrestrial Magnetism","Carnegie Mellon University, Robotics Institute",,,False,False,False
+B11,"Carnegie Institution for Science, Department of Terrestrial Magnetism","National Aeronautics and Space Administration, Terrestrial Ecology Program",,,False,False,False
+B12,"Government of India, Ministry of Science and Technology, Council of Scientific and Industrial Research","Government of India, Ministry of Science and Technology, Department of Science and Technology",,,False,False,False
+B12,"Government of India, Ministry of Science and Technology, Council of Scientific and Industrial Research","Government of India, Ministry of Science and Technology, Department of Science & Technology",,,False,False,False
+B12,"Government of India, Ministry of Science and Technology, Council of Scientific and Industrial Research","Science & Technology Facilities Council, Scientific Computing Department",,,False,False,False
+B12,"Government of India, Ministry of Science and Technology, Council of Scientific and Industrial Research","Government of India, Ministry of Electronics & Information Technology",,,False,False,False
+B12,"Government of India, Ministry of Science and Technology, Council of Scientific and Industrial Research","Government of India, Ministry of Science & Technology, Department of Biotechnology",,,False,False,False
+B13,"Yale University, Yale School of Medicine, Shepherd Lab","Yale University, Department of Genetics, Yale School of Medicine, Kidd Lab",,,False,False,False
+B13,"Yale University, Yale School of Medicine, Shepherd Lab","Wake Forest University, School of Medicine",,,False,False,False
+B13,"Yale University, Yale School of Medicine, Shepherd Lab","Washington University in St. Louis, School of Medicine, Van Essen Lab",,,False,False,False
+B13,"Yale University, Yale School of Medicine, Shepherd Lab",Stanford University School of Medicine,,,False,False,False
+B13,"Yale University, Yale School of Medicine, Shepherd Lab","Stanford University, School of Medicine",,,False,False,False
+B14,"Staatliche Naturwissenschaftliche Sammlungen Bayerns, IT Center",Staatliche Naturwissenschaftliche Sammlungen Bayerns,,,False,False,True
+B14,"Staatliche Naturwissenschaftliche Sammlungen Bayerns, IT Center","Staatliche Naturwissenschaftliche Sammlungen Bayerns, Information Technology Center",,,False,False,False
+B14,"Staatliche Naturwissenschaftliche Sammlungen Bayerns, IT Center","Staatliche Naturwissenschaftliche Sammlungen Bayerns, SNSB IT-Zentrum",,,False,False,False
+B14,"Staatliche Naturwissenschaftliche Sammlungen Bayerns, IT Center","Staatliche Naturwissenschaftliche Sammlungen Bayerns, Botanische Staatssammlung München",,,False,False,False
+B14,"Staatliche Naturwissenschaftliche Sammlungen Bayerns, IT Center",Staatliche Museen zu Berlin - Rathgen-Forschungslabor,,,False,False,False
+B15,Leibniz-Institut für Wirtschaftsforschung Halle,Gesis - Leibniz-Institut für Sozialwissenschaften,,,False,False,False
+B15,Leibniz-Institut für Wirtschaftsforschung Halle,GESIS Leibniz Institut für Sozialwissenschaften,,,False,False,False
+B15,Leibniz-Institut für Wirtschaftsforschung Halle,GESIS - Leibniz-Institut für Sozialwissenschaften,,,False,False,False
+B15,Leibniz-Institut für Wirtschaftsforschung Halle,GESIS-Leibniz-Institut für Sozialwissenschaften,,,False,False,False
+B15,Leibniz-Institut für Wirtschaftsforschung Halle,"Deutsches Institut für Wirtschaftsforschung, Das Sozio-oekonomische Panel",,,False,False,False
+B16,"U.S. Department of Health and Human Services, Office of Planning, Research and Evaluation","U.S. Department of Health & Human Services, Agency for Healthcare Research and Quality",,,False,False,False
+B16,"U.S. Department of Health and Human Services, Office of Planning, Research and Evaluation","U.S. Department of Health and Human Services, Agency for Healthcare Research and Quality",,,False,False,False
+B16,"U.S. Department of Health and Human Services, Office of Planning, Research and Evaluation","U.S. Department of Health and Human Services, National Institues of Health",,,False,False,False
+B16,"U.S. Department of Health and Human Services, Office of Planning, Research and Evaluation","U.S. Department of Health and Human Services, Office of Head Start",,,False,False,False
+B16,"U.S. Department of Health and Human Services, Office of Planning, Research and Evaluation","U.S. Department of Health and Human Services, National Institutes of Health",,,False,False,False
+B17,British Columbia Centre for Disease Control,Genome British Columbia,,,False,False,False
+B17,British Columbia Centre for Disease Control,University of Northern British Columbia,,,False,False,False
+B17,British Columbia Centre for Disease Control,The University of British Columbia,,,False,False,False
+B17,British Columbia Centre for Disease Control,University of British Columbia,,,False,False,False
+B17,British Columbia Centre for Disease Control,Government of British Columbia,,,False,False,False
+B18,"NYU Langone Health,  NYU School of Medicine","NYU  School of Medicine, NYU Langone Health",,,False,False,True
+B18,"NYU Langone Health,  NYU School of Medicine",Icahn School of Medicine at Mount Sinai,,,False,False,False
+B18,"NYU Langone Health,  NYU School of Medicine",National Museum of Health and Medicine,,,False,False,False
+B18,"NYU Langone Health,  NYU School of Medicine",London School of Hygiene & Tropical Medicine,,,False,False,False
+B18,"NYU Langone Health,  NYU School of Medicine",Hannover Medical School,,,False,False,False
+B19,"National Institutes of Health, National Cancer Institute, Center for Cancer Genomics, The Cancer Genome Atlas Program Office","National Institutes of Health, National Cancer Institute, Center for Biomedical Informatics and Information Technology",,,False,False,False
+B19,"National Institutes of Health, National Cancer Institute, Center for Cancer Genomics, The Cancer Genome Atlas Program Office",National Cancer Institute at the National Institutes of Health,,,False,False,False
+B19,"National Institutes of Health, National Cancer Institute, Center for Cancer Genomics, The Cancer Genome Atlas Program Office","U.S. Department of Health & Human Services, National Institutes of Health, National Cancer Institute",,,False,False,False
+B19,"National Institutes of Health, National Cancer Institute, Center for Cancer Genomics, The Cancer Genome Atlas Program Office","U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute",,,False,False,False
+B19,"National Institutes of Health, National Cancer Institute, Center for Cancer Genomics, The Cancer Genome Atlas Program Office","U.S. National Institutes of Health, National Cancer Institute",,,False,False,False
+B20,National Institute of Allergy and Infectious Disease,National Institute of Allergy and Infectious Diseases,,,True,False,True
+B20,National Institute of Allergy and Infectious Disease,"National Institute of Health, National Institute of Allergy and Infectious Diseases",,,False,False,False
+B20,National Institute of Allergy and Infectious Disease,"National Institutes of Health,  National Institute of Allergy and Infectious Diseases",,,False,False,False
+B20,National Institute of Allergy and Infectious Disease,"National Institutes of Health, National Institute of Allergy and Infectious Diseases",,,False,False,False
+B20,National Institute of Allergy and Infectious Disease,"National Institute of Allergy and Infectious Diseases, Bioinformatics Resource Center",,,False,False,False
+B21,Oorvani Foundation,The Gordon Foundation,,,False,False,False
+B21,Oorvani Foundation,The Peanut Foundation,,,False,False,False
+B21,Oorvani Foundation,Tamkin Foundation,,,False,False,False
+B21,Oorvani Foundation,Sivasakthi Foundation,,,False,False,False
+B21,Oorvani Foundation,Gates Foundation,,,False,False,False
+B22,Parkinson's Disease United Kingdom,Open Knowledge (United Kingdom),,,False,False,False
+B22,Parkinson's Disease United Kingdom,"Government of the United Kingdom, Ministry of Defence",,,False,False,False
+B22,Parkinson's Disease United Kingdom,Government of the United Kingdom,,,False,False,False
+B22,Parkinson's Disease United Kingdom,United States Department of the Interior,,,False,False,False
+B22,Parkinson's Disease United Kingdom,"United Nations, Population Divison",,,False,False,False
+B23,AlgaeBase project,The Dataverse  Project,,,False,False,False
+B23,AlgaeBase project,The Dataverse Project,,,False,False,False
+B23,AlgaeBase project,Dataverse Project,,,False,False,False
+B23,AlgaeBase project,EMAP project,,,False,False,False
+B23,AlgaeBase project,Ensembl Project,,,False,False,False
+B24,Universität zu Köln,Humboldt-Universität zu Berlin,,,False,False,False
+B24,Universität zu Köln,"Universität zu Köln, Regionales Rechenzentrum",,,False,False,False
+B24,Universität zu Köln,TH Köln - University of Applied Sciences,,,False,False,False
+B24,Universität zu Köln,"Universität zu Köln, IT Center University of Cologne",,,False,False,False
+B24,Universität zu Köln,"Universität Köln, Archäologisches Institut",,,False,False,False
+B25,SuperDARN Canada,Parks Canada,,,False,False,False
+B25,SuperDARN Canada,Water Survey of Canada,,,False,False,False
+B25,SuperDARN Canada,Genome Canada,,,False,False,False
+B25,SuperDARN Canada,Health Canada,,,False,False,False
+B25,SuperDARN Canada,Government of Canada,,,False,False,False
+B26,Brookings Institution,Carnegie Institution of Washington,,,False,False,False
+B26,Brookings Institution,Smithsonian Institution,,,False,False,False
+B26,Brookings Institution,Woods Hole Oceanographic Institution,,,False,False,False
+B26,Brookings Institution,"UC San Diego, Scripps Institution of Oceanography",,,False,False,False
+B26,Brookings Institution,Scripps Institution of Oceanography,,,False,False,False
+B27,"British Geological Survey, Geomagnetism Group",British Geological Survey,,,False,False,False
+B27,"British Geological Survey, Geomagnetism Group",Alberta Geological Survey,,,False,False,False
+B27,"British Geological Survey, Geomagnetism Group",Geological Survey of Denmark and Greenland,,,False,False,False
+B27,"British Geological Survey, Geomagnetism Group","US Geological Survey, Earth Resources Observation and Science",,,False,False,False
+B27,"British Geological Survey, Geomagnetism Group",Geological Survey of Norway,,,False,False,False
+B28,U.S. National Geospatial-Intelligence Agency,National Geospatial-Intelligence Agency,,,True,False,True
+B28,U.S. National Geospatial-Intelligence Agency,U.S. Agency for International Development,,,False,False,False
+B28,U.S. National Geospatial-Intelligence Agency,US Agency for International Development,,,False,False,False
+B28,U.S. National Geospatial-Intelligence Agency,International Atomic Energy Agency,,,False,False,False
+B28,U.S. National Geospatial-Intelligence Agency,U.S. Environmental Protection Agency,,,False,False,False
+B29,Institut National d'Études Démographiques,Institut d'Astrophysique Spatiale,,,False,False,False
+B29,Institut National d'Études Démographiques,Laboratoire de démographie et d'histoire sociale,,,False,False,False
+B29,Institut National d'Études Démographiques,"Université Paris, Institut d'Astrophysique Spatiale",,,False,False,False
+B29,Institut National d'Études Démographiques,Institut Barcelona d'Estudis Internacionals,,,False,False,False
+B29,Institut National d'Études Démographiques,Muséum national d'Histoire naturelle,,,False,False,False
+B30,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Biomedical Imaging and Bioengineering","U.S. Department of Health and Human Services, National Institute of Biomedical Imaging and Bioengineering",,,False,False,False
+B30,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Biomedical Imaging and Bioengineering","U.S. Department of Health & Human Services, National Institutes of Health, National Institute on Aging",,,False,False,False
+B30,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Biomedical Imaging and Bioengineering","U.S. Department of Health & Human Services, National Institutes of Health, National Cancer Institute",,,False,False,False
+B30,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Biomedical Imaging and Bioengineering","U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute",,,False,False,False
+B30,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Biomedical Imaging and Bioengineering","U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung and Blood Institute",,,False,False,False
