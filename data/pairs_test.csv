@@ -1,0 +1,112 @@
+name_a,name_b,label,is_duplicate,source_file
+Centre for Northern Studies,Parkinson's UK,unrelated,0,judged_600.jsonl
+"National Oceanic and Atmospheric Administration, National Weather Service, Climate Prediction Center","U.S. Department of Commerce, United States Census Bureau",unrelated,0,judged_600.jsonl
+"Government of Canada, Genome Canada","Government of Canada, Northern Contaminants Program",unrelated,0,judged_600.jsonl
+"University of Belgrade, Computer Centre","University of Belgrade, Faculty of Chemistry",unrelated,0,judged_600.jsonl
+National Oceanic & Atmospheric Administration,"National Oceanic and Atmospheric Administration, Pacific Marine Environmental Laboratory",hierarchy,0,judged_600.jsonl
+"National Oceanic and Atmospheric Administration, National Centers for Environmental Prediction","U.S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Laboratory",unrelated,0,judged_600.jsonl
+Weizmann Institute of Science,"Weizmann Institute of Science, The Crown Human Gemome Center",hierarchy,0,judged_600.jsonl
+"University College London, British Heart Foundation, Cardiovascular Gene Annotation","University College London, Institute of Healthy Ageing, Partridge Lab",unrelated,0,judged_600.jsonl
+"Faculty of Technology and Metallurgy, University of Belgrade",University of Belgrade - Faculty of Geography,unrelated,0,judged_600.jsonl
+University of Manitoba,"University of Manitoba, Manitoba Centre for Health Policy",hierarchy,0,judged_600.jsonl
+Swiss Federal Institute of Aquatic Science and Technology,"Swiss Federal Institute of Aquatic Science and Technology,  Department  Environmental Chemistry",hierarchy,0,judged_600.jsonl
+"National Oceanic and Atmospheric Administration, National Centers for Environmental Prediction","U.S. Department of Commerce, U.S. Census Bureau",unrelated,0,judged_600.jsonl
+Inter-University Consortium for Political and Social Research,Inter-university Consortium for Political and Social Research,duplicate,1,judged_600.jsonl
+"U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory",United States Department of Commerce,hierarchy,0,judged_600.jsonl
+Tata Trusts,University of Warmia and Mazury in Olsztyn,unrelated,0,judged_600.jsonl
+National Oceanic and Atmospheric Adminstration,"U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory",hierarchy,0,judged_600.jsonl
+University of California Santa Cruz,"University of California, Santa Cruz, Genomics Institute",hierarchy,0,judged_600.jsonl
+"TU Wien, Campus IT","Vienna University of Technology, Department of Geodesy and Geoinformation",unrelated,0,judged_600.jsonl
+"TU Wien, Campus IT","TU Wien, Center for Research Data Management",unrelated,0,judged_600.jsonl
+Federal Office of Meteorology and Climatology MeteoSwiss,Swiss GCOS Office at the Federal Office of Meteorology and Climatology,hierarchy,0,judged_600.jsonl
+Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek Hannover,Technische Informationsbibliothek,unrelated,0,judged_600.jsonl
+University College London,"University College London, British Heart Foundation, Cardiovascular Gene Annotation",hierarchy,0,judged_600.jsonl
+Federal Office of Meteorology and Climatology,Federal Office of Meteorology and Climatology MeteoSwiss,duplicate,1,judged_600.jsonl
+SIB Swiss Institute of Bioinformatics,Swiss Institute of Bioniformatics,duplicate,1,judged_600.jsonl
+National Oceanic and Atmospheric Administration,"U.S Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service",hierarchy,0,judged_600.jsonl
+University of Belgrade Computer Centre,"University of Belgrade, Faculty of Veterinary Medicine",unrelated,0,judged_600.jsonl
+"National Oceanic and Atmospheric Administration, National Weather Service, Climate Prediction Center","U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory",unrelated,0,judged_600.jsonl
+"National Oceanic and Atmospheric Administration, National Centers for Environmental Prediction","U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory",unrelated,0,judged_600.jsonl
+National Oceanic and Atmospheric Administration's National Ocean Service,"U.S. Department of Commerce, U.S. Census Bureau",unrelated,0,judged_600.jsonl
+National University of Singapore,National University of Singapore Libraries,hierarchy,0,judged_600.jsonl
+"Hong Kong Polytechnic University, Pao Yue-kong Library",The Hong Kong Polytechnic University,hierarchy,0,judged_mined.jsonl
+National Oceanic and Atmospheric Administration's National Ocean Service,"National Oceanic and Atmospheric Administration, National Ocean Service",duplicate,1,judged_mined.jsonl
+"University of Michigan, Institute for Social Research, Inter-university Consortium for Political and Social Research","University of Michigan, Inter-University Consortium for Political and Social Research",duplicate,1,judged_mined.jsonl
+All Russian Research Institute of Hydrometeorological information World Data Center,All-Russian Research Institute of Hydrometeorological Information - WDC,duplicate,1,judged_mined.jsonl
+National Oceanic and Atmospheric Administration's National Ocean Service,"National Oceanic and Atmospheric Administration, National Weather Service",unrelated,0,judged_mined.jsonl
+Bundesamt für Kartographie und Geodäsie,"Bundesamt für Kartographie und Geodäsie, Zentrale Stelle Geotopographie",hierarchy,0,judged_mined.jsonl
+Allen Institute  for Cell Science,Allen Institute for Brain Science,unrelated,0,judged_mined.jsonl
+Land Sachsen-Anhalt,Landesarchiv Baden-Württemberg,unrelated,0,judged_mined.jsonl
+National Oceanic and Atmospheric Administration's National Ocean Service,"U.S. Department of Commerce, National Oceanic & Atmospheric Administration, Oceanic & Atmospheric Research",unrelated,0,judged_mined.jsonl
+Université Paris Cité,Université de Paris-Sorbonne,unrelated,0,judged_mined.jsonl
+"U.S. Department of Commerce, U.S. Census Bureau","U.S. Department of Commerce, U.S. Census Bureau, TheDataWeb",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health,  Eunice Kennedy Shriver National Institute of Child Health and Human Development","U.S. Department of Health and Human Services, National Institutes of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development",hierarchy,0,judged_mined.jsonl
+Johns Hopkins University,"Johns Hopkins University, Institute for Basic Biomedical Sciences",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health, U.S. National Library of Medicine","U.S. Department of Health & Human Services, National Institutes of Health, U.S. National Library of Medicine",hierarchy,0,judged_mined.jsonl
+Interdisciplinary Earth Data Alliance,"University of Tokyo, Earth Observation Data Integration & Fusion Research Initiative",unrelated,0,judged_mined.jsonl
+Bundesamt für Kartographie und Geodäsie,"Bundesamt für Kartographie und Geodäsie, Dienstleistungszentrum",hierarchy,0,judged_mined.jsonl
+"University of Michigan,  Inter-University Consortium for Political and Social Research","University of Michigan, Inter-University Consortium for Political and Social Research",duplicate,1,judged_mined.jsonl
+All Russian Research Institute of Hydrometeorological information World Data Center,All-Russian Research Institute of Hydrometeorological Information - World Data Center,duplicate,1,judged_mined.jsonl
+"Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre","Tata Memorial Centre, Advanced Centre for Treatment, Research and Education in Cancer",duplicate,1,judged_mined.jsonl
+National Oceanic and Atmospheric Administration,"National Oceanic and Atmospheric Administration, National Ocean Service",hierarchy,0,judged_mined.jsonl
+University of Belgrade Computer Centre,"University of Belgrade, Computer Centre",duplicate,1,judged_mined.jsonl
+Inter-University Consortium for Political and Social Research,"University of Michigan, Institute for Social Research, Inter-university Consortium for Political and Social Research",hierarchy,0,judged_mined.jsonl
+Inter University Consortium for Political and Social Research,"University of Michigan, Inter-University Consortium for Political and Social Research",hierarchy,0,judged_mined.jsonl
+"Cornell University, Cornell Lab of Ornithology",The Cornell Lab of Ornithology,hierarchy,0,judged_mined.jsonl
+Smithsonian Astrophysical Observatory,"Smithsonian Astrophysical Observatory, Radio Telescope Data Center",hierarchy,0,judged_mined.jsonl
+National Oceanic and Atmospheric Administration,National Oceanic and Atmospheric Adminstration,duplicate,1,judged_mined.jsonl
+"Universidad Autonomica de Madrid, Grupo de Astrofisica","Université Libre de Bruxelles, Institut d'Astronomie et d'Astrophyique",unrelated,0,judged_mined.jsonl
+"University of Michigan, Inter-University Consortium for Political and Social Research","University of Michigan, Inter-university Consortium for Political and Social Research",duplicate,1,judged_mined.jsonl
+"U.S. Department of Commerce, National Oceanic & Atmospheric Administration, Oceanic & Atmospheric Research","U.S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Laboratory",unrelated,0,judged_mined.jsonl
+"University of Michigan,  Inter-University Consortium for Political and Social Research","University of Michigan, Inter-university Consortium for Political and Social Research",duplicate,1,judged_mined.jsonl
+"National Institutes of Health,  Eunice Kennedy Shriver National Institute of Child Health and Human Development","National Institutes of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development",duplicate,1,judged_mined.jsonl
+National Oceanic and Atmospheric Administration,"National Oceanographic and Atmospheric Administration, Monterey Bay National Marine Sanctuary",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Commerce, U.S. Census Bureau","U.S. Department of Commerce, United States Census Bureau",duplicate,1,judged_mined.jsonl
+"University of Michigan,  Institute for Social Research,  Inter-university Consortium for Political and Social Research","University of Michigan, Inter-University Consortium for Political and Social Research",hierarchy,0,judged_mined.jsonl
+Leibniz-Informationszentrum Technik und Naturwissenschaften Universitätsbibliothek,Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek Hannover,duplicate,1,judged_mined.jsonl
+Inter University Consortium for Political and Social Research,"University of Michigan,  Inter-University Consortium for Political and Social Research",duplicate,1,judged_mined.jsonl
+ISRIC - World Soil Information,ISRIC - World Soil Information (WDC-Soils),duplicate,1,judged_mined.jsonl
+Inter University Consortium for Political and Social Research,"University of Michigan, Institute for Social Research, Inter-university Consortium for Political and Social Research",hierarchy,0,judged_mined.jsonl
+Inter-University Consortium for Political and Social Research,"University of Michigan, Inter-university Consortium for Political and Social Research",hierarchy,0,judged_mined.jsonl
+Universidad de Alcalá,Universidad de León,unrelated,0,judged_mined.jsonl
+"Government of India, Ministry of Commerce and Industry, Department of Commerce",United States Department of Commerce,unrelated,0,judged_mined.jsonl
+Klamath Bird Observatory,Smithsonian Astrophysical Observatory,unrelated,0,judged_mined.jsonl
+"National Institutes of Health,  Eunice Kennedy Shriver National Institute of Child Health and Human Development","U.S. Department of Health & Human Services, National Institutes of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development",duplicate,1,judged_mined.jsonl
+Inter University Consortium for Political and Social Research,Inter-university Consortium for Political and Social Research,duplicate,1,judged_mined.jsonl
+"University of Michigan,  Institute for Social Research,  Inter-university Consortium for Political and Social Research","University of Michigan, Institute for Social Research, Inter-university Consortium for Political and Social Research",duplicate,1,judged_mined.jsonl
+Federal Office of Public Health,U.S. Department of Health and Human Services,unrelated,0,judged_mined.jsonl
+"Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek Göttingen",Niedersächsische Staats- und Universitätsbibliothek Göttingen,hierarchy,0,judged_mined.jsonl
+Saints Cyril and Methodius University of Skopje,University of Belgrade,unrelated,0,judged_mined.jsonl
+"Australian Government, Department of the Environment and Energy, Australian Antarctic Division","Department of Agriculture, Water and the Environment, Australian Antarctic Division",duplicate,1,judged_mined.jsonl
+"National Oceanic and Atmospheric Administration, Office of the Chief Information Officer and High-Performance Computing and Communications Office",National Oceanic and Atmospheric Adminstration,hierarchy,0,judged_mined.jsonl
+Data.gov,Federal Statistical Office,unrelated,0,judged_mined.jsonl
+Leibniz Institute for Baltic Sea Research,Leibniz Institute for Baltic Sea Research Warnemünde,duplicate,1,judged_mined.jsonl
+"U.S. Department of Commerce, U.S. Census Bureau, TheDataWeb","U.S. Department of Commerce, United States Census Bureau",hierarchy,0,judged_mined.jsonl
+"TU Wien, Department of Geodesy and Geoinformation","Vienna University of Technology, Department of Geodesy and Geoinformation",duplicate,1,judged_mined.jsonl
+Swiss Institute of Bioinformatics,"Swiss Institute of Bioinformatics, Swiss-Prot group",hierarchy,0,judged_mined.jsonl
+"Bundesamt für Kartographie und Geodäsie, Dienstleistungszentrum","Bundesamt für Kartographie und Geodäsie, Zentrale Stelle Geotopographie",unrelated,0,judged_mined.jsonl
+Fleet Numerical Meteorology and Oceanography Center,"United States Naval Research Laboratory, Marine Meteorology Division",unrelated,0,judged_mined.jsonl
+"University of Michigan, Institute for Social Research, Inter-university Consortium for Political and Social Research","University of Michigan, Inter-university Consortium for Political and Social Research",hierarchy,0,judged_mined.jsonl
+University of Manitoba,"University of Manitoba, Libraries",hierarchy,0,judged_mined.jsonl
+Landesarchiv Baden-Württemberg,Württembergische Landesbibliothek Stuttgart,unrelated,0,judged_mined.jsonl
+"U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory","U.S Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service",unrelated,0,judged_mined.jsonl
+Parkinson's Disease United Kingdom,Parkinson's UK,duplicate,1,judged_mined.jsonl
+"University of California Santa Cruz, Genomics Institute","University of California, Santa Cruz, Genomics Institute",duplicate,1,judged_mined.jsonl
+"National Oceanic and Atmospheric Administration, Coral Health and Monitoring Program","National Oceanographic and Atmospheric Administration, Monterey Bay National Marine Sanctuary",unrelated,0,judged_mined.jsonl
+"National Oceanic and Atmospheric Administration, National Weather Service, Climate Prediction Center","U.S Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service",hierarchy,0,judged_mined.jsonl
+National Oceanic & Atmospheric Administration,"National Oceanic and Atmospheric Administration, National Weather Service",hierarchy,0,judged_mined.jsonl
+"National Institute of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development","National Institutes of Health,  Eunice Kennedy Shriver National Institute of Child Health and Human Development",duplicate,1,judged_mined.jsonl
+Swiss Institute of Bioinformatics,Swiss Institute of Bioniformatics,duplicate,1,judged_mined.jsonl
+National Oceanic & Atmospheric Administration,National Oceanic and Atmospheric Administration's National Ocean Service,hierarchy,0,judged_mined.jsonl
+National Oceanic and Atmospheric Adminstration,"U.S. Department of Commerce, National Oceanic & Atmospheric Administration, Oceanic & Atmospheric Research",hierarchy,0,judged_mined.jsonl
+National Oceanic and Atmospheric Administration,"National Oceanic and Atmospheric Administration, National Weather Service",hierarchy,0,judged_mined.jsonl
+National Oceanic & Atmospheric Administration,"U.S. Department of Commerce, National Oceanic & Atmospheric Administration, Oceanic & Atmospheric Research",hierarchy,0,judged_mined.jsonl
+"European Molecular Biology Laboratory Australia, Lynn Group","Pacific Northwest National Laboratory, Environmental Molecular Sciences Laboratory",unrelated,0,judged_mined.jsonl
+Leibniz Institute for Baltic Sea Research Warnemünde,Leibniz-Institute for Baltic Sea Research Warnemünde,duplicate,1,judged_mined.jsonl
+"National Institute of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development","U.S. Department of Health and Human Services, National Institutes of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development",hierarchy,0,judged_mined.jsonl
+Government of the United Kingdom,"Government of the United Kingdom, Ministry of Defence",hierarchy,0,judged_mined.jsonl
+"National Oceanic and Atmospheric Administration, National Ocean Service","U.S Department of Commerce, National Oceanic and Atmospheric Administration, National Weather Service",unrelated,0,judged_mined.jsonl
+"Australian Government, Department of the Environment and Energy, Australian Antarctic Division","Australian Government, Department of the Environment, Australian Antarctic Division",duplicate,1,judged_mined.jsonl
+"U. S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Division, Earth System Research Laboratory","U.S. Department of Commerce, National Oceanic and Atmospheric Administration, Global Monitoring Laboratory",hierarchy,0,judged_mined.jsonl
+Inter University Consortium for Political and Social Research,Inter-University Consortium for Political and Social Research,duplicate,1,judged_mined.jsonl
+Université catholique de Louvain,Université de Paris-Sorbonne,unrelated,0,judged_mined.jsonl

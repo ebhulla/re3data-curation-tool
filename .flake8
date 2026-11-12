@@ -1,0 +1,16 @@
+[flake8]
+max-line-length = 150
+exclude =
+    venv,
+    .venv,
+    .git,
+    __pycache__,
+    .pytest_cache,
+    models,
+    logs,
+    data
+    # TODO(Ekam): remove these two after running `autopep8 --in-place --max-line-length 120 decider.py cluster.py`
+per-file-ignores =
+    # the judge prompt (RUBRIC) contains long sentences that should not be re-wrapped
+    pipeline/judge.py:E501
+    experiments/make_poster_figures.py:E501

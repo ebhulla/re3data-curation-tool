@@ -1,0 +1,1460 @@
+name_a,name_b,label,is_duplicate,source_file
+NASA's Jet Propulsion Laboratory,"National Aeronautics and Space Administration, Global Hydrology Resource Center",unrelated,0,judged_600.jsonl
+German Centre of Gerontology,Quadram Institute,unrelated,0,judged_600.jsonl
+Canadian Cryospheric Information Network,United States Culture Collection Network,unrelated,0,judged_600.jsonl
+Leibniz Association,Leibniz Institute DSMZ - German Collection of Microorganisms and Cell Cultures,hierarchy,0,judged_600.jsonl
+"U.S. Department of Health & Human Services, Agency for Healthcare Research and Quality","U.S. Department of Health and Human Services, Office of Planning, Research and Evaluation",unrelated,0,judged_600.jsonl
+"University of California, San Diego Supercomputer Center",Scripps Institution of Oceanography,unrelated,0,judged_600.jsonl
+"Karlsruhe Institute of Technology, Institute of Meteorology and Climate Research - Atmospheric Environmental Research","Karlsruhe Institute of Technology, Library",unrelated,0,judged_600.jsonl
+Institut Català de Nanociència i Nanotecnologia,University of Science and Technology of Hanoi,unrelated,0,judged_600.jsonl
+University of Stuttgart,"Universität Stuttgart, Institut für Maschinelle Sprachverarbeitung, Forschungszentrum Informatik",hierarchy,0,judged_600.jsonl
+Goddard Space Flight Center,"NASA's Goddard Space Flight Center,Sciences and Exploration Directorate, Heliospheric Physics Laboratory",hierarchy,0,judged_600.jsonl
+Le Centre national de la recherche scientifique,"Université Paul Valéry - Montpellier 3, ASM - Archéologie des Sociétés Méditerranéennes, UMR5140",hierarchy,0,judged_600.jsonl
+Helmholtz Association of German Research Centres,Helmholtz-Zentrum Berlin für Materialien und Energie (HZB),hierarchy,0,judged_600.jsonl
+Pennsylvania State University,"Pennsylvania State University, College of Earth and Mineral Sciences, Department of Geosciences",hierarchy,0,judged_600.jsonl
+Centre National de la Recherche Scientifique,"Centre national de la recherche scientifique, L'Institut national des sciences de l'Univers",hierarchy,0,judged_600.jsonl
+"University of Victoria, Libraries",Ocean Networks Canada Society,unrelated,0,judged_600.jsonl
+"International Science Council, World Data System International Programme Office","World Climate Research Programme,  Atmospheric Processes And their Role in Climate",unrelated,0,judged_600.jsonl
+"Australian Nuclear Science and Technology Organisation, The Australian Synchrotron",Australian Nuclear Science and Technology Organisation,hierarchy,0,judged_600.jsonl
+Oxford University IT Services,"Oxford University, Department of Psychiatry",unrelated,0,judged_600.jsonl
+"National Oceanic and Atmospheric Administration, National Environmental Satellite, Data, and Information Service, National Geophysical Data Center",NOAA National Centers for Environmental Information,hierarchy,0,judged_600.jsonl
+"U.S. Department of Health and Human Services, Agency for Healthcare Research and Quality","U.S. Department of Health and Human Services, National Institutes of Health, Office of Behavioral and Social Sciences Research",unrelated,0,judged_600.jsonl
+"University of Oxford,  Department of Psychiatry, Warneford Hospital","University of Oxford, Bodleian Libraries",unrelated,0,judged_600.jsonl
+"University Corporation for Atmospheric Research, National Center for Atmospheric Research","University Corporation for Atmospheric Research, Unidata",unrelated,0,judged_600.jsonl
+Columbia University,"Columbia University, Taub Institute",hierarchy,0,judged_600.jsonl
+National Center for Atmospheric Research -  Cyberinfrastructure Strageic Initiative,"University Cooperation for Atmospheric Research, National Center for Atmospheric Research",hierarchy,0,judged_600.jsonl
+"University of Alberta, Edmonton, Wishart Research Group","University of Alberta, Faculty of Science, Departments of Biological Sciences and Computing Science, Wishart Research Group",duplicate,1,judged_600.jsonl
+"University of Victoria,  Division of Continuing Studies",Ocean Networks Canada Society,unrelated,0,judged_600.jsonl
+"University of Wisconsin-Madison, Social Science Computing Cooperative","University of Wisconsin-Madison, Space Science and Engineering Center",unrelated,0,judged_600.jsonl
+Canadian Space Agency,"Government of Canada, Canadian Space Agency",duplicate,1,judged_600.jsonl
+University of Cologne,"Universität Köln, Archäologisches Institut",hierarchy,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Jet Propulsion Laboratory",NASA  Ocean Color Web,unrelated,0,judged_600.jsonl
+"University Corporation for Atmospheric Research, National Science Digital Library","University Corporation for Atmospheric Research, UNIDATA",unrelated,0,judged_600.jsonl
+Goddard Space Flight Center,"National Aeronautics and Space Administration, Goddard Space Flight Center, Astrophysics Science Division",hierarchy,0,judged_600.jsonl
+Friedrich-Schiller Universität Jena,Fonds zur Förderung der wissenschaftlichen Forschung,unrelated,0,judged_600.jsonl
+National Institute on Drug Abuse,"National Institutes of Health, National Institute on Drug Abuse",hierarchy,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Global Hydrology Resource Center",Government of the United States of America,hierarchy,0,judged_600.jsonl
+Universitetet i Bergen,"University of Bergen, Sea Lice Research Center",hierarchy,0,judged_600.jsonl
+National Aeronautics and Space Administration,"NASA Langley Research Center, Atmospheric Science Data Center",hierarchy,0,judged_600.jsonl
+"Ministério da Ciência, Tecnologia e Inovações",Cornell Institute for Social and Economic Research,unrelated,0,judged_600.jsonl
+Jet Propulsions Laboratory,"National Aeronautics and Space Administration, National Snow and Ice Data Center",unrelated,0,judged_600.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health",United States Department of Health and Human Services,hierarchy,0,judged_600.jsonl
+"Cooperative Institute for Research in Environmental Sciences, National Snow and Ice Data Center","National Oceanographic and Atmospheric Administration, NOAA Research",unrelated,0,judged_600.jsonl
+Child Mind Institute,"Radboud University, Donders Institute for Brain, Cognition and Behaviour",unrelated,0,judged_600.jsonl
+"Humboldt-Universität zu Berlin, Computer- und Medienservice","Humboldt-Universität zu Berlin, Institut für Deutsche Sprache und Linguistik",unrelated,0,judged_600.jsonl
+"U.S. Department of Energy, Fusion Energy Sciences, Office of  Science","Oak Ridge National Laboratory, Oak Ridge Campus",hierarchy,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Earth Observing System Data and Information System","National Aeronautics and Space Administration, Global Hydrology Resource Center",unrelated,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Land Processes Distributed Active Archive Center","National Aeronautics and Space Administration, MODIS Level 1 and Atmosphere Archive and Distribution System",unrelated,0,judged_600.jsonl
+Niedersächsisches Ministerium für Wissenschaft und Kultur,"International Space Science Institute, Polar Stratospheric Cloud Initiative",unrelated,0,judged_600.jsonl
+Max Plank Institute for Mathematics in the Sciences,Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.,hierarchy,0,judged_600.jsonl
+University of Pittsburgh,"University of Pittsburgh, Center for Biologic Imaging",hierarchy,0,judged_600.jsonl
+Colorado State University Pueblo,"China National Institute for Drug Control, Center for Medical Device Stadardization Administration NMPA, Natuional Institutes for Food and Drug Control",unrelated,0,judged_600.jsonl
+"University of Leipzig, Clinical Trial Coordination Center","University of Leipzig, Interdisciplinary Centre for Bioinformatics",unrelated,0,judged_600.jsonl
+"Children's Hospital of Philadelphia, Division of Oncology, Department of Pediatrics",Chemnitz University of Technology,unrelated,0,judged_600.jsonl
+"Universität Hamburg, Hamburger Zentrum für Sprachkorpora","Universität Hamburg, Regionales Rechenzentrum",unrelated,0,judged_600.jsonl
+Nord University,Social Sciences and Humanities Research Council,unrelated,0,judged_600.jsonl
+"Chinese Academy of Sciences, Institute of Biochemistry and Cell Biology",National Space Science Center of the Chinese Academy of Sciences (CAS),unrelated,0,judged_600.jsonl
+National Informatics Centre,"Telangana Tate, National Informatics Centre",hierarchy,0,judged_600.jsonl
+Centre for Development Studies,Alfred  P.  Sloan Foundation,unrelated,0,judged_600.jsonl
+University of Pittsburgh,"University of Pittsburgh, Dietrich School of Arts & Sciences",hierarchy,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Atmospheric Science Data Center","National Aeronautics and Space Administration, Jet Propulsion Laboratory",unrelated,0,judged_600.jsonl
+Bird Studies Canada,"BirdLife International,  Bird Studies Canada",hierarchy,0,judged_600.jsonl
+Villum Kann Rasmussen Foundation,Defense Advanced Research Project Agency,unrelated,0,judged_600.jsonl
+World Bank,University of Colorado Colorado Springs,unrelated,0,judged_600.jsonl
+Deep Carbon Observatory,Brigham Young University,unrelated,0,judged_600.jsonl
+"United States, Department of Energy, Office of Science, Biological and Environmental Research","U.S. Department of Energy, Microbial Genome Program",hierarchy,0,judged_600.jsonl
+NASA Goddard Space Flight Center,"National Aeronautics and Space Administration, Goddard Space Flight Center",duplicate,1,judged_600.jsonl
+"California Institute of Technology, Infrared Processing and Analysis Center","Infrared Processing and Analysis Center, Science and Data Center for Infrared Astronomy",duplicate,1,judged_600.jsonl
+"Chinese Academy of Agricultural Sciences, Institute of Crop Science",Ifremer,unrelated,0,judged_600.jsonl
+Ministry of Electronics and Information Technology,"National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India",hierarchy,0,judged_600.jsonl
+"Allergy, Genes and Environment Network",United States Geological Survey,unrelated,0,judged_600.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute","U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute, Center for Biomedical Informatics and Information Technology",hierarchy,0,judged_600.jsonl
+University of California Davis,"University of California, Davis, Department of Economics, Center for International Data",hierarchy,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Jet Propulsion Laboratory",Government of the United States of America,hierarchy,0,judged_600.jsonl
+Centre national de la recherche scientifique,"Lyon Astrophysics Research Center, Lyon Observatory",hierarchy,0,judged_600.jsonl
+Universitat de Girona,"National Agriculture and Food Research Organization, Institute of Agrobiological Sciences",unrelated,0,judged_600.jsonl
+National Multiple Sclerosis Society,Kumamoto University,unrelated,0,judged_600.jsonl
+Institut de Physique du Globe de Paris,French National Centre for Scientific Research (CNRS),hierarchy,0,judged_600.jsonl
+Federal Office for Food and Agriculture,TÜBİTAK Ulusal Akademik Ağ ve Bilgi Merkezi,unrelated,0,judged_600.jsonl
+International Association of Geodesy,"International Association of Geodesy, Global Geodetic Observing System",hierarchy,0,judged_600.jsonl
+University of Oxford,"University of Oxford, Nuffield Department of Medicine, Centre for Medicines Discovery, Target Discovery Institute",hierarchy,0,judged_600.jsonl
+United States Navy,"University of Oslo,  Research Council of Norway,  Stochastics for Time-Space Risk Models Project",unrelated,0,judged_600.jsonl
+"U.S. Geological Survey,  National Earthquake Hazards Reduction Program, Earthquake Hazards Program",US Geological Survey,hierarchy,0,judged_600.jsonl
+National Institute for Nuclear Physics,"United States Department of Agriculture, National Agricultural Statistics Service",unrelated,0,judged_600.jsonl
+"Government of Newfoundland and Labrador: Fisheries, Foresty and Agriculturen",Benemérita Universidad Autónoma de Puebla,unrelated,0,judged_600.jsonl
+Gesellschaft für Wissenschaftliche Datenverarbeitung mbH Göttingen,Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen,duplicate,1,judged_600.jsonl
+"U.S.Department of Energy, Office of Science","U.S. Department of Energy, Science.gov",hierarchy,0,judged_600.jsonl
+Universiteit Utrecht,"Utrecht University, CLARIN ERIC Office",hierarchy,0,judged_600.jsonl
+"University of Toronto, Donnelly Centre for Cellular and Biomolecular Research","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Zhang Lab",hierarchy,0,judged_600.jsonl
+"Chinese Academy of Science, Kunming Institute of Botany",Research Council of Lithuania,unrelated,0,judged_600.jsonl
+"Indiana University, Institute for Digital Arts and Humanities","NYU Langone Health,  NYU School of Medicine",unrelated,0,judged_600.jsonl
+"Georg-August Universität Göttingen, Department of Evolutionary Developmental Genetics",Georg-August-Universität Göttingen,hierarchy,0,judged_600.jsonl
+Ministry of Electronics and Information Technology,National Informatics Center,hierarchy,0,judged_600.jsonl
+New Mexico Tech,"New Mexico Institute of Mining and Technology, New Mexico Bureau of Geology & Mineral Resources",hierarchy,0,judged_600.jsonl
+"National Institute of Allergy and Infectious Diseases, Division of Allergy, Immunology, and Transplantation","National Institutes of Health,  National Institute of Allergy and Infectious Diseases",hierarchy,0,judged_600.jsonl
+University of Manchester,"University of Manchester, Department of Computer Science",hierarchy,0,judged_600.jsonl
+National Center for Health Statistics,University of Buffalo,unrelated,0,judged_600.jsonl
+"University Medical Center Freiburg, Institute of Medical Biometry and Statistics",United Nations Environment Programme - World Conservation Monitoring Centre,unrelated,0,judged_600.jsonl
+"Université de Liège, Institut de Physique Nucleaire, Atomique et de Spectroscopie",Centre National de la Recherche Scientifique,unrelated,0,judged_600.jsonl
+World Bank,World Bank Group,hierarchy,0,judged_600.jsonl
+Africa Health Research Institute,"University of Waterloo, Science Society",unrelated,0,judged_600.jsonl
+"University of California San Diego, San Diego Supercomputer Center","UC San Diego, Scripps Institution of Oceanography",unrelated,0,judged_600.jsonl
+"NASA, Jet Propulsion Laboratory","National Aeronautics and Space Administration, Oak Ridge National Laboratory DAAC",unrelated,0,judged_600.jsonl
+European X-Ray Free-Electron Laser,"Université de Strasbourg, Centre National de la Recherche Scientifique, Strasbourg Observatory",unrelated,0,judged_600.jsonl
+"Australian Government, Department of Industry, Science and Resources",Australian Nuclear Science and Technology Organisation,hierarchy,0,judged_600.jsonl
+Bundesministerium für Wirtschaft und Energie,Federal Ministry for Economic Affairs and Energy,duplicate,1,judged_600.jsonl
+Hochschule für Angewandte Wissenschaften Hamburg,"Hochschule für Angewandte Wissenschaften Hamburg, Hochschulinformations- und Bibliotheksservice",hierarchy,0,judged_600.jsonl
+GESIS – Leibniz Institute for the Social Sciences,gesis Leibniz Institute for the Social Sciences,duplicate,1,judged_600.jsonl
+"Government of Canada, Public Health Agency of Canada","Utah State University, College of  Engineering, Utah Water Research Laboratory",unrelated,0,judged_600.jsonl
+"U.S. Department of Energy, National Energy Technology Laboratory",Douglas Mental Health University Institute,unrelated,0,judged_600.jsonl
+"Kyoto University, Graduate School of Science, Data Analysis Center for Geomagnetism and Space Magnetism","Kyoto University, Kanehisa Laboratories",unrelated,0,judged_600.jsonl
+Yokohama City University,Fachhochschule Erfurt,unrelated,0,judged_600.jsonl
+"University of Oxford, Centre for Tropical Medicine and Global Health","University of Oxford, Oxford e-Research Centre",unrelated,0,judged_600.jsonl
+Karlsruhe Institute of Technology,"Karlsruhe Institute of Technology, Institute of Meteorology and Climate Research, Department Troposphere Research",hierarchy,0,judged_600.jsonl
+"Deutsche Forschungsgemeineschaft, Wissenschaftliche Literaturversorgungs- und Informationssysteme","Deutsche Forschungsgemeinschaft,  Wissenschaftliche Literaturversorgungs- und Informationssysteme",duplicate,1,judged_600.jsonl
+"Université de Montréal, Institute for Research in Immunology and Cancer",Leibniz-Institut für Deutsche Sprache,unrelated,0,judged_600.jsonl
+University of Graz,"University of Graz, Department of Digital Humanities",hierarchy,0,judged_600.jsonl
+"University of  Toronto, Faculty of Medicine,  McLaughlin Centre","University of Toronto, Libraries",unrelated,0,judged_600.jsonl
+Jet Propulsions Laboratory,"National Aeronautics and Space Administration, Socio-Economic Data and Applications Center",unrelated,0,judged_600.jsonl
+Consorcio Madroño,University of Wyoming,unrelated,0,judged_600.jsonl
+German Climate Computing Centre,huma-num,unrelated,0,judged_600.jsonl
+"U.S. Department of Health and Human Services, Office of Child Care","U.S. Department of Health and Human Services, Office of Planning, Research and Evaluation",unrelated,0,judged_600.jsonl
+Barcelona Supercomputing Center,"Stony Brook University, Department of Political Science",unrelated,0,judged_600.jsonl
+"University of California San Diego, Center for Computational Mass Spectrometry","University of California, San Diego, Center for Research in Biological Systems",unrelated,0,judged_600.jsonl
+University of Victoria,Bavarian State Library,unrelated,0,judged_600.jsonl
+"University of Copenhagen, Department of Biology, The Bioinformatics Centre","University of Copenhagen, The Novo Nordisk Foundation, Center for Protein Research",unrelated,0,judged_600.jsonl
+"National Science Foundation, Division of Environmental Biology",Canadian Forest Service,unrelated,0,judged_600.jsonl
+NOAA National Centers for Environmental Information,"NOAA National Centers for Environmental Information, Ocean Climate Laboratory",hierarchy,0,judged_600.jsonl
+Jet Propulsions Laboratory,Caltech,hierarchy,0,judged_600.jsonl
+University of South-Eastern Norway,"National Infrastructure of Mineral, Rock and Fossil for Science and Technology",unrelated,0,judged_600.jsonl
+"University of California San Diego, San Diego Supercomputer Center",California Sea Grant Program,unrelated,0,judged_600.jsonl
+French Institute of Pondicherry,Wageningen University & Research,unrelated,0,judged_600.jsonl
+Child Mind Institute,Queen's University Library,unrelated,0,judged_600.jsonl
+"China National Center for Bioinformation / Beijing Institute of Genomics, Chinese Academy of Sciences",Institute of High Energy Physics,unrelated,0,judged_600.jsonl
+"Julius Kühn-Institut, Institut für Rebenzüchtung","Federal Ministry of Agriculture, Food and Regional Identity",hierarchy,0,judged_600.jsonl
+Goddard Space Flight Center,"National Aeronautics and Space Administration, Goddard Space Flight Center",hierarchy,0,judged_600.jsonl
+Consejo Superior de Investigaciones Cientificas,Institute of Astrophysics of Andalucia,hierarchy,0,judged_600.jsonl
+University of Sheffield,"University of Sheffield, University Library",hierarchy,0,judged_600.jsonl
+Reiner Lemoine Institut,Scottish Government,unrelated,0,judged_600.jsonl
+Yale-NUS College,Beijing Genomics Institute,unrelated,0,judged_600.jsonl
+"Karlsruhe Institute of Technology, Center for Disaster Management and Risk Reduction Technology","Karlsruhe Institute of Technology, Library",unrelated,0,judged_600.jsonl
+"NASA Goddard Space Flight Center, Crustal Dynamics Data Information System",U.S. National Aeronautics and Space Administration,hierarchy,0,judged_600.jsonl
+NASA Langley Research Center,Laboratoire d’Annecy de Physique des Particules,unrelated,0,judged_600.jsonl
+"Rice University, Kinder Institute for Urban Research",Universidad de Santiago de Chile,unrelated,0,judged_600.jsonl
+SickKids,American Kennel Club  Canine Health Foundation,unrelated,0,judged_600.jsonl
+Montreal Neurological Institute and Hospital,Leibniz-Institut für Pflanzenbiochemie,unrelated,0,judged_600.jsonl
+"Karlsruhe Institute of Technology, Institute for Meteorology and Climate Research - Troposphere Research","Karlsruhe Institute of Technology, Institute of Sports and Sports Science",unrelated,0,judged_600.jsonl
+Martin Luther University Halle-Wittenberg,Martin-Luther-Universität Halle-Wittenberg,duplicate,1,judged_600.jsonl
+Baycrest Rotman Research Institute,University of Edinburgh,unrelated,0,judged_600.jsonl
+"European Comission, Horizon 2020","European Commission, Research & Innovation, Seventh Framework Programm, FP7",unrelated,0,judged_600.jsonl
+Ocean Networks Canada Society,"Mass General Brigham, Interventional Radiology",unrelated,0,judged_600.jsonl
+"University of California, Berkeley, Department of Demography",Medical University of Silesia,unrelated,0,judged_600.jsonl
+"Indiana University, Department of Biology","Indiana University, School of Informatics, Computing, and Engineering",unrelated,0,judged_600.jsonl
+NASA's Goddard Space Flight Center,"National Aeronautics and Space Administration, Earth Observing System Data and Information System",hierarchy,0,judged_600.jsonl
+Diamond Light Source Ltd.,State Geological Institute of Dionýz Štúr,unrelated,0,judged_600.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health, Office of Behavioral and Social Sciences Research",United States Department of Health and Human Services,hierarchy,0,judged_600.jsonl
+Universtity of Sydney,"NIH, National Institute of Environmental Health Sciences, Superfund Research Program",unrelated,0,judged_600.jsonl
+"Universität Münster, Institut für Musikwissenschaft","Universität Münster, Institut für Ägyptologie und Koptologie",unrelated,0,judged_600.jsonl
+San Diego State University,University of Aruba,unrelated,0,judged_600.jsonl
+"University of Cambridge, Churchill College","University of Cambridge, Department of Genetics",unrelated,0,judged_600.jsonl
+Central Queensland University,Universidade Federal do Rio Grande do Sul,unrelated,0,judged_600.jsonl
+"Chinese Academy of Sciences, Institute of Biochemistry and Cell Biology",Chinese Academy of Sciences,hierarchy,0,judged_600.jsonl
+Instituto de Astrofísica de Canarias,University of Glasgow,unrelated,0,judged_600.jsonl
+Royal Melbourne Institute of Technology,"Jodrell Bank Observatory, Square Kilometre Array Headquater",unrelated,0,judged_600.jsonl
+Universität Hamburg,"Universität Hamburg, Regionales Rechenzentrum",hierarchy,0,judged_600.jsonl
+Jet Propulsion Laboratory,"National Aeronautics and Space Administration, MODIS Level 1 and Atmosphere Archive and Distribution System",unrelated,0,judged_600.jsonl
+Cracow University of Technology,Goethe Universität Frankfurt am Main,unrelated,0,judged_600.jsonl
+Technical University of Darmstadt,Technische Universität Darmstadt,duplicate,1,judged_600.jsonl
+"Ghent University, Department of Biology","Ghent University, Department of Biomedical Molecular Biology, BCCM/GeneCorner",unrelated,0,judged_600.jsonl
+gesis Leibniz Institute for the Social Sciences,Government of Ontario,unrelated,0,judged_600.jsonl
+"Chinese Academy of Sciences, Qinghai Salt Lake Research Institute","University of Science & Technology of China, WANG Group, School of Life Sciences, Hefei National Laboratory for Physical Sciences at the Microscale",unrelated,0,judged_600.jsonl
+"U.S. Department of Health and Human Services, Health Resources and Services Administration",United States Department  of Health and Human Services,hierarchy,0,judged_600.jsonl
+Malaysian Agricultural Research and Development Institute,State Geological Institute of Dionýz Štúr,unrelated,0,judged_600.jsonl
+University Hospitals of Geneva,European Mathematical Society,unrelated,0,judged_600.jsonl
+Lawrence Berkeley National Laboratory,DOE Joint Genome Institute,unrelated,0,judged_600.jsonl
+Dartmouth College,"Dartmouth College, Center for Mobile Computing",hierarchy,0,judged_600.jsonl
+University Corporation for Atmosheric Research,"National Center for Atmospheric Research, University Corporation for Antmospheric Research, Computational and Information Systems Laboratory",hierarchy,0,judged_600.jsonl
+"Chinese Academy of Sciences, Xinjiang Institute of Ecology and Geography","China National Center for Bioinformation / Beijing Institute of Genomics, Chinese Academy of Sciences",unrelated,0,judged_600.jsonl
+"Max Delbrück Center for Molecular Medicine, Berlin Institute for Medical Systems Biology","Max Delbrück Center for Molecular Medicine, Matthias Selbach Lab",unrelated,0,judged_600.jsonl
+The Royal Liverpool and Broadgreen University Hospitals NHS Trust,InnoTech Alberta,unrelated,0,judged_600.jsonl
+"National Aeronautics and Space Administration, National Snow and Ice Data Center","NASA Langley Research Center, Atmospheric Science Data Center",unrelated,0,judged_600.jsonl
+"Pennsylvania State University, College of Information Sciences and Technology","The Pennsylvania State University, Social Science Research Institute",unrelated,0,judged_600.jsonl
+"World Meteorological Organization, Global Climate Observing System","World Meterological Organization, World Climate Research Programme",unrelated,0,judged_600.jsonl
+"United States Department of Agriculture, National Agricultural Statistics Service","Technische Universität Dresden, Zentrum für Informationsdienste und Hochleistungsrechnen",unrelated,0,judged_600.jsonl
+"University of Southampton, School of Chemistry and Chemical Engineering","Max Delbrück Center for Molecular Medicine, Berlin Institute for Medical Systems Biology",unrelated,0,judged_600.jsonl
+"University of British Columbia, Institute for the Oceans and Fisheries","University of British Columbia, Land Use and Global Environment Research Group",unrelated,0,judged_600.jsonl
+Council of Scientific & Industrial Research  - National Institute of Oceanography,Council of Scientific and Industrial Research,hierarchy,0,judged_600.jsonl
+National Institute of General Medical Sciences,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences",hierarchy,0,judged_600.jsonl
+"University of Saskatchewan, Global Institute for Water Security",Boston University,unrelated,0,judged_600.jsonl
+"University of Oxford, Department of Physics","University of Oxford, Oxford e-Research Centre",unrelated,0,judged_600.jsonl
+NASA Goddard Institute for Space Studies,"National Aeronautics and Space Administration, Crustal Dynamics Data Information System",unrelated,0,judged_600.jsonl
+Government of India,"Government of India, National Knowledge Commission",hierarchy,0,judged_600.jsonl
+"Ministry of Health Welfare and Sports, Directorate of Long-Term Care","Bigelow Laboratory for Ocean Sciences, Provasoli-Guillard National Center for Marine Algae and Microbiota",unrelated,0,judged_600.jsonl
+Rigshospitalet,Østfold University College,unrelated,0,judged_600.jsonl
+University System of Maryland & Affiliated Institutions,University of Reading,unrelated,0,judged_600.jsonl
+"National Science Foundation, Division of Ocean Sciences",Organisation for Economic Co-operation and Development,unrelated,0,judged_600.jsonl
+University of Graz,NOAA National Weather Service,unrelated,0,judged_600.jsonl
+Consultative Group on International Agricultural Research,"Consultative Group on International Agricultural Research, Research Program on Forest, Trees and Agroforestry",hierarchy,0,judged_600.jsonl
+Izmir Institute of Technology,Cheikh Anta Diop University,unrelated,0,judged_600.jsonl
+Alberta Innovates Health Solutions,Alberta Innovates – Health Solutions,duplicate,1,judged_600.jsonl
+Joint Nature Conservation Committee,Observatoire royal de Belgique,unrelated,0,judged_600.jsonl
+"University of Victoria, Libraries","University of Victoria, Pacific Climate Impacts Consortium",unrelated,0,judged_600.jsonl
+Novartis Institutes for Biomedical Research,University of the West of England Bristol,unrelated,0,judged_600.jsonl
+"University of Toronto, Bader Lab","University of Toronto, Centre for Cellular and Biomolecular Research, Andrews Lab",unrelated,0,judged_600.jsonl
+National Center for Atmospheric Research | University Corporation for Atmospheric Research,National Center for Atmospheric Research,hierarchy,0,judged_600.jsonl
+"Japanese Ministry of Education, Culture, Sports, Science & Technology","Ministry of Education, Culture, Sports, Science and Technology - Japan",duplicate,1,judged_600.jsonl
+"Technische Universität Berlin, Fakultät Wirtschaft und Managment, Volkswirtschaftslehre und Wirtschaftsrecht, Fachgebiet Wirtschafts- und Infrastrukturpolitik","Technische Universität Berlin, Institut für Architektur, Fachgebiet “Historische Bauforschung und Baudenkmalpflege”",unrelated,0,judged_600.jsonl
+"Computer Network Information Center, Chinese Academy of Sciences",Institute of Geographic Sciences and Natural Resources Research,unrelated,0,judged_600.jsonl
+Helmholtz Centre for Infection Research,Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden,unrelated,0,judged_600.jsonl
+"University of Hull, Hull History Centre",Universidad Austral de Chile,unrelated,0,judged_600.jsonl
+"U.S Department of the Interior, National Park Service","Cologne University of Applied Science, Faculty of Information Science and Communication Studies, Institute of Information Science",unrelated,0,judged_600.jsonl
+Universidad Internacional de Andalucia,"University of Massachusetts Amherst, Libraries",unrelated,0,judged_600.jsonl
+University of Southern California,"University of Southern California, Keck School of Medicine, USC Mark and Mary Stevens Neuroimaging and Informatics Institute, Laboratory of Neuro Imaging",hierarchy,0,judged_600.jsonl
+"Nagoya University, Institute for Space-Earth Environmental Research","Nagoya University, Solar-Terrestrial Environment Laboratory",unrelated,0,judged_600.jsonl
+"University of British Columbia, Graduate Program in Bioinformatics","University of British Columbia, Institute for the Oceans and Fisheries",unrelated,0,judged_600.jsonl
+Acadia University,Spanish Institute of Oceanography,unrelated,0,judged_600.jsonl
+Bundesgesellschaft für Endlagerung,Royal Melbourne Institute of Technology,unrelated,0,judged_600.jsonl
+"NASA's Goddard Space Flight Center,Sciences and Exploration Directorate, Heliospheric Physics Laboratory",U.S. National Aeronautics and Space Administration,hierarchy,0,judged_600.jsonl
+Earthscope Consortium,"University of Colorado, Institute of Arctic and Alpine Research, Community Surface Dynamics Modeling System",unrelated,0,judged_600.jsonl
+"National Autonomous University of Mexico, Center for Genomic Sciences","Universidad Nacional Autónoma de México, Instituto de Astronomía",unrelated,0,judged_600.jsonl
+Peking University,"Peking University, Center for Bioinformatics",hierarchy,0,judged_600.jsonl
+"Universita degli Studi di Roma 'Tor Vergata', Dipartimento di Biologia","University of Rome ""Tor Vergata""",hierarchy,0,judged_600.jsonl
+"U.S. Department of Health & Human Services, Agency for Healthcare Research and Quality","Substance Abuse & Mental Health Services Administration, Center for Behavioral Health Statistics and Quality",unrelated,0,judged_600.jsonl
+Chesapeake Research Consortium,Alma Mater Studiorum - University of Bologna,unrelated,0,judged_600.jsonl
+"Columbia University Libraries, Open Scholarship Services","Columbia University, Earth Institute, International Research Institute for Climate and Society",unrelated,0,judged_600.jsonl
+"Johns Hopkins University,  National Heart Lung & Blood Institute","National Institutes of Health, National Heart, Lung and Blood Institute",unrelated,0,judged_600.jsonl
+Österreischische Akademie der Wissenschaften,Österrreichische Akademie der Wissenschaften,duplicate,1,judged_600.jsonl
+"US Department of Energy, Office of Science",United Nations Environment Programme - World Conservation Monitoring Centre,unrelated,0,judged_600.jsonl
+U.S. Department of Energy's Scientific Discovery through Advanced Computing program,"U.S. Department of Energy, Energy Information Administration",unrelated,0,judged_600.jsonl
+"European Space Astronomy Centre, INTEGRAL Science Operations Centre","European Space Agency, ISO Data Centre",unrelated,0,judged_600.jsonl
+"Hochschule für Musik und Theater München, Bibliothek",University of Music and Theatre Munich,hierarchy,0,judged_600.jsonl
+"University Corporation for Atmospheric Research, National Center for Atmospheric Research","Agricultural University of Athens, Department of Food Science and Human Nutrition",unrelated,0,judged_600.jsonl
+European Commission Seventh Framework Programme,"European Commission, Research & Innovation, 6th Framework Programme",unrelated,0,judged_600.jsonl
+University of Oxford e-Research Centre,"University of Oxford, Bodleian Libraries",unrelated,0,judged_600.jsonl
+"Southwest University, State Key Laboratory of Silkworm Genome Biology",National Library of Scotland,unrelated,0,judged_600.jsonl
+"Ghent University, Department of Biology","Ghent University, VIB-UGent Center for Inflammation Research",unrelated,0,judged_600.jsonl
+The University of British Columbia,"University of British Columbia, Land Use and Global Environment Research Group",hierarchy,0,judged_600.jsonl
+"University of Cambridge, Department of Genetics","University of Cambridge, Department of Physiology, Development and Neuroscience",unrelated,0,judged_600.jsonl
+"National Center for Atmospheric Research, University Corporation for Antmospheric Research, Library",University Corporation for Atmosheric Research,hierarchy,0,judged_600.jsonl
+The Terry Fox Foundation,Spanish National Research Council,unrelated,0,judged_600.jsonl
+"Australian Government, Geoscience Australia",Hochschule der Medien,unrelated,0,judged_600.jsonl
+NOAA Air Resources Laboratory,"Agricultural University of Athens, Department of Food Science and Human Nutrition",unrelated,0,judged_600.jsonl
+"University of Texas at Austin, Center for Computational Biology and Bioinformatics",Texas Advanced Computing Center,unrelated,0,judged_600.jsonl
+"NIH, National Institute of Environmental Health Sciences, Superfund Research Program",Institute of Food Sciences,unrelated,0,judged_600.jsonl
+National Institute on Minority Health and Health Disparities,United States Forest Service,unrelated,0,judged_600.jsonl
+American Concrete Institute,OpenStreetMap Foundation,unrelated,0,judged_600.jsonl
+"European Commission, EASME, Life programme","European Commission, Seventh Framework Programme",unrelated,0,judged_600.jsonl
+Instituto Politécnico de Bragança,Office of Critical Minerals and Energy Innovation,unrelated,0,judged_600.jsonl
+"University of Oxford, Bodleian Digital Library Systems and Services","University of Oxford, Nuffield Department of Medicine, Centre for Medicines Discovery, Target Discovery Institute",unrelated,0,judged_600.jsonl
+"Humboldt-Universität zu Berlin,  Kultur-, Sozial- und Bildungswissenschaftliche Fakultät, Winckelmann-Institut","Humboldt-Universität zu Berlin, DFG-Schwerpunktprogramm 1859",unrelated,0,judged_600.jsonl
+University of Arkansas for Medical Sciences,Government of Newfoundland and Labrador,unrelated,0,judged_600.jsonl
+Indian Institute of Chemical Biology,"Government of India, Ministry of Science and Technology, Council of Scientific and Industrial Research",hierarchy,0,judged_600.jsonl
+OpenAIRE,École et Observatoire des Sciences de la Terre,unrelated,0,judged_600.jsonl
+Forschungsverbund Berlin,"Hasso Plattner Institut,  Future SOC Lab",unrelated,0,judged_600.jsonl
+Chinese Academy of Sciences,"Chinese Academy of Sciences, Institute of High Energy Physics",hierarchy,0,judged_600.jsonl
+"University of Duisburg-Essen, Faculty of the Social Sciences, Institute of Political Science",Helmholtz-Zentrum Hereon,unrelated,0,judged_600.jsonl
+UC San Diego,University of California San Diego,duplicate,1,judged_600.jsonl
+"Chinese Academy of Sciences, Northwest Institute of Eco-Environment and Resources",Institute of Tibetan Plateau Research - Chinese Academy of Sciences,unrelated,0,judged_600.jsonl
+"Children's Hospital of Philadelphia, Division of Oncology, Department of Pediatrics",Institut de Física d'Altes Energies,unrelated,0,judged_600.jsonl
+North-West University,"Mount Sinai Hospital, Samuel Lunenfeld Research Institute",unrelated,0,judged_600.jsonl
+"University Corporation for Atmospheric Research, National Science Digital Library",National Center for Atmospheric Research,hierarchy,0,judged_600.jsonl
+Institut national de la recherche scientifique,"Institut national de la recherche scientifique, Service de documentation et d'information spécialisées",hierarchy,0,judged_600.jsonl
+"Goddard Space Flight Center, Ocean Biology Processing Group, Ocean Color Web","National Aeronautics and Space Administration, Atmospheric Science Data Center",unrelated,0,judged_600.jsonl
+"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement","National Research Institute for Agriculture, Food and Environment",duplicate,1,judged_600.jsonl
+Ionian University. Laboratory on Digital Libraries and Electronic Publishing,Council of Scientific and Industrial Research,unrelated,0,judged_600.jsonl
+Institut de Physique du Globe de Paris,"Centre National de la recherche scientifique, Institut national des sciences de l'univers",unrelated,0,judged_600.jsonl
+"U.S. Department of Energy, Fusion Energy Sciences, Office of  Science","U.S. Department of Energy, Biological and Environmental Research",unrelated,0,judged_600.jsonl
+"Harvard University, Institute for Quantitative Social Sciences","Harvard University, Museum of Comparative Zoology",unrelated,0,judged_600.jsonl
+European Commission Seventh Framework Programme,"European Commission, Directorate-General Communication",unrelated,0,judged_600.jsonl
+University of Basel,"Universität Basel, Research group Torsten Schwede",hierarchy,0,judged_600.jsonl
+"Harvard-Smithsonian Center for Astrophysics, Smithsonian Astrophysical Observatory",Harvard University Herbaria & Libraries,unrelated,0,judged_600.jsonl
+Servicio Geológico Minero Argentino,Bundesministerium für Wirschaft und Energie,unrelated,0,judged_600.jsonl
+The University of Manchester,University of Manchester,duplicate,1,judged_600.jsonl
+"US Department of Energy, Office of Science, Nuclear Physics NP","U.S.Department of Energy, Office of Science, Office of Scientific and Technical Information",unrelated,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Earth Observing System Data and Information System",Empresa Brasileira de Pesquisa Agropecuária,unrelated,0,judged_600.jsonl
+"International Atomic Energy Agency, International Network of Nuclear Reaction Data Centres","OECD Nuclear Energy Agency, Computer Program Services",unrelated,0,judged_600.jsonl
+"European Commission, Directorate-General Communication","European Commission, HORIZON 2020",unrelated,0,judged_600.jsonl
+Fraunhofer-Institut für Zelltherapie und Immunologie,"Karlsruhe Institute of Technology, Institute of Climatology and Climate Research, Atmospheric Trace Gases and Remote Sensing",unrelated,0,judged_600.jsonl
+"University of Saskatchewan, Global Institute for Water Security",GeoSphere Austria,unrelated,0,judged_600.jsonl
+Pacific Southwest Research Station,"National Institutes of Health, Division of Program Coordination Planning and Strategic Initiatives",unrelated,0,judged_600.jsonl
+"European Commission, Directorate-General Communication","European Commission, Infrastructure for Spatial Information in the European Community",unrelated,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Goddard Space Flight Center, Astrophysics Science Division","National Aeronautics and Space Administration, Science Mission Directorate",hierarchy,0,judged_600.jsonl
+Columbia University,"Columbia University, Lamont-Doherty Earth Observatory",hierarchy,0,judged_600.jsonl
+"Washington University in St. Louis, School of Medicine","Washington University in St.Louis, School of Law, Center for Empirical Research in the Law",unrelated,0,judged_600.jsonl
+"Frankfurt Biotechnology Innovation Center, MBN Research Center",Canadian Institutes of Health Research,unrelated,0,judged_600.jsonl
+UC San Diego Library,Scripps Institution of Oceanography,unrelated,0,judged_600.jsonl
+"Centre National de la Recherche Scientifique, Institut National des Sciences de l'Univers",Institut de Recherche en Astrophysique et Planétologie,hierarchy,0,judged_600.jsonl
+"Analyse et Traitement Informatique de La Langue Francaise, Centre National de Ressources Textuelles et Lexicales",University of Lorraine,unrelated,0,judged_600.jsonl
+Centre national d'études spatiales,Institut de Recherche en Astrophysique et Planétologie,unrelated,0,judged_600.jsonl
+"European Molecular Biology Laboratory, European Bioinformatics Institute, Protein Data Bank in Europe","European Molecular Biology Laboratory, European Bioinformatics Institute, Thornton Group",unrelated,0,judged_600.jsonl
+Leibniz Centre for Agricultural Landscape Research,DIPF | Leibniz Institute for Research and Information in Education,unrelated,0,judged_600.jsonl
+"Karlsruhe Institute of Technology, Center for Disaster Management and Risk Reduction Technology","Karlsruhe Institute of Technology, Institute of Climatology and Climate Research, Atmospheric Trace Gases and Remote Sensing",unrelated,0,judged_600.jsonl
+"Université de Strasbourg, Centre National de la Recherche Scientifique, Strasbourg Observatory","Université d'Aix-Marseille, Laboratoire Architecture et Fonction des Macromolécules Biologiques",unrelated,0,judged_600.jsonl
+"National Center for Atmospheric Research, University Corporation for Atmospheric Research","University Corporation for Atmospheric Research, UNIDATA",unrelated,0,judged_600.jsonl
+CSIR Central Food Technological Research Institute,Alfred  P.  Sloan Foundation,unrelated,0,judged_600.jsonl
+"University Corporation for Atmospheric Research, National Science Digital Library","National Science Foundation National Center for Atmospheric Research, Computational and Information Systems Laboratory",unrelated,0,judged_600.jsonl
+Alfred  P.  Sloan Foundation,Alfred P. Sloan Foundation,duplicate,1,judged_600.jsonl
+AIX-Marseille Université,huma-num,unrelated,0,judged_600.jsonl
+"National Research Council of Italy , Italian Institute of Polar Sciences",Scottish Environment Protection Agency,unrelated,0,judged_600.jsonl
+Joint Nature Conservation Committee,National Institute on Aging Genetics of Alzheimer's Disease Data Storage Site,unrelated,0,judged_600.jsonl
+Medical University of Bialystok,"U.S. Environmental Protection Agency, Chesapeake Bay Program Office",unrelated,0,judged_600.jsonl
+"National Institute for Basic Biology, Department of Cell Biology",The Terry Fox Foundation,unrelated,0,judged_600.jsonl
+University of Edinburgh,"University of Edinburgh, Institute for Adaptive and Neural Computation",hierarchy,0,judged_600.jsonl
+UC Berkeley School of Information,"University of California, Berkeley, Department of Demography",unrelated,0,judged_600.jsonl
+Earth Science Information Partners,"Institut National de Physique Nucléaire et de Physique de Particules, Centre de Calcul",unrelated,0,judged_600.jsonl
+NOAA's National Centers for Environmental Information,"National Centers for Environmental Information, Ocean Climate Laboratory",hierarchy,0,judged_600.jsonl
+Institut de Recherche en Astrophysique et Planétologie,Engineering and Physical Sciences Research Council,unrelated,0,judged_600.jsonl
+Alberta Innovates,Alberta Innovates Bio Solutions,hierarchy,0,judged_600.jsonl
+"University of Belgrade, Institute of molecular genetics and genetic engineering,","Directorate of Economics and Statistics (DES), Planning Department, Government of Maharastra",unrelated,0,judged_600.jsonl
+Columbia University,Lamont-Doherty Earth Observatory,hierarchy,0,judged_600.jsonl
+"Humboldt-Universität zu Berlin,  Kultur-, Sozial- und Bildungswissenschaftliche Fakultät, Winckelmann-Institut","Humboldt-Universität zu Berlin, Institut für Archäologie, Archäologie und Kulturgeschichte Nordostafrikas",unrelated,0,judged_600.jsonl
+"University of Pittsburgh,  Kenneth P. Dietrich School of Arts and Sciences","University of Pittsburgh, Department of Chemistry",hierarchy,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Goddard Space Flight Center","National Aeronautics and Space Administration, Goddard Space Flight Center, Ocean Biology Distributed Active Archive Center",hierarchy,0,judged_600.jsonl
+NASA - Goddard Space Flight Center,NASA's Goddard Space Flight Center,duplicate,1,judged_600.jsonl
+Indian Space Research Organisation,Universidad Autonoma de Manizales,unrelated,0,judged_600.jsonl
+Cary Institute of Ecosystem Studies,National Bureau of Statistics of China,unrelated,0,judged_600.jsonl
+Helmholtz Association of German Research Centres,GSI Helmholtz Centre for Heavy Ion Research,hierarchy,0,judged_600.jsonl
+"Harvard Medical School, Dana-Faber/Harvard Cancer Center","Harvard University, Institute for Quantitative Social Sciences",unrelated,0,judged_600.jsonl
+"NASA, Jet Propulsion Laboratory","National Aeronautics and Space Administration, MODIS Level 1 and Atmosphere Archive and Distribution System",unrelated,0,judged_600.jsonl
+Laboratoire Ligérien de Linguistique,International Union of Crystallography,unrelated,0,judged_600.jsonl
+"Columbia University,  Lamont-Doherty Earth Observatory",Chinese Academy of Tropical Agricultural Sciences,unrelated,0,judged_600.jsonl
+"Ministry of Science, Innovation and Universities",ELI ERIC,unrelated,0,judged_600.jsonl
+"University of Cambridge, Cambridge University Library","University of Cambridge, Scott Polar Research Institute, Library",unrelated,0,judged_600.jsonl
+GESIS - Leibniz Institute for the Social Sciences,Gesis - Leibniz-Institut für Sozialwissenschaften,duplicate,1,judged_600.jsonl
+"National Aeronautics and Space Administration, Crustal Dynamics Data Information System","National Aeronautics and Space Administration, Smithsonian Astrophysical Observatory, Chandra X-Ray Observatory",unrelated,0,judged_600.jsonl
+UC San Diego,"University of California, San Diego",duplicate,1,judged_600.jsonl
+"University of British Columbia, Department of Microbiology and Immunology, R.E. W. Hancock Laboratory","University of British Columbia, Library",unrelated,0,judged_600.jsonl
+"University of California, San Diego, San Diego Supercomputer Center, Metabolomics Program's Data Repository and Coordinating Center","University of California San Diego,  Swartz Center for Computational Neuroscience",unrelated,0,judged_600.jsonl
+"Centre National de la recherche scientifique, Institut national des sciences de l'univers","Centre de Données Astronomiques de Strasbourg, Observatoire astronomique de Strasbourg",unrelated,0,judged_600.jsonl
+Institut National d'Études Démographiques,California Institute of Technology,unrelated,0,judged_600.jsonl
+University Corporation for Atmosheric Research,"University Corporation for Atmospheric Research - National Center for Atmospheric Research, Climate and Global Dynamics Laboratory",hierarchy,0,judged_600.jsonl
+"University of Toronto, Bader Lab","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research",unrelated,0,judged_600.jsonl
+SickKids,"Universität Bielefeld, Sonderforschungsbereich 882 ""Von Heterogenitäten zu Ungleichheiten""",unrelated,0,judged_600.jsonl
+Jet Propulsions Laboratory,"National Aeronautics and Space Administration, Smithsonian Astrophysical Observatory, Chandra X-Ray Observatory",unrelated,0,judged_600.jsonl
+UK Centre for Ecology & Hydrology,"Université de Strasbourg, Centre National de la Recherche Scientifique, Strasbourg Observatory",unrelated,0,judged_600.jsonl
+"Case Western Reserve University, Kelvin Smith Library",SRI International,unrelated,0,judged_600.jsonl
+University of Alberta Libraries,"University of Alberta, Departments of Computing Science and Biological Sciences, Wishart Research Group",unrelated,0,judged_600.jsonl
+NASA's Jet Propulsion Laboratory,"National Aeronautics and Space Administration, Land Processes Distributed Active Archive Center",unrelated,0,judged_600.jsonl
+Canadian Integrated Ocean Observing System,Tigray Health Research Institute,unrelated,0,judged_600.jsonl
+European Synchrotron Radiation Facility,"NASA,  Goddard Space Flight Center, Wallops Flight Facility",unrelated,0,judged_600.jsonl
+"Canadian Epigenetics, Environment and Health Research Consortium","Canadian Institutes of Health Research, The Canadian Epigenetics, Environment and Health Research Consortium",hierarchy,0,judged_600.jsonl
+"Infrared Processing and Analysis Center, Science and Data Center for Infrared Astronomy",NASA's Infrared Processing and Analysis Centre,duplicate,1,judged_600.jsonl
+"National Aeronautics and Space Administration, Goddard Earth Sciences Data and Information Services Center",NASA Langley Research Center,unrelated,0,judged_600.jsonl
+"European Comission, Horizon 2020","European Commission, HORIZON 2020",duplicate,1,judged_600.jsonl
+Le Centre national de la recherche scientifique,"Université Pierre et Marie Curie, Institut Pierre Simon Laplace, Laboratoire d'Océanographie et du Climat: Expérimentations et Approches Numériques",unrelated,0,judged_600.jsonl
+Government of Newfoundland and Labrador,Radiological Society of North America,unrelated,0,judged_600.jsonl
+"University of Colorado Boulder, Laboratory for Atmospheric and Space Physics, Extreme Ultraviolet Variability Experiment",Ashoka University,unrelated,0,judged_600.jsonl
+"National & Kapodistrian University of Athens, Department of Political Science  and Public Administration","National and Kapodistrian University of Athens, School of Sciences, Department of Geology and Geoenvironment",unrelated,0,judged_600.jsonl
+"European Commission, Research and Innovation","UK Search and Innovation, Biotechnology and Biological Sciences Research Council",unrelated,0,judged_600.jsonl
+European Commission Seventh Framework Programme,"European Commission, Research & Innovation, Seventh Framework Programm, FP7",duplicate,1,judged_600.jsonl
+"U.S. Department of Energy, Office of Science","U.S. Department of Energy, Microbial Genome Program",hierarchy,0,judged_600.jsonl
+The CLARIN Centre at the University of Copenhagen,"University of Copenhagen, Department of Biology, The Bioinformatics Centre",unrelated,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Socioeconomic Data and Applications Center","National Aeronautics and Space Administration, Goddard Space Flight Center, Ocean Biology Distributed Active Archive Center",unrelated,0,judged_600.jsonl
+Lancaster University,IMDEA Nanoscience,unrelated,0,judged_600.jsonl
+KU Leuven,"Katholieke Universiteit Leuven, Declaratieve Talen en Artificiele Intelligentie",hierarchy,0,judged_600.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health, National Institute on Drug Abuse","U.S. Department of Health and Human Services, Office of Head Start",unrelated,0,judged_600.jsonl
+"European Commission, BacHBERRY Seventh Framework Programme - FP7","European Commission, Seventh Framework Programme",hierarchy,0,judged_600.jsonl
+"European Commission, Research & Innovation, 6th Framework Programme","European Commission, Research & Innovation, Seventh Framework Programm - FP7",unrelated,0,judged_600.jsonl
+Observatoire des Sciences de l'Univers Nantes Atlantique,Université de Nantes,hierarchy,0,judged_600.jsonl
+"National Aeronautics and Space Administration, Ocean Biology Processing Group","National Aeronautics and Space Administration, Langley Research Center",unrelated,0,judged_600.jsonl
+"International Space Science Institute, Polar Stratospheric Cloud Initiative",Oak Ridge Leadership Computing Facility,unrelated,0,judged_600.jsonl
+RMIT University,"NSW Government, Department of Communities and Justice",unrelated,0,judged_600.jsonl
+"Freie Universität Berlin, Fachbereich Geowissenschaften, Institut für Geologische Wissenschaften","Freie Universität Berlin, Institut für Prähistorische Archäologie, Emmy-Noether-Nachwuchsgruppe LiVES",unrelated,0,judged_600.jsonl
+Genome Quebec,"Universität Trier, Lehrstuhl für Kunstgeschichte",unrelated,0,judged_600.jsonl
+Leibniz-Gemeinschaft,Leibniz Centre for Agricultural Landscape Research,hierarchy,0,judged_600.jsonl
+"University of Wisconsin-Madison, Data and Information Services Center","University of Wisconsin-Madison, Social Science Computing Cooperative",unrelated,0,judged_600.jsonl
+Institut de Physique du Globe de Paris,Centre National de la Recherche Scientifique,hierarchy,0,judged_600.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Cancer Institute","U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute",duplicate,1,judged_600.jsonl
+"Science & Technology Facilities Council, Scientific Computing Department",Science and Technology Facilities Council,hierarchy,0,judged_600.jsonl
+"NASA's Goddard Space Flight Center,Sciences and Exploration Directorate, Heliospheric Physics Laboratory","National Aeronautics and Space Administration, Goddard Space Flight Center, Sciences and Exploration Directorate, Heliospheric Physics Laboratory",duplicate,1,judged_600.jsonl
+Institut de Physique du Globe de Paris,"Université de Strasbourg, Centre National de la Recherche Scientifique, Strasbourg Observatory",unrelated,0,judged_600.jsonl
+"Beijing Institute of Genomics, Chinese Academy of Sciences, China National Center for BioInformation, National Genomics Data Center","Chinese Academy of Sciences, Qinghai Salt Lake Research Institute",unrelated,0,judged_600.jsonl
+Council of Scientific and Industrial Research,"National Chemical Laboratory, Digital Information Resource Center",hierarchy,0,judged_600.jsonl
+Centre for Ecology and Hydrology,International Neuroinformatics Coordinating Facility,unrelated,0,judged_600.jsonl
+National Institute on Aging Genetics of Alzheimer's Disease Data Storage Site,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute on Aging",hierarchy,0,judged_600.jsonl
+University of Toronto,"University of Toronto, Bader Lab",hierarchy,0,judged_600.jsonl
+Centre National d'Etudes Spatiales,Centre national d'études spatiales,duplicate,1,judged_600.jsonl
+"NASA's Goddard Space Flight Center,Sciences and Exploration Directorate, Heliospheric Physics Laboratory",Harte Research Institute,unrelated,0,judged_600.jsonl
+"Japanese Ministry of Education, Culture, Sports, Science, and Technology","Ministry of Education, Culture, Sports, Science and Technology - Japan",duplicate,1,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Cancer Institute","U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute, Center for Biomedical Informatics and Information Technology",hierarchy,0,judged_mined.jsonl
+Amsterdam University of Applied Sciences,University of Amsterdam,unrelated,0,judged_mined.jsonl
+Copenhagen University Library Service,The Royal Danish Library,unrelated,0,judged_mined.jsonl
+Canadian Institutes for Health Research,Canadian Institutes of Health,duplicate,1,judged_mined.jsonl
+University of Kassel,"Universität Kassel, Universitätsbibliothek",hierarchy,0,judged_mined.jsonl
+"UC San Diego, Scripps Institution of Oceanography","University of California San DIego, Scripps Institution of Oceanography, Ocean and Geosciences Data Center",hierarchy,0,judged_mined.jsonl
+National Research Council - Institute of Marine Science,"National Science Foundation, Division of Ocean Sciences",unrelated,0,judged_mined.jsonl
+Max-Planck-Institut für Extraterrestrische Physik,Max-Planck-Institut für Wissenschaftsgeschichte,unrelated,0,judged_mined.jsonl
+"Dalhousie University, Department of Oceanography",Institute of Oceanology Polish Academy of Sciences,unrelated,0,judged_mined.jsonl
+NIH  National Institute of Diabetes and Digestive and Kidney Diseases,"National Institute of Biomedical Innovation, Health and Nutrition",unrelated,0,judged_mined.jsonl
+Cuckoo Workgroup,The Cuckoo Workgroup,duplicate,1,judged_mined.jsonl
+Muséum National d'histoire Naturelle,Muséum national d'Histoire naturelle,duplicate,1,judged_mined.jsonl
+North Dakota State University,University of Notre Dame,unrelated,0,judged_mined.jsonl
+Universidad de Murcia,Universidade Federal de Goiás,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Institute on Drug Abuse","U.S. Department of Health and Human Services, National Institutes of Health, National Institute on Drug Abuse",hierarchy,0,judged_mined.jsonl
+Universidad de Granada,University of Granada,duplicate,1,judged_mined.jsonl
+"Research Councils UK, Biotechnology and Biological Sciences Research Council",United Kingdom Biotechnology and Biosciences Research Council,duplicate,1,judged_mined.jsonl
+"National Aeronautics and Space Administration, Earth Data","National Aeronautics and Space Administration, Terrestrial Ecology Program",unrelated,0,judged_mined.jsonl
+Canadian Space Agency,"National Aeronautics and Space Administration, Langley Research Center",unrelated,0,judged_mined.jsonl
+"International Atomic Energy Agency, International Network of Nuclear Reaction Data Centres",Nuclear Energy Agency,unrelated,0,judged_mined.jsonl
+Woods Hole Oceanographic Insitution,"Woods Hole Oceanographic Institution, Physical Oceanography Department",hierarchy,0,judged_mined.jsonl
+"Chinese Academy of Sciences, Computer Network Information Center","Computer Network Information Center, Chinese Academy of Sciences",duplicate,1,judged_mined.jsonl
+Danish Council for Independent Research,Norwegian Centre for Research Data,unrelated,0,judged_mined.jsonl
+International Molecular Exchange Consortium,International Union of Biochemistry and Molecular Biology,unrelated,0,judged_mined.jsonl
+"University of British Columbia, Institute for the Oceans and Fisheries","University of British Columbia, Institute for the Oceans and Fisheries, Strait of Georgia Data Centre",hierarchy,0,judged_mined.jsonl
+"University Corporation for Atmospheric Research, National Center for Atmospheric Research","University Corporation for Atmospheric Research, National Science Digital Library",unrelated,0,judged_mined.jsonl
+Chinese Academy of Fishery Sciences,"Ministry of Agriculture and Rural Affairs, Chinese Academy of Fishery Sciences",hierarchy,0,judged_mined.jsonl
+University of Bremen,Universität Bremen,duplicate,1,judged_mined.jsonl
+Centre National d'Etudes Spatiales,Centre d’Études Supérieures de la Renaissance,unrelated,0,judged_mined.jsonl
+Biotechnology and Biological Sciences Research Council,"UK Search and Innovation, Biotechnology and Biological Sciences Research Council",hierarchy,0,judged_mined.jsonl
+CLARIN-IT,CLARIN-NL,unrelated,0,judged_mined.jsonl
+"University of California, Davis",University of Southern California,unrelated,0,judged_mined.jsonl
+W.K. Kellog Foundation,W.M. Keck Foundation,unrelated,0,judged_mined.jsonl
+Lincoln University,University of Lincoln,unrelated,0,judged_mined.jsonl
+Digital Commons Data,"University of Essex, UK Data Archive, UK Data Service",unrelated,0,judged_mined.jsonl
+"Max Delbrück Center for Molecular Medicine, N. Rajewsky Lab","Max Delbrück Center for Molecular Medicine, Nikolaus Rajewsky Lab",duplicate,1,judged_mined.jsonl
+University of Glasgow Library,University of Michigan Library,unrelated,0,judged_mined.jsonl
+European Molecular Biology Laboratory,"European Molecular Biology Laboratory, European Bioinformatics Institute, Goldman Group",hierarchy,0,judged_mined.jsonl
+Research Center Deutscher Sprachatlas,Swedish Research Council,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Heart Lung and Blood Institute","U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung, and Blood Institute",duplicate,1,judged_mined.jsonl
+"Federal Ministry  of Research, Technology and Space","Federal Ministry  of Research, Technology and Space, FONA",duplicate,1,judged_mined.jsonl
+University of Melbourne,University of Western Australia,unrelated,0,judged_mined.jsonl
+U.S. Department of Energy,"United States, Department of Energy",duplicate,1,judged_mined.jsonl
+Freie Universität Berlin,Universität Bonn,unrelated,0,judged_mined.jsonl
+University of Gdansk,University of Gdańsk,duplicate,1,judged_mined.jsonl
+Universidad Politécnica de Madrid,Universidad de Sevilla,unrelated,0,judged_mined.jsonl
+Universidade Federal de São Carlos,Universidade Federal de São Paulo,unrelated,0,judged_mined.jsonl
+"Max Delbrück Center for Molecular Medicine, Berlin Institute for Medical Systems Biology","Max Delbrück Center for Molecular Medicine, N. Rajewsky Lab",unrelated,0,judged_mined.jsonl
+California Institute of Technology Library,"University of California, California Digital Library",unrelated,0,judged_mined.jsonl
+University of Oslo,University of South-Eastern Norway,unrelated,0,judged_mined.jsonl
+"Natural Resources Canada, Canadian Forest Service","Natural Resources Canada, Canadian Forest Service, Canadian Wood Fibre Centre",hierarchy,0,judged_mined.jsonl
+Hochschulrechenzentrum der Johann Wolfgang Goethe-Universität Frankfurt am Main,Johann Wolfgang Goethe-Universität Frankfurt,hierarchy,0,judged_mined.jsonl
+University of Sydney,University of Technology Sydney,unrelated,0,judged_mined.jsonl
+Leibniz-Institut für Bildungsverläufe,Leibniz-Institut für Deutsche Sprache,unrelated,0,judged_mined.jsonl
+CGIAR,CGIAR Consortium,duplicate,1,judged_mined.jsonl
+Universidad Católica de Córdoba,Università Cattolica del Sacro Cuore,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Insitute of Drug Abuse","National Institutes of Health, National Institute on Drug Abuse",duplicate,1,judged_mined.jsonl
+"Department of Agriculture, Agriculture Research Service","U.S.Department of Agriculture, Agricultural Research Service",duplicate,1,judged_mined.jsonl
+Boise State University,Purdue University,unrelated,0,judged_mined.jsonl
+Medical Research Council,"UK Research and Innovation, Medical Research Council",hierarchy,0,judged_mined.jsonl
+Amazon Web Services,"Amazon Web Services, Inc.",duplicate,1,judged_mined.jsonl
+Center for Earth Resources Observation and Science,National Earth Observation Data Center,unrelated,0,judged_mined.jsonl
+U.S Department of Health & Human Services,"U.S. Department of Health & Human Services, Agency for Healthcare Research and Quality",hierarchy,0,judged_mined.jsonl
+"Department of Space, Indian Space Research Organisation",Indian Space Research Organisation,hierarchy,0,judged_mined.jsonl
+"Northeastern University, New England Biolabs","University of New York, Department of Biology",unrelated,0,judged_mined.jsonl
+"International Neuroinformatics Coordination Facility, National Node of Japan","Washington University School of Medicine, Neuroinformatics Research Group",unrelated,0,judged_mined.jsonl
+"Australian Government, Australian Institute of Marine Science","University of Tasmania, Institute for Marine & Antarctic Studies",unrelated,0,judged_mined.jsonl
+Federation University Australia,University of Melbourne,unrelated,0,judged_mined.jsonl
+"Columbia University, Earth Institute, Lamont-Doherty Earth Observatory",Lamont-Doherty Earth Observatory,hierarchy,0,judged_mined.jsonl
+"University of Aveiro, Department of Biology","University of New York, Department of Biology",unrelated,0,judged_mined.jsonl
+Bielefeld University,University of Milano-Bicocca,unrelated,0,judged_mined.jsonl
+"Centrum für Digitale Forschung in den Geistes-, Sozial- und Bildungswissenschaften","Niedersächsisches Ministerium für Wirtschaft, Arbeit, Verkehr und Digitalisierung",unrelated,0,judged_mined.jsonl
+"National Center for Atmospheric Research, University Corporation for Atmospheric Research","University Corporation for Atmospheric Research, National Center for Atmospheric Research",duplicate,1,judged_mined.jsonl
+National Institute for Health Research,National Institute of Mental Health,unrelated,0,judged_mined.jsonl
+"European Commission, Research & Innovation, Seventh Framework Programm, FP7","European Commission, Research & Innovation, Sixth Framework Programm",unrelated,0,judged_mined.jsonl
+GESIS - Leibniz Institute for the Social Sciences,GESIS – Leibniz Institute for the Social Sciences,duplicate,1,judged_mined.jsonl
+University of Hertfordshire,University of Surrey,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Science, Office of Nuclear Physics","US Department of Energy, Office of Science, Nuclear Physics NP",duplicate,1,judged_mined.jsonl
+DOE Joint Genome Institute,"US National Institutes of Health, National Human Genome Research Institute",unrelated,0,judged_mined.jsonl
+"NYU Langone Health,  NYU School of Medicine","New York University, Langone Medical Center, School of Medicine",duplicate,1,judged_mined.jsonl
+University of Wisconsin,University of Wisconsin-Madison,hierarchy,0,judged_mined.jsonl
+"Ministry of Education, Culture, Sports, Science and Technology","Ministry of Education, Youth and Sports",unrelated,0,judged_mined.jsonl
+Ontario Ministry of Health,Ontario Ministry of Health and Long Term Care,duplicate,1,judged_mined.jsonl
+Stanford Libraries,"Stanford University, Stanford University Libraries",duplicate,1,judged_mined.jsonl
+"University of Graz, Wegener Center for Climate and Global Change",World Climate Research Programme,unrelated,0,judged_mined.jsonl
+Manchester Metropolitan University,University of Manchester,unrelated,0,judged_mined.jsonl
+Georg-August Universität Göttingen,"Georg-August-Universität Göttingen, DIGIS",hierarchy,0,judged_mined.jsonl
+Centre National de la Recherche Scientifique,"Institut national de la recherche scientifique, Service de documentation et d'information spécialisées",unrelated,0,judged_mined.jsonl
+Centre National de la Recherche Scientifique,Centre national de la recherche scientifique,duplicate,1,judged_mined.jsonl
+"National Aeronautics and Space Administration,  Earth Science","National Aeronautics and Space Administration, Earth Observing System Data and Information System",hierarchy,0,judged_mined.jsonl
+Internet Archive,The National Archives,unrelated,0,judged_mined.jsonl
+University of Siegen,"University of Siegen, Centre for Information and Media Technology",hierarchy,0,judged_mined.jsonl
+"University of Zagreb, Faculty of Science",Wrocław University of Environmental and Life Sciences,unrelated,0,judged_mined.jsonl
+"U.S.  Department of Energy, Office of Science","United States, Department of Energy",hierarchy,0,judged_mined.jsonl
+"Federal Ministry  of Research, Technology and Space","Federal Ministry of Research, Technology and Space",duplicate,1,judged_mined.jsonl
+European Environment Agency,The European Environment Agency,duplicate,1,judged_mined.jsonl
+Rat für Sozial- und WirtschaftsDaten,Rat für Sozial- und Wirtschaftsdaten,duplicate,1,judged_mined.jsonl
+"BC Cancer Agency, Canada's Michael Smith Genome Sciences Centre","BC Cancer Agency, Research Centre, Canada's Michael Smith Genome Sciences Centre",duplicate,1,judged_mined.jsonl
+Canada's Michael Smith Genome Sciences Centre,Genome Quebec,unrelated,0,judged_mined.jsonl
+University of Rostock,Universität Rostock,duplicate,1,judged_mined.jsonl
+National Center for Atmospheric Research,"National Center for Atmospheric Research, University Corporation for Atmospheric Research",hierarchy,0,judged_mined.jsonl
+"Indian Institute of Geomagnetism, Mumbai","Kyoto University, Graduate School of Science, Data Analysis Center for Geomagnetism and Space Magnetism",unrelated,0,judged_mined.jsonl
+"National Center for Atmospheric Research, University Corporation for Atmospheric Research","National Science Foundation National Center for Atmospheric Research, Computational and Information Systems Laboratory",hierarchy,0,judged_mined.jsonl
+National Science foundation,U.S. National Science Foundation,duplicate,1,judged_mined.jsonl
+"National Institutes of Health, National Institute on Aging",The National Institutes of Health,hierarchy,0,judged_mined.jsonl
+GESIS - Leibniz-Institut für Sozialwissenschaften,gesis Leibniz Institute for the Social Sciences,duplicate,1,judged_mined.jsonl
+Queen's University Library,The Royal Library,unrelated,0,judged_mined.jsonl
+Toronto Metropolitan University,University of Calgary,unrelated,0,judged_mined.jsonl
+Open PHACTS Foundation,Open Phacts Foundation,duplicate,1,judged_mined.jsonl
+Akademie der Wissenschaften und Literatur Mainz,Akademie der Wissenschaften zu Göttingen,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Biological and Environmental Research","U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research",duplicate,1,judged_mined.jsonl
+"Stanford University, Poldrack Lab","University of Toronto, Bader Lab",unrelated,0,judged_mined.jsonl
+University College of London,University of the Arts London,unrelated,0,judged_mined.jsonl
+L'École des Hautes Études en Sciences Sociales,École des hautes études en sciences sociales,duplicate,1,judged_mined.jsonl
+"University Cooperation for Atmospheric Research, National Center for Atmospheric Research","University Corporation for Atmospheric Research, National Center for Atmospheric Research",duplicate,1,judged_mined.jsonl
+City of Victoria,University of Victoria,unrelated,0,judged_mined.jsonl
+"Harvard University, Department of Molecular and Cellular Biology","National Institute for Basic Biology, Department of Cell Biology",unrelated,0,judged_mined.jsonl
+"Cornell University, Albert R. Mann Library","University of York, Library",unrelated,0,judged_mined.jsonl
+Toronto Metropolitan University,"University of Toronto, McLaughlin Centre",unrelated,0,judged_mined.jsonl
+NASA - Goddard Space Flight Center,NASA Goddard Space Flight Center,duplicate,1,judged_mined.jsonl
+"The National Oceanic and Atmospheric Administration, National Centers for Environmental Information","US Department of Commerce, National Oceanic & Atmospheric Administration, National Centers for Environmental Information",duplicate,1,judged_mined.jsonl
+Deutsches Archäologisches Institut,Heidelberger Institut für Theoretische Studien,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, Agency for Healthcare Research and Quality",U.S.Department of Health & Human Services,hierarchy,0,judged_mined.jsonl
+"J. Craig Venter Institute, The Institute for Genomic Research","University of Wisconsin-Madison, Genome Evolution Laboratory",unrelated,0,judged_mined.jsonl
+"The University of Colorado, Boulder",University of Colorado Boulder,duplicate,1,judged_mined.jsonl
+Austrian Academy of Sciences,Czech Academy of Sciences,unrelated,0,judged_mined.jsonl
+Observatoire Royal de Belgique,Observatoire royal de Belgique,duplicate,1,judged_mined.jsonl
+"George Mason University, Krasnow Institute for Advanced Study, The Center for Neural Informatics, Neural Structures, and Neural Plasticity","Washington University School of Medicine, Neuroinformatics Research Group",unrelated,0,judged_mined.jsonl
+Max Planck Institute for Extraterrestrial Physics,Max Planck Institute for Mathematics in the Sciences,unrelated,0,judged_mined.jsonl
+University of Alabama,University of Missouri,unrelated,0,judged_mined.jsonl
+CLARIN ERIC,CLARIN-ERIC,duplicate,1,judged_mined.jsonl
+National Institute for Health Research,National Institute of General Medical Sciences,unrelated,0,judged_mined.jsonl
+Staatliche Museen zu Berlin - Rathgen-Forschungslabor,"Staatliche Museen zu Berlin, Vorderasiatisches Museum",hierarchy,0,judged_mined.jsonl
+Belgrade University Computer Centre,University of Zagreb,unrelated,0,judged_mined.jsonl
+"GitHub, Inc.",github,duplicate,1,judged_mined.jsonl
+McGill University,University of Toronto,unrelated,0,judged_mined.jsonl
+"University of  Wisconsin, Center for Demography of Health and Aging","University of Wisconsin-Madison, Center for Demography of Health and Aging",duplicate,1,judged_mined.jsonl
+University of Chicago,University of Cincinnati,unrelated,0,judged_mined.jsonl
+"Deutsches Archäologisches Institut, Eurasien-Abteilung",Institut français d’archéologie orientale - Le Caire,unrelated,0,judged_mined.jsonl
+Sikt - Norwegian Agency for Shared Services in Education and Research,Sikt – Norwegian Agency for Shared Services in Education and Research,duplicate,1,judged_mined.jsonl
+Danish Technical University,Technical University of Denmark,duplicate,1,judged_mined.jsonl
+Goddard Space Flight Center,NASA's Goddard Space Flight Center,duplicate,1,judged_mined.jsonl
+Eidgenössische Technische Hochschule,Technische Hochschule Mittelhessen,unrelated,0,judged_mined.jsonl
+"International Science Council, World Data System","International Science Council, World Data System International Programme Office",hierarchy,0,judged_mined.jsonl
+"The University of Colorado, Boulder",University of Colorado,hierarchy,0,judged_mined.jsonl
+Soka University,Tohoku University,unrelated,0,judged_mined.jsonl
+Aarhus University,Technical University of Denmark,unrelated,0,judged_mined.jsonl
+The University of Arizona,"University of Arizona, University Libraries",hierarchy,0,judged_mined.jsonl
+Universidad Nacional de La Plata,Universidad de Santiago de Chile,unrelated,0,judged_mined.jsonl
+Akademie der Wissenschaften zu Göttingen,Österrreichische Akademie der Wissenschaften,unrelated,0,judged_mined.jsonl
+"Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Population Health","Centers for Disease Control and Prevention, National Center for Health Statistics",unrelated,0,judged_mined.jsonl
+U. S. Geological Survey EROS Data Center,"United States Geological Survey, National Earthquake Information Center",unrelated,0,judged_mined.jsonl
+The University of British Columbia,"University of British Columbia, Faculty of Graduate Studies",hierarchy,0,judged_mined.jsonl
+"U.S.Department of Agriculture, Agricultural Research Service","United States Department of Agriculture, Agricultural Research Service",duplicate,1,judged_mined.jsonl
+"University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Boone Lab","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Brenda Andrews Research Lab",unrelated,0,judged_mined.jsonl
+University of Leicester,University of Southampton,unrelated,0,judged_mined.jsonl
+Chiba University,Chiba University Library,hierarchy,0,judged_mined.jsonl
+Universität Bremen,Universität Wien,unrelated,0,judged_mined.jsonl
+"Columbia University, Columbia Climate School, Center for Integrated Earth System Information (CIESIN)","University of Hamburg, Center for Earth System Research and Sustainability, Integrated Climate Data Center",unrelated,0,judged_mined.jsonl
+"University Medical Center Freiburg, Institute of Medical Biometry and Statistics","University of Leipzig, Medical Faculty; Institute for Medical Informatics, Statistics and Epidemiology",unrelated,0,judged_mined.jsonl
+Universidad Internacional de Andalucia,Universidad de Santiago de Chile,unrelated,0,judged_mined.jsonl
+Department for Environment Food and Rural Affairs,U.S. Department of Agriculture,unrelated,0,judged_mined.jsonl
+"U.S. Department of  Energy,  Biological and Environmental Research Program","U.S.Department of Energy, Office of Health and Environmental Research",unrelated,0,judged_mined.jsonl
+BioMed Central,Bioversity International,unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Goddard Space Flight Center","National Aeronautics and Space Administration, Oak Ridge National Laboratory DAAC",unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Science","U.S.Department of Energy, Office of Science, Office of Scientific and Technical Information",hierarchy,0,judged_mined.jsonl
+GESIS-Leibniz-Institut für Sozialwissenschaften,Gesis - Leibniz-Institut für Sozialwissenschaften,duplicate,1,judged_mined.jsonl
+National Institute of Allergy and Infectious Diseases,"National Institutes of Health, National Institute of Allergy and Infectious Diseases",hierarchy,0,judged_mined.jsonl
+Pontificia Universidad Javeriana,Universidad Autónoma de Madrid,unrelated,0,judged_mined.jsonl
+"University of Hamburg, Department of Microbiology and Biotechnology","University of Liverpool, Centre of Excellence in Infectious Diseases Research",unrelated,0,judged_mined.jsonl
+Friedrich-Schiller-University Jena,"Friedrich-Schiller-Universität Jena, Institut für Soziologie",hierarchy,0,judged_mined.jsonl
+Pennsylvania State University,Universitiy of Pennsylvania,unrelated,0,judged_mined.jsonl
+National Library of Scotland,University of Glasgow Library,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research","U.S.Department of Energy, Office of Science, Office of Scientific and Technical Information",unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences","U.S. Department of Health and Human Services, National Institutes of Health, National Institute of General Medical Sciences",duplicate,1,judged_mined.jsonl
+Universidade Federal de São Carlos,Universidade Federal do Paraná,unrelated,0,judged_mined.jsonl
+Centre for Environmental Data Analysis,Centre for Science and Environment,unrelated,0,judged_mined.jsonl
+"Hospital for Sick Children, The Centre for Applied Genomics","The Hospital for Sick Children, The Centre for Applied Genomics",duplicate,1,judged_mined.jsonl
+Max-Planck-Gesellschaft,"Max-Planck-Gesellschaft, Max-Planck Institut für Chemie",hierarchy,0,judged_mined.jsonl
+Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung,"University of Cambridge, Scott Polar Research Institute, Library",unrelated,0,judged_mined.jsonl
+"Kyoto University, Institute for Chemical Research, Bioinformatics Center","University of Cambridge, Yusuf Hamied Department of Chemistry, Centre for Molecular Informatics",unrelated,0,judged_mined.jsonl
+University of Franche-Comté,Université de Lorraine,unrelated,0,judged_mined.jsonl
+Arizona State University,University of Arizona,unrelated,0,judged_mined.jsonl
+"Government of Canada, Public Health Agency of Canada","Government of Ontario, Ministry of Health",unrelated,0,judged_mined.jsonl
+Lingnan University Hong Kong,The Chinese University of Hong Kong,unrelated,0,judged_mined.jsonl
+Ministry of Agriculture,"Ministry of Northern Development, Mines, Natural Resources and Forestry",unrelated,0,judged_mined.jsonl
+U. S. Environmental Protection Agency,United States Environmental Protection Agency,duplicate,1,judged_mined.jsonl
+Figshare (for institutions),figshare,duplicate,1,judged_mined.jsonl
+University of Birmingham,University of Surrey,unrelated,0,judged_mined.jsonl
+University of California,University of Southern California,unrelated,0,judged_mined.jsonl
+"University of Alberta, Departments of Biological Sciences and Computing Science, Wishart Research Group","University of Alberta, Faculty of Science, Departments of Biological Sciences and Computing Science, Wishart Research Group",duplicate,1,judged_mined.jsonl
+"Oxford University, Department of Psychiatry","University of Oxford,  Department of Psychiatry, Warneford Hospital",duplicate,1,judged_mined.jsonl
+American Museum of Natural History,National Museum of Natural History,unrelated,0,judged_mined.jsonl
+NOAA National Centers for Environmental Information,"NOAA National Environmental Satellite, Data, and Information Service",unrelated,0,judged_mined.jsonl
+Ministry of Government and Consumer Services,"Ministry of Government and consumer Services, Broader Public Sector",duplicate,1,judged_mined.jsonl
+"Julius Kühn-Institut, Institut für Rebenzüchtung",Julius Kühn-Institut. Institut für Rebenzüchtung,duplicate,1,judged_mined.jsonl
+Estonian Literary Museum,Estonian Museum of Natural History,unrelated,0,judged_mined.jsonl
+University of British Columbia,Vancouver Island University,unrelated,0,judged_mined.jsonl
+European Commission,"European Commission, Research and Innovation",hierarchy,0,judged_mined.jsonl
+ORTOLANG,Ortolang,duplicate,1,judged_mined.jsonl
+CLARIN ERIC,CLARIN ERIC Centres,hierarchy,0,judged_mined.jsonl
+"Centre National de la Recherche Scientifique, Institut National des Sciences de l'Univers","Centre national de la recherche scientifique, L'Institut national des sciences de l'Univers",duplicate,1,judged_mined.jsonl
+"University of Sydney, School of Geosciences","University of Texas at Austin, Institute for Geophysics",unrelated,0,judged_mined.jsonl
+"Mississippi State University, College of Veterinary Medicine","University of Sydney, Sydney School of Veterinary Sciences",unrelated,0,judged_mined.jsonl
+"University of California San Diego, San Diego Supercomputer Center","University of California, San Diego, San Diego Supercomputer Center",duplicate,1,judged_mined.jsonl
+"Florida State University, Libraries",University of South Florida Libraries,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health","US Department of Health and Human Services, National Institutes of Health",duplicate,1,judged_mined.jsonl
+US Department of Energy,"United States, Department of Energy",duplicate,1,judged_mined.jsonl
+Woods Hole Oceanographic Insitution,Woods Hole Oceanographic Institution,duplicate,1,judged_mined.jsonl
+"National Center for Atmospheric Research, Computational and Information Systems Laboratory Data Support Section","National Center for Atmospheric Research, University Corporation for Atmospheric Research",hierarchy,0,judged_mined.jsonl
+"King's College, London",University College of London,unrelated,0,judged_mined.jsonl
+"University of Toronto, Centre for Cellular and Biomolecular Research, Andrews Lab","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Zhang Lab",unrelated,0,judged_mined.jsonl
+Smithsonian Institute,"Smithsonian Institution, Libraries",hierarchy,0,judged_mined.jsonl
+"University of California, Berkeley","University of California, San Diego",unrelated,0,judged_mined.jsonl
+Universidad Católica de Salta,Universidad de Sevilla,unrelated,0,judged_mined.jsonl
+University of Sydney,Western  Sydney University,unrelated,0,judged_mined.jsonl
+University of California at Irvine,University of California at Los Angeles,unrelated,0,judged_mined.jsonl
+"Cologne University,  BioInformatics Facility","European Bioinformatics Institute,",unrelated,0,judged_mined.jsonl
+State Museum of Natural History Karlsruhe,State Museum of Natural History Stuttgart,unrelated,0,judged_mined.jsonl
+Universidad Nacional de Córdoba,Universidad Nacional de La Plata,unrelated,0,judged_mined.jsonl
+"Sinai Health System, Mount Sinai Hospital Toronto,  Department of Microbiology","University of Hamburg, Department of Microbiology and Biotechnology",unrelated,0,judged_mined.jsonl
+European Molecular Biology Laboratory - European Bioinformatics Institute,"European Molecular Biology Laboratory, European Bioinformatics Institute, Protein Data Bank in Europe",duplicate,1,judged_mined.jsonl
+U.S. Department of Energy,"U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Building Technologies Office",hierarchy,0,judged_mined.jsonl
+"Universitat Politècnica de València, Servicio de Biblioteca y Documentación Científica",Universitat de València,unrelated,0,judged_mined.jsonl
+University of Michigan Library,"University of Michigan, Office of Research and Sponsored Projects",unrelated,0,judged_mined.jsonl
+"University of Queensland, Institute for Molecular Bioscience","University of Vienna, Faculty for Life Sciences, Molecular Systems Biology",unrelated,0,judged_mined.jsonl
+The USA.gov,USA.gov,duplicate,1,judged_mined.jsonl
+"Hamburg University of Technology, Computer Center","University of Cologne, Regional Computing Centre",unrelated,0,judged_mined.jsonl
+Library of the University of Gdańsk,University of Gdansk,hierarchy,0,judged_mined.jsonl
+U.S. Department of Energy,"U.S.Department of Energy, Office of Science",hierarchy,0,judged_mined.jsonl
+National Center for Atmospheric Science,National Centre for Atmospheric Science,duplicate,1,judged_mined.jsonl
+Council of Scientific & Industrial Research  - National Institute of Oceanography,National Oceanography Centre,unrelated,0,judged_mined.jsonl
+European Medicines Agency,European Network of Centres for Pharmacoepidemiology and Pharmacovigilance,unrelated,0,judged_mined.jsonl
+National Research Council Canada,National Research Council of Canada,duplicate,1,judged_mined.jsonl
+National Genomics Data Center,The National Center for Biotechnology Information,unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Goddard Earth Sciences Data and Information Services Center","National Aeronautics and Space Administration, Goddard Space Flight Center",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Integrated Energy Systems Office",United States Department of Energy,hierarchy,0,judged_mined.jsonl
+Central European Research Infrastructure Consortium ERIC,EuroBioImaging - ERIC Research Infrastructure,unrelated,0,judged_mined.jsonl
+National Informatic Centre  of the Government of India,"National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India",duplicate,1,judged_mined.jsonl
+University of Missouri,University of the Free State,unrelated,0,judged_mined.jsonl
+Flinders University,University of Melbourne,unrelated,0,judged_mined.jsonl
+GitHub,"GitHub, Inc.",duplicate,1,judged_mined.jsonl
+University of Bath,University of Warwick,unrelated,0,judged_mined.jsonl
+"Berkeley Lab, Earth & Environmental Sciences Area",Lawrence Berkeley National Lab,hierarchy,0,judged_mined.jsonl
+"British Columbia Government, British Columbia Knowledge Development Fund","Government of British Columbia, Ministry of Land, Water and Resource Stewardship",unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Scientific and Technical Information","U.S. Department of Energy, Science.gov",hierarchy,0,judged_mined.jsonl
+Leibniz-Institut für Bildungsverläufe,"Leibniz-Institut für Bildungsverläufe e.V., Forschungsdatenzentrum",hierarchy,0,judged_mined.jsonl
+National Science Foundation,US National Science Foundation,duplicate,1,judged_mined.jsonl
+"Government of Canada, Natural Resources, Canadian Forest Service,  Atlantic Forestry Centre","Nova Scotia Canada, Department of Natural Resources and Renewables",unrelated,0,judged_mined.jsonl
+"Columbia University, Lamont-Doherty Earth Observatory",Lamont-Doherty Earth Observatory,hierarchy,0,judged_mined.jsonl
+"Luxembourg Centre for Systems Biomedicine, University of Luxembourg",Luxembourg Institute of Health,unrelated,0,judged_mined.jsonl
+"Stanford University, School of Medicine, Departments of Biochemistry and Genetics","University of Miami, Miller School of Medicine Department of Biochemistry and Molecular Biology",unrelated,0,judged_mined.jsonl
+Swedish Cancer Society,Swedish Childhood Cancer Foundation,unrelated,0,judged_mined.jsonl
+University of Alberta,University of Saskatchewan,unrelated,0,judged_mined.jsonl
+University of Michigan Library,University of Minnesota Libraries,unrelated,0,judged_mined.jsonl
+Texas Advanced Computing Center,"University of California, San Diego, San Diego Supercomputer Center",unrelated,0,judged_mined.jsonl
+Genome Canada,Genome Quebec,unrelated,0,judged_mined.jsonl
+Northrop Grumman,Northrop Grumman Health and Human Services,hierarchy,0,judged_mined.jsonl
+"National Autonomous University of Mexico, Center for Genomic Sciences","National Autonomous University of Mexico, Institute of Biotechnology",unrelated,0,judged_mined.jsonl
+MCMaster University,University of Michigan,unrelated,0,judged_mined.jsonl
+Centre National d'Etudes Spatiales,Centre National d'Études Spatiales,duplicate,1,judged_mined.jsonl
+California Institute of Technology Library,"University of California, California Digital Library,  Curation Center",unrelated,0,judged_mined.jsonl
+Museum National d'Histoire Naturelle,National Museum of Natural History,duplicate,1,judged_mined.jsonl
+"National Agency for New Technologies, Energy and Sustainable Economic Development","U.S. Department of Energy, Science.gov",unrelated,0,judged_mined.jsonl
+Boston University,University of Massachusetts Boston,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Institute of Environmental Health Sciences","National Institutes of Health, National Institute of General Medical Sciences",unrelated,0,judged_mined.jsonl
+Syracuse University,University of Buffalo,unrelated,0,judged_mined.jsonl
+Smithsonian Institution,"Smithsonian Institution, Libraries",hierarchy,0,judged_mined.jsonl
+National Science Digital Library,U.S. National Science Foundation,unrelated,0,judged_mined.jsonl
+Medical Research Council,UK Medical Research Council,duplicate,1,judged_mined.jsonl
+Electricité de France,Électricité de France SA,duplicate,1,judged_mined.jsonl
+Université Montpellier,Université de Montpellier,duplicate,1,judged_mined.jsonl
+"University of Calgary, Hotchkiss Brain Institute","University of Queensland, Queensland Brain Institute",unrelated,0,judged_mined.jsonl
+"Harvard University, Institute for Quantitative Social Sciences","The Pennsylvania State University, Social Science Research Institute",unrelated,0,judged_mined.jsonl
+National Institute of Health,National Institute on Minority Health and Health Disparities,hierarchy,0,judged_mined.jsonl
+NASA Langley Research Center,"National Aeronautics and Space Administration, Langley Research Center",duplicate,1,judged_mined.jsonl
+Universidade Federal de São Paulo,"Universidade de Sao Paulo, Escola Politécnica",unrelated,0,judged_mined.jsonl
+National Research Council,National Research Foundation,unrelated,0,judged_mined.jsonl
+Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen mbH,Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen,duplicate,1,judged_mined.jsonl
+"National Aeronautics and Space Administration, Atmospheric Science Data Center","National Aeronautics and Space Administration, Langley Research Center Atmospheric Science Data Center",hierarchy,0,judged_mined.jsonl
+"Concordia University, IT-Services","Concordia University, Library",unrelated,0,judged_mined.jsonl
+National Park Service,U.S. National Park Service,duplicate,1,judged_mined.jsonl
+Harvard University Library,University of Maryland Libraries,unrelated,0,judged_mined.jsonl
+"UK Data Archive, University of Essex","University of Essex, UK Data Archive, UK Data Service",duplicate,1,judged_mined.jsonl
+Africa Health Research Institute,National Health Research Institutes,unrelated,0,judged_mined.jsonl
+Michigan State University,Rutgers University,unrelated,0,judged_mined.jsonl
+Carnegie Mellon University,Stanford University,unrelated,0,judged_mined.jsonl
+GEOMAR Helmholtz Centre for Ocean Research Kiel,"GEOMAR Helmholtz Centre for Ocean Research Kiel, Library",hierarchy,0,judged_mined.jsonl
+"University of Pennsylvania,  Perelman School of Medicine, Institute for Biomedical Informatics","University of Pennsylvania, Perelman School of Medicine, Computational Biology and Informatics Laboratory",hierarchy,0,judged_mined.jsonl
+"University of Pennsylvania, Perelman School of Medicine, Computational Biology and Informatics Laboratory","University of Pennsylvania, PerelmanSchool of Medizine, Computational Biology and Informatics Laboratory",duplicate,1,judged_mined.jsonl
+US Department of Energy,United States Department of Energy,duplicate,1,judged_mined.jsonl
+"U.S.  Department of Energy, Office of Science",U.S. Department of Energy,hierarchy,0,judged_mined.jsonl
+University of Leicester,University of Liverpool,unrelated,0,judged_mined.jsonl
+"U.S.Department of Energy, Office of Science, Biological and Environmental Research","United States, Department of Energy, Office of Science, Biological and Environmental Research",duplicate,1,judged_mined.jsonl
+University of New Hampshire,University of New South Wales,unrelated,0,judged_mined.jsonl
+"Ministry of Education, Culture, Sports, Science and Technology, Targeted Proteins Research Program","National Institutes of Health, United States National Library of Medicine, National Center for Biotechnology Information",unrelated,0,judged_mined.jsonl
+National Research Council of Italy,Spanish National Research Council,unrelated,0,judged_mined.jsonl
+National Laboratory of the Rockies,Pacific Northwest National Laboratory,unrelated,0,judged_mined.jsonl
+Samuel H. Kress Foundation,The Kresge Foundation,unrelated,0,judged_mined.jsonl
+Universidade Federal de São Paulo,University of Sao Paulo,unrelated,0,judged_mined.jsonl
+"Government of India, Ministry of Electronics & Information Technology","Government of India, Ministry of Science and Technology, Department of Science and Technology",unrelated,0,judged_mined.jsonl
+CSIRO,CSIRO Australia,duplicate,1,judged_mined.jsonl
+Database Center for Life Science,LifeMap Sciences,unrelated,0,judged_mined.jsonl
+Japanese Society of Phycology,The Korean Society of Phycology,unrelated,0,judged_mined.jsonl
+University of Saskatchewan,University of Winnipeg,unrelated,0,judged_mined.jsonl
+National Center for Atmospheric Research,National Center for Atmospheric Science,unrelated,0,judged_mined.jsonl
+"Carnegie Mellon University, Qualiy of Life Technologies Center","Stanford University, Carnegie Institution for Science, Biosphere Sciences & Engineering",unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Institute for Aging","U.S. Department of Health & Human Services, National Institutes of Health, National Institute on Aging",hierarchy,0,judged_mined.jsonl
+Heidelberger Institut für Theoretische Studien,"Universität Heidelberg, Universitätsbibliothek",unrelated,0,judged_mined.jsonl
+Blutspendedienst des Bayerischen Roten Kreuzes gemeinnützige GmbH,Deutsches Biomasseforschungszentrum gemeinnützige GmbH,unrelated,0,judged_mined.jsonl
+UK Centre for Ecology & Hydrology,"University of New South Wales, Centre for Ecosystem Science",unrelated,0,judged_mined.jsonl
+Max Planck Institute for Biochemistry,Max Planck Institute for Mathematics in the Sciences,unrelated,0,judged_mined.jsonl
+Universidad Nacional de Colombia,Universidade Federal de São Paulo,unrelated,0,judged_mined.jsonl
+"The New Mexico State University, College of Arts and Sciences, Department of Astronomy","University of Kentucky, Department of Physics and Astronomy",unrelated,0,judged_mined.jsonl
+Deutsches Zentrum für Hochschul- und Wissenschaftsforschung,Leibniz-Zentrum für Agrarlandschaftsforschung e. V.,unrelated,0,judged_mined.jsonl
+Universidade Federal de Goiás,Universidade Federal de São Paulo,unrelated,0,judged_mined.jsonl
+ENERGY.GOV,Energy.gov,duplicate,1,judged_mined.jsonl
+Medical University of Warsaw,University of Warsaw,unrelated,0,judged_mined.jsonl
+Queen Mary University of London,University of East London,unrelated,0,judged_mined.jsonl
+Australian Museum,Estonian Museum of Natural History,unrelated,0,judged_mined.jsonl
+Universidad Simón Bolívar,Universidad de Santiago de Chile,unrelated,0,judged_mined.jsonl
+U.S. Department of Agriculture,"United States Department of Agriculture, Agricultural Research Service",hierarchy,0,judged_mined.jsonl
+"TU Berlin, ZE Campusmanagement",Technical University of Berlin,hierarchy,0,judged_mined.jsonl
+"Columbia University,  Lamont-Doherty Earth Observatory","Columbia University, Lamont -Doherty Earth Observatory",duplicate,1,judged_mined.jsonl
+EarthScope Consortium,Earthscope Consortium,duplicate,1,judged_mined.jsonl
+"Queen Margaret University, Edinburgh","University of Edinburgh, The Roslin Institute",unrelated,0,judged_mined.jsonl
+MacEwan University,McMaster University,unrelated,0,judged_mined.jsonl
+"University of Cambridge, Department of Genetics","University of Toronto, Department of Molecular Genetics",unrelated,0,judged_mined.jsonl
+La Jolla Institute for Allergy and Immunology,National Institute of Allergy and Infectious Diseases,unrelated,0,judged_mined.jsonl
+"Department of Agriculture, Agriculture Research Service",Indian Council of Agricultural Research,unrelated,0,judged_mined.jsonl
+"GFZ Helmholtz Centre for Geosciences, Information System and Data Center","GFZ Helmholtz Centre for Geosciences, Information Systems and Data Center",duplicate,1,judged_mined.jsonl
+University of Oslo,University of Zurich,unrelated,0,judged_mined.jsonl
+Integrative Neuroscience Initiative on Alcoholism,"National Institute of Alcohol Abuse and Alcoholism, Integrative Neuroscience Initiative on Alcoholism",hierarchy,0,judged_mined.jsonl
+Landcare Research,Landcare Research NZ,duplicate,1,judged_mined.jsonl
+Deutsche Digitale Bibliothek,"Münchener DigitalisierungsZentrum, Digitale Bibliothek",hierarchy,0,judged_mined.jsonl
+Woods Hole Oceanographic Insitution,"Woods Hole Oceanographic Institution, U.S. JGOFS Central Project Office",hierarchy,0,judged_mined.jsonl
+National Centre for Atmospheric Science,"University Cooperation for Atmospheric Research, National Center for Atmospheric Research",unrelated,0,judged_mined.jsonl
+Institute for Genomics and Evolutionary Medicine,National Human Genome Research Institute,unrelated,0,judged_mined.jsonl
+"NOAA National Centers for Environmental Information, Ocean Climate Laboratory",NOAA’s National Centers for Coastal Ocean Science,unrelated,0,judged_mined.jsonl
+Max Planck Institut für Informatik,Max-Planck-Institut für Informatik,duplicate,1,judged_mined.jsonl
+University of Colorado,University of Colorado Colorado Springs,hierarchy,0,judged_mined.jsonl
+CLARIN ERIC,CLARIN-IS,hierarchy,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung and Blood Institute","U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung, and Blood Institute",duplicate,1,judged_mined.jsonl
+CNR,CNRS,unrelated,0,judged_mined.jsonl
+University of Nebraska Lincoln,University of Nebraska-Lincoln,duplicate,1,judged_mined.jsonl
+"European Commission,  Community Research and Development Information Service, Seventh Framework Programme","European Commission, Community Research and Development Information Service,  7th Framework Programme",duplicate,1,judged_mined.jsonl
+Smithsonian Institute,Smithsonian Libraries,hierarchy,0,judged_mined.jsonl
+National Institute of Genetics,"National Institutes of Health, National Human Genome Research Institute",unrelated,0,judged_mined.jsonl
+University of Michigan,"University of Michigan, English Language Institute",hierarchy,0,judged_mined.jsonl
+"Indiana University Bloomington, Center for Genomics and Bioinformatics","University of Texas at Austin, Center for Computational Biology and Bioinformatics",unrelated,0,judged_mined.jsonl
+Alberta Government,"Government of Canada, Transport Canada",unrelated,0,judged_mined.jsonl
+Graz University of Technology,University of Graz,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences","U.S. Department of Health and Human Services, National Institutes of Health",hierarchy,0,judged_mined.jsonl
+Leipzig University,University of Stuttgart,unrelated,0,judged_mined.jsonl
+"Hamburg University of Technology, Library","Karlsruhe Institute of Technology, Library",unrelated,0,judged_mined.jsonl
+Instituto Brasileiro de Informação em Ciência e Tecnologia,"Universität Stuttgart, Institut für Maschinelle Sprachverarbeitung, Forschungszentrum Informatik",unrelated,0,judged_mined.jsonl
+Österreichische Akademie der Wissenschaften,Österrreichische Akademie der Wissenschaften,duplicate,1,judged_mined.jsonl
+British Phycological Society,International Phycological Society,unrelated,0,judged_mined.jsonl
+Concordia University,"Concordia University,  Library",hierarchy,0,judged_mined.jsonl
+Max Planck Society,Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.,duplicate,1,judged_mined.jsonl
+University of Maryland,Yale-NUS College,unrelated,0,judged_mined.jsonl
+NASA's Jet Propulsion Laboratory,"National Aeronautics and Space Administration, Jet Propulsion Laboratory",duplicate,1,judged_mined.jsonl
+University of Sao Paulo,University of São Paulo,duplicate,1,judged_mined.jsonl
+Global Energy and Water Exchanges,Global Water and Energy Exchanges Project,duplicate,1,judged_mined.jsonl
+Universitat Jaume I,Universität Rostock,unrelated,0,judged_mined.jsonl
+Acadia University,University of Essex,unrelated,0,judged_mined.jsonl
+"Leibniz-Institut für Bildungsmedien, Georg Eckert Institut","Leibniz-Institut für Bildungsverläufe e.V., Forschungsdatenzentrum",unrelated,0,judged_mined.jsonl
+"Stanford University, School of Medicine","Washington University in St. Louis, School of Medicine",unrelated,0,judged_mined.jsonl
+Scripps Institution of Oceanography,"UC San Diego, Scripps Institution of Oceanography",hierarchy,0,judged_mined.jsonl
+Serbian Academy of Sciences and Arts,"Serbian Academy of Sciences and Arts, Institute for the Serbian Language",hierarchy,0,judged_mined.jsonl
+University of Music and Performing Arts Vienna,University of Music and Theatre Munich,unrelated,0,judged_mined.jsonl
+"University of California San DIego, Scripps Institution of Oceanography, Ocean and Geosciences Data Center","University of California San Diego, Scripps Institution of Oceanography",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health, National Center for Research Resources",The National Institutes of Health,hierarchy,0,judged_mined.jsonl
+Institut des Sciences de l'Evolution de Montpellier,Université de Montpellier,hierarchy,0,judged_mined.jsonl
+"Technische Universität München, Deutsches Geodätisches Forschungsinstitut","Universität zu Köln, Regionales Rechenzentrum",unrelated,0,judged_mined.jsonl
+Landesarchiv Thüringen - Hauptstaatsarchiv Weimar,Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen,unrelated,0,judged_mined.jsonl
+NIH  National Institute of Diabetes and Digestive and Kidney Diseases,National Institute of Diabetes and Digestive and Kidney Diseases,duplicate,1,judged_mined.jsonl
+"National Institutes of Health,  National Cancer Institute","National Instiutes of Health, National Cancer Institut",duplicate,1,judged_mined.jsonl
+Yeda Research and Development Company Ltd,Yeda Research and Development Company Ltd.,duplicate,1,judged_mined.jsonl
+"Government of Canada, Natural Resources, Canadian Forest Service,  Atlantic Forestry Centre",Natural Resources Canada,hierarchy,0,judged_mined.jsonl
+National ‫Science Foundation,Swiss National Science Foundation,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Institute of General Medical Sciences","U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences",hierarchy,0,judged_mined.jsonl
+"Karlsruhe Institute of Technology, Institute for Astroparticle Physics","University of Kentucky, Department of Physics and Astronomy",unrelated,0,judged_mined.jsonl
+Fachhochschule Erfurt,Fachhochschule Nordwestschweiz,unrelated,0,judged_mined.jsonl
+Leibniz-Institut für Deutsche Sprache,Leibniz-Institut für Europäische Geschichte,unrelated,0,judged_mined.jsonl
+"National Center for Atmospheric Research, Computational and Information Systems Laboratory Data Support Section","National Center for Atmospheric Research, University Corporation for Antmospheric Research, Computational and Information Systems Laboratory",hierarchy,0,judged_mined.jsonl
+Texas A&M University - Corpus Christi,University of New Mexico,unrelated,0,judged_mined.jsonl
+Medical University of Warsaw,University of Gdansk,unrelated,0,judged_mined.jsonl
+"Biblioteca, Universidad de León","Universidad de Chile, Dirección de Servicios de Información y Bibliotecas",unrelated,0,judged_mined.jsonl
+"World Meteorological Organisation, Global Atmosphere Watch","World Meteorological Organization, Global Atmosphere Watch",duplicate,1,judged_mined.jsonl
+"National Aeronautics and Space Administration, Socio-Economic Data and Applications Center",U.S. National Aeronautics and Space Administration,hierarchy,0,judged_mined.jsonl
+"Concordia University,  Library","Concordia University, Library",duplicate,1,judged_mined.jsonl
+CLARIN-D,CLARIN-IT,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Energy Information Administration","United States, Department of Energy",hierarchy,0,judged_mined.jsonl
+Jülich Supercomputing Centre,"University of California, San Diego, San Diego Supercomputer Center",unrelated,0,judged_mined.jsonl
+Institute of Space Sciences,University of Texas Center for Space Research,unrelated,0,judged_mined.jsonl
+Norwegian Meteorological Institute,Royal Netherlands Meteorological Institute,unrelated,0,judged_mined.jsonl
+University of Pennsylvania,"University of Pennsylvania, The Wharton School",hierarchy,0,judged_mined.jsonl
+U.S. Geological Survey,US Geological Survey,duplicate,1,judged_mined.jsonl
+Marie and Louis Pasteur University,Washington University in St.Louis,unrelated,0,judged_mined.jsonl
+"National Center for Biotechnology Information, National Library of Medicine","Yale University, Coli Genetic Stock Center",unrelated,0,judged_mined.jsonl
+Chiba University,University of Tokyo,unrelated,0,judged_mined.jsonl
+"NOAA National Centers for Environmental Information, Ocean Climate Laboratory","National Centers for Environmental Information, Ocean Climate Laboratory",duplicate,1,judged_mined.jsonl
+"Colorado State University, Cooperative Institute for Research in the Atmosphere","University Corporation for Atmospheric Research, National Center for Atmospheric Research",unrelated,0,judged_mined.jsonl
+Ministry of Earth Science,The Ministry of Higher Education and Science,unrelated,0,judged_mined.jsonl
+"European Space Agency, European Space Astronomy Centre","European Space Agency, Science & Technology, COSMOS",unrelated,0,judged_mined.jsonl
+Staatliche Mueseen zu Berlin - Antikensammlung,Staatliche Museen zu Berlin - Antikensammlung,duplicate,1,judged_mined.jsonl
+Ministry of Education of the Peoples's Republic of China,Ministry of Finance of the People's Republic of China,unrelated,0,judged_mined.jsonl
+Centre national de la recherche scientifique,"Centre national de la recherche scientifique, L'Institut national des sciences de l'Univers",hierarchy,0,judged_mined.jsonl
+"National Instititutes of Health, National Institute of Diabetes and Digestive and Kidney Diseases","National Institutes of Health, National Institute of Diabetes, Digestive and Kidney Diseases",duplicate,1,judged_mined.jsonl
+Cancer Council NSW,NSW Ministry of Health,unrelated,0,judged_mined.jsonl
+Stanford University,Stanford University School of Medicine,hierarchy,0,judged_mined.jsonl
+Universidade Federal de São Paulo,University of São Paulo,unrelated,0,judged_mined.jsonl
+"European Commission, Health research and innovation","European Commission, Research and Innovation",hierarchy,0,judged_mined.jsonl
+NOAA's Satellite and Information Service,"NOAA, National Environmental Satellite, Data, and Information Service",duplicate,1,judged_mined.jsonl
+National Institute of Allergy and Infectious Diseases,"National Institute of Allergy and Infectious Diseases, Bioinformatics Resource Center",hierarchy,0,judged_mined.jsonl
+Stanford University,"University of California, San Francisco",unrelated,0,judged_mined.jsonl
+"University of Cambridge, Department of Genetics","University of Helsinki, Haartman Institute, Laboratory of Cytomolecular Genetics",unrelated,0,judged_mined.jsonl
+Cornell University,New York University,unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Atmospheric Science Data Center","National Aeronautics and Space Administration, Socio-Economic Data and Applications Center",unrelated,0,judged_mined.jsonl
+Chinese Academy of Medical Sciences & Peking Union Medical College,"Chinese Academy of Medical Sciences, Peking Union Medical College, Institute of Basic Medical Sciences",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health,  National Cancer Institute","U.S. National Institutes of Health, National Cancer Institute",duplicate,1,judged_mined.jsonl
+"Chinese Academy of Agricultural Sciences, Institute of Crop Science",Chinese Academy of Tropical Agricultural Sciences,unrelated,0,judged_mined.jsonl
+University of Toronto Libraries,"University of Toronto, Libraries",duplicate,1,judged_mined.jsonl
+LESIA - Observatoire de Paris,Observatoire de Paris,hierarchy,0,judged_mined.jsonl
+"National Astronomical Observatories, Chinese Academy of Sciences, Chinese Virtual Observatory",National Astronomical Observatory of Japan,unrelated,0,judged_mined.jsonl
+"EMBL Hamburg, Wilmanns Group","EMBL-EBI, Thornton group",unrelated,0,judged_mined.jsonl
+Jackson Laboratory,The Jackson Laboratory,duplicate,1,judged_mined.jsonl
+National Institute for Health Research,"National Institute for Health Research, School for Primary Care Research",hierarchy,0,judged_mined.jsonl
+Universidad de Santiago de Chile,Universidad del Pacífico,unrelated,0,judged_mined.jsonl
+CLARIN.SI,clarin:el,unrelated,0,judged_mined.jsonl
+National Institute of Ecology,"National Research Institute for Agriculture, Food and Environment",unrelated,0,judged_mined.jsonl
+CLARIN-IS,CLARIN-IT,unrelated,0,judged_mined.jsonl
+Macquarie University,The University of Sydney,unrelated,0,judged_mined.jsonl
+University of California at Los Angeles,"University of California, Berkeley",unrelated,0,judged_mined.jsonl
+U.S Department of Health & Human Services,US Departement of Health and Human Services,duplicate,1,judged_mined.jsonl
+"National Institutes of Health, National Eye Institute","National Institutes of Health, National Institute of General Medical Sciences",unrelated,0,judged_mined.jsonl
+"U.S.  Department of Energy, Office of Science","U.S. Department of Energy, Fusion Energy Sciences, Office of  Science",hierarchy,0,judged_mined.jsonl
+CLARIN-D,CLARIN-NL,unrelated,0,judged_mined.jsonl
+Brigham and Women's Hospital,Brigham and Women’s Hospital,duplicate,1,judged_mined.jsonl
+"National Center for Atmospheric Research, University Corporation for Antmospheric Research, Computational and Information Systems Laboratory","University Cooperation for Atmospheric Research, National Center for Atmospheric Research",hierarchy,0,judged_mined.jsonl
+"Goethe Universität Frankfurt, Experimental Astrophysics",Max Planck Institute for Astrophysics,unrelated,0,judged_mined.jsonl
+New York University,University of New Hampshire,unrelated,0,judged_mined.jsonl
+"Pennsylvania State University, College of Information Sciences and Technology","Pennsylvania State University, Information Technology Services",unrelated,0,judged_mined.jsonl
+"Johns Hopkins University,  National Heart Lung & Blood Institute","U.S. Department of Health and Human Services, National Institutes of Health, The National Heart, Lung, and Blood Institute",unrelated,0,judged_mined.jsonl
+Institut National des Sciences de l'Univers,Institut national des sciences de l'Univers,duplicate,1,judged_mined.jsonl
+Engineering and Physical Sciences Research Council,Natural Sciences and Engineering Research Council of Canada,unrelated,0,judged_mined.jsonl
+"Alma Mater Studiorum, Sistema Bibliotecario de Ateneo","Universidad de Antioquia, Sistema de Bibliotecas",unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration,  California Institute of Technology, Jet Propulsion Laboratory, Physical Oceanography Distributed Active Archive Center","National Aeronautics and Space Administration, Langley Research Center Atmospheric Science Data Center",unrelated,0,judged_mined.jsonl
+"Institute of Geophysics, China Earthquake Administration","National Earthquake Hazards Program, Advanced National Seismic System",unrelated,0,judged_mined.jsonl
+Bioinformatics Institute,"Peking University, Center for Bioinformatics",unrelated,0,judged_mined.jsonl
+Swedish Meteorological and Hydrological Institute,"Swedish Meteorological and Hydrological Institute, Rossby Centre",hierarchy,0,judged_mined.jsonl
+"European Commission, Research & Innovation, Seventh Framework Programm, FP7","European Commission, Research and Innovation, FP7, Infrastructures",duplicate,1,judged_mined.jsonl
+"Centre national de la recherche scientifique, L'Institut national des sciences de l'Univers",Le Centre national de la recherche scientifique,hierarchy,0,judged_mined.jsonl
+Institut de Recherche en Astrophysique et Planétologie,"Universität Tübingen, Institut für Astronomie und Astrophysik",unrelated,0,judged_mined.jsonl
+National Human Genome Research Institute,"National Institutes of Health, National Human Genome Research Institute",hierarchy,0,judged_mined.jsonl
+European Molecular Biology Laboratory - European Bioinformatics Institute,"European Molecular Biology Laboratory, European Bioinformatics Institute, Thornton Group",hierarchy,0,judged_mined.jsonl
+U.S Department of Health & Human Services,"U.S. Department of Health and Human Services, Agency for Healthcare Research and Quality",hierarchy,0,judged_mined.jsonl
+Cape Peninsula University of Technology,University of Technology Sydney,unrelated,0,judged_mined.jsonl
+National Aeronautics and Space Administration,"National Aeronautics and Space Administration, Goddard Space Flight Center",hierarchy,0,judged_mined.jsonl
+NASA Goddard Space Flight Center,"NASA,  Goddard Space Flight Center, Wallops Flight Facility",hierarchy,0,judged_mined.jsonl
+Columbia University,"Columbia University, Columbia Population Research Center",hierarchy,0,judged_mined.jsonl
+RWTH Aachen,RWTH Aachen University,duplicate,1,judged_mined.jsonl
+"U.S. Department of Energy, Office of Scientific and Technical Information","U.S.Department of Energy, Office of Science",unrelated,0,judged_mined.jsonl
+"University of California, San Diego","University of California, San Francisco",unrelated,0,judged_mined.jsonl
+Foundation Medicine Inc.,US National Science Foundation,unrelated,0,judged_mined.jsonl
+Johann Wolfgang Goethe-Universität Frankfurt,"Johann Wolfgang Goethe-Universität Frankfurt, Universitätsbibliothek Johann Christian Senckenberg",hierarchy,0,judged_mined.jsonl
+University of Zagreb,"University of Zagreb, Faculty of Science",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health, National Institute of General Medicine Sciences","National Institutes of Health, National Institute on Drug Abuse",unrelated,0,judged_mined.jsonl
+Keio University,The University of Manchester,unrelated,0,judged_mined.jsonl
+Bill  & Melinda Gates Foundation,Bill and Melinda Gates Foundation,duplicate,1,judged_mined.jsonl
+"Chinese Academy of Sciences,  Institute of Computing Technology",Ministry of Science and Technology of the People's Republic of China,unrelated,0,judged_mined.jsonl
+University of Inland Norway,University of South-Eastern Norway,unrelated,0,judged_mined.jsonl
+Institut National des Sciences de l'Univers,Weizenbaum Institut,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute","U.S. Department of Health and Human Services, National Institutes of Health, National Institute of General Medical Sciences",unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research","U.S.Department of Energy, Office of Science, Biological and Environmental Research",duplicate,1,judged_mined.jsonl
+"National Institutes of Health, National Institute of General Medical Sciences",The National Institutes of Health,hierarchy,0,judged_mined.jsonl
+National Informatics Center,National Informatics Centre,duplicate,1,judged_mined.jsonl
+"STFC Rutherford Appleton Laboratory, Centre for Environmental Data Analysis","UK Research and Innovation, Science and Technology Facilities Council, Rutherford Appleton Laboratory",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health","U.S. Department of Health and Human Services, National Institutes of Health, National Institute of General Medical Sciences",hierarchy,0,judged_mined.jsonl
+International Atomic Energy Agency,Nuclear Energy Agency,unrelated,0,judged_mined.jsonl
+Energy.gov,United States Department of Energy,duplicate,1,judged_mined.jsonl
+University of Montpellier,Université Montpellier,duplicate,1,judged_mined.jsonl
+European Bioinformatics Institute,German Network for Bioinformatics Infrastructure,unrelated,0,judged_mined.jsonl
+Michigan State University,University of Michigan,unrelated,0,judged_mined.jsonl
+European Commission Seventh Framework Programme,"European Commission, Research & Innovation, Seventh Framework Program",duplicate,1,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Environmental Health Sciences","U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences",unrelated,0,judged_mined.jsonl
+Ryerson University,Wilfrid-Laurier University,unrelated,0,judged_mined.jsonl
+"Ghent University, Department of Biochemistry and Microbiology","University of Hamburg, Department of Microbiology and Biotechnology",unrelated,0,judged_mined.jsonl
+Woods Hole Oceanographic Institution,Woods Hole Oceanographic Institutuion,duplicate,1,judged_mined.jsonl
+"Ministry of Economy, Development and Tourism",Ministry of Government and Consumer Services,unrelated,0,judged_mined.jsonl
+Universidad de Murcia,Universidad de Valladolid,unrelated,0,judged_mined.jsonl
+University of Western Australia,Western University,unrelated,0,judged_mined.jsonl
+University of Arizona,University of Colorado,unrelated,0,judged_mined.jsonl
+Bundesministerium für Ernährung und Landwirtschaft,"Bundesministerium für Landwirtschaft, Ernährung und Heimat",duplicate,1,judged_mined.jsonl
+"Arizona State University, School of Earth and Space Exploration","University of Sydney, School of Geosciences",unrelated,0,judged_mined.jsonl
+"National Center for Atmospheric Research, University Corporation for Antmospheric Research, Computational and Information Systems Laboratory","University Corporation for Atmospheric Research, National Center for Atmospheric Research",hierarchy,0,judged_mined.jsonl
+NASA's Goddard Space Flight Center,"National Aeronautics and Space Administration, Goddard Space Flight Center",duplicate,1,judged_mined.jsonl
+Max-Planck-Gesellschaft,Max-Planck-Institut für Wissenschaftsgeschichte,hierarchy,0,judged_mined.jsonl
+"Stony Brook University, College of Engineering and Applied Sciences","University of Wisconsin-Madison, Space Science and Engineering Center",unrelated,0,judged_mined.jsonl
+"European Space Astronomy Centre, INTEGRAL Science Operations Centre","German Aerospace Center, Earth Observation Center, German Remote Sensing Data Center of the German Aerospace Center",unrelated,0,judged_mined.jsonl
+Lingnan University Hong Kong,The University of Hong Kong,unrelated,0,judged_mined.jsonl
+Centre National de la Recherche Scientifique,Institut national de la recherche scientifique,unrelated,0,judged_mined.jsonl
+"Texas State University, University Library","University of Texas Austin,  Geology Foundation",unrelated,0,judged_mined.jsonl
+"Rutgers University, Department of Chemistry","University of Pittsburgh, Department of Chemistry",unrelated,0,judged_mined.jsonl
+"Computer Network Information Center, Chinese Academy of Sciences","Indiana University, Cyberinfrastructure for Network Science Center",unrelated,0,judged_mined.jsonl
+Washington State University,"Washington University in St. Louis,  University Libraries",unrelated,0,judged_mined.jsonl
+American Academy of Neurology,Ontario Brain Institute,unrelated,0,judged_mined.jsonl
+Universidad de Chile,Universidade de Aveiro,unrelated,0,judged_mined.jsonl
+"University of California, San Francisco","University of Southern California, Southern California Earthquake Center",unrelated,0,judged_mined.jsonl
+"Government of Canada, Natural Resources Canada, Geological Survey of Canada","Nova Scotia Canada, Department of Natural Resources and Renewables",unrelated,0,judged_mined.jsonl
+"Emory University School of Medicine, Department of Biomedical Informatics","Temple University, College of Science and Technology, Center für Data Analysis and Biomedical Informatics",unrelated,0,judged_mined.jsonl
+University of Franche-Comté,University of Lorraine,unrelated,0,judged_mined.jsonl
+"Queen Margaret University, Edinburgh",University of Edinburgh,unrelated,0,judged_mined.jsonl
+"Universität Heidelberg, Universitätsbibliothek","Universität Mannheim, Universitätsbibliothek",unrelated,0,judged_mined.jsonl
+UNAVCO,"UNAVCO, Inc.",duplicate,1,judged_mined.jsonl
+"U.S. Department of Energy, Science.gov","United States, Department of Energy",duplicate,1,judged_mined.jsonl
+University of Calgary,University of Saskatchewan,unrelated,0,judged_mined.jsonl
+Federation University Australia,Macquarie University,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, United States National Library of Medicine, National Center for Biotechnology Information",The National Center for Biotechnology Information,hierarchy,0,judged_mined.jsonl
+"Concordia University, Bioinformatics, Centre for Structural and Functional Genomics","University of Leipzig, Interdisciplinary Centre for Bioinformatics",unrelated,0,judged_mined.jsonl
+Bundesministerium  für Wirtschaft und Energie,"Bundesministerium für Landwirtschaft, Ernährung und Heimat",unrelated,0,judged_mined.jsonl
+"Australian Government, Department of Education, National Collaborative Research Infrastructure Strategy","Australian Government, Department of Education, Skills and Employment, National Collaborative Research Infrastructure Strategy",duplicate,1,judged_mined.jsonl
+"Pennsylvania State University, Libraries",University of Kansas Libraries,unrelated,0,judged_mined.jsonl
+National Health Research Institutes,National Institutes of Health,unrelated,0,judged_mined.jsonl
+Engineering and Physical Sciences Research Council,"UKRI, Engineering and Physical Sciences Research Council",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Energy Information Administration","U.S. Department of Energy, Integrated Energy Systems Office",unrelated,0,judged_mined.jsonl
+Michigan State University,"Michigan State University, College of Law",hierarchy,0,judged_mined.jsonl
+Ministry of Education of the Peoples's Republic of China,Ministry of Natural Resources of China,unrelated,0,judged_mined.jsonl
+"European Commission, HORIZON 2020","European Commission, Research and Innovation",hierarchy,0,judged_mined.jsonl
+The Hospital for Sick Children,"The Hospital for Sick Children, The Centre for Applied Genomics",hierarchy,0,judged_mined.jsonl
+"Department of Energy's Scientific Discovery, Advanced Computing program","U.S.Department of Energy, Office of Science",hierarchy,0,judged_mined.jsonl
+"Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement","Institut national de recherche pour l’agriculture, l’alimentation et l’environnement",duplicate,1,judged_mined.jsonl
+Wellcome Sanger Institute,Wellcome Trust Sanger Institute,duplicate,1,judged_mined.jsonl
+"University of Toronto, Donnelly Centre for Cellular and Biomolecular Research","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Krause lab",hierarchy,0,judged_mined.jsonl
+Smithsonian Institution,"Smithsonian Institution, National Museum of Natural History, Department of Entomology",hierarchy,0,judged_mined.jsonl
+University of California at Los Angeles,"University of California, Los Angeles Library",hierarchy,0,judged_mined.jsonl
+DOE Joint Genome Institute,Joint Genome Institute,duplicate,1,judged_mined.jsonl
+National Center for Biotechnology Information,The National Center for Biotechnology Information,duplicate,1,judged_mined.jsonl
+US Geological Survey,"United States Geological Survey, National Earthquake Information Center",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health","U.S. Department of Health and Human Services, National Institutes of Health, National Institute of General Medical Sciences",hierarchy,0,judged_mined.jsonl
+NIH  National Institute of Diabetes and Digestive and Kidney Diseases,National Institute of Diabetes and Digestive Kidney Diseases,duplicate,1,judged_mined.jsonl
+University of California Davis,"University of California, Berkeley",unrelated,0,judged_mined.jsonl
+"Chinese Academy of Sciences, Institute of Hydrobiology, National Aquatic Biological Resource Center",Freshwater Biological Association,unrelated,0,judged_mined.jsonl
+Level 1 and Atmosphere Archive and Distribution System,"National Aeronautics and Space Administration, MODIS Level 1 and Atmosphere Archive and Distribution System",duplicate,1,judged_mined.jsonl
+"Universität Erfurt, Forschungsbibliothek Gotha","Universität Erfurt, Forschungszentrum Gotha",unrelated,0,judged_mined.jsonl
+DARIAH-DE,DARIAH-EU,hierarchy,0,judged_mined.jsonl
+"Helmholtz Zentrum München,  Deutsches Forschungszentrum für Gesundheit und Umwelt, Institute of Developmental Genetics","Helmholtz Zentrum München, Deutsches Forschungszentrum für Gesundheit und Umwelt, Institute of Experimental Genetics",unrelated,0,judged_mined.jsonl
+Ulster University,University of Glasgow,unrelated,0,judged_mined.jsonl
+University of Virginia,Virginia Polytechnic Institute and State University,unrelated,0,judged_mined.jsonl
+NOAA Climate Program Office,NOAA National Weather Service,unrelated,0,judged_mined.jsonl
+"Cardiff University, School of Computer Science and Informatics",National Institute of Informatics,unrelated,0,judged_mined.jsonl
+Dataverse Project,The Dataverse Project,duplicate,1,judged_mined.jsonl
+"U.S. Department of Energy, Geothermal Technologies Office","U.S. Department of Energy, Office of Science",unrelated,0,judged_mined.jsonl
+Universität Freiburg,Universität Hamburg,unrelated,0,judged_mined.jsonl
+"Harvard University, Institute for Quantitative Social Science","Harvard University, Institute for Quantitave Social Science",duplicate,1,judged_mined.jsonl
+RWTH Aachen University,"RWTH Aachen University, IT Center",hierarchy,0,judged_mined.jsonl
+National Astronomical Observatory of Japan,"National Astronomical Observatory of Japan, Astronomy Data Center",hierarchy,0,judged_mined.jsonl
+Pontificia Univesida Católica Argentina,Universidad Católica de Córdoba,unrelated,0,judged_mined.jsonl
+"Carnegie Mellon University, Robotics Institute","Stanford University, Carnegie Institution for Science, Biosphere Sciences & Engineering",unrelated,0,judged_mined.jsonl
+International Science Council,Spanish National Research Council,unrelated,0,judged_mined.jsonl
+Universidade Federal do Paraná,Universidade Federal do Rio Grande do Sul,unrelated,0,judged_mined.jsonl
+"National Taiwan University, Institute of Ecology and Evolutionary Biology","University of California at Irvine, Department of Ecology and Evolutionary Biology",unrelated,0,judged_mined.jsonl
+"University of California at Los Angeles, Library","University of California, San Francisco",unrelated,0,judged_mined.jsonl
+Goethe University Frankfurt,Leipzig University,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Heart, Lung and Blood Institute","National Institutes of Health, National Heart, Lung, and Blood Institute",duplicate,1,judged_mined.jsonl
+"National Agricultural and Food Research Organization, National Food Research Institute","United States Department of Agriculture, National Institute of Food and Agriculture",unrelated,0,judged_mined.jsonl
+"Queens University, University Libary",University of Prince Edward Island,unrelated,0,judged_mined.jsonl
+Agency for Healthcare Research and Quality,"U.S. Department of Health & Human Services, Agency for Healthcare Research and Quality",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, Office of Head Start",U.S.Department of Health & Human Services,hierarchy,0,judged_mined.jsonl
+Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden,Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden,duplicate,1,judged_mined.jsonl
+Institute for Vegetable Crops,Institute of Agriculture Biology and Biotechnology,unrelated,0,judged_mined.jsonl
+University of Canterbury,University of Leeds,unrelated,0,judged_mined.jsonl
+Pomeranian University in Słupsk,University of Gdansk,unrelated,0,judged_mined.jsonl
+University of Montreal,Université du Québec à Trois-Rivières,unrelated,0,judged_mined.jsonl
+Gdańsk University of Technology,Library of the University of Gdańsk,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung and Blood Institute","U.S. Department of Health and Human Services, National Institutes of Health, The National Heart, Lung, and Blood Institute",duplicate,1,judged_mined.jsonl
+"University of Wisconsin-Madison,  Information Technology",University of Wisconsin–Madison,hierarchy,0,judged_mined.jsonl
+Pennsylvania State University,University of Pennsylvania,unrelated,0,judged_mined.jsonl
+University of New South Wales,University of South Australia,unrelated,0,judged_mined.jsonl
+Jet Propulsions Laboratory,"NASA, Jet Propulsion Laboratory",duplicate,1,judged_mined.jsonl
+"National Institutes of Health, National Library of Medicine",U. S. National Library of Medicine,hierarchy,0,judged_mined.jsonl
+"Department of Agriculture, Agriculture Research Service","United States Department of Agriculture, National Agricultural Statistics Service",unrelated,0,judged_mined.jsonl
+Sandia National Laboratories,Sandia National Laboratory,duplicate,1,judged_mined.jsonl
+Oak Ridge National Laboratory,"Oak Ridge National Laboratory, Oak Ridge Campus",duplicate,1,judged_mined.jsonl
+University of York,"University of York,  Institute of Fine Arts",hierarchy,0,judged_mined.jsonl
+Council of Scientific & Industrial Research  - National Institute of Oceanography,"Dalhousie University, Department of Oceanography",unrelated,0,judged_mined.jsonl
+Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden,Vorarlberger Landesbibliothek,unrelated,0,judged_mined.jsonl
+Environmental Protection Agency,Netherlands Environment Assessment Agency,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Institute of Diabetes and Digestive and Kidney Diseases","National Institutes of Health, National Institute of General Medical Sciences",unrelated,0,judged_mined.jsonl
+The University of Chicago,University of Chicago,duplicate,1,judged_mined.jsonl
+Science & Technology Facilities Council,"Science & Technology Facilities Council, Scientific Computing Department",hierarchy,0,judged_mined.jsonl
+University of Music and Performing Arts Vienna,University of Vienna,unrelated,0,judged_mined.jsonl
+"Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen Centre for Astroparticle Physics","Universität Tübingen, Institut für Astronomie und Astrophysik",unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Ocean Biology Processing Group","National Science Foundation, Division of Ocean Sciences",unrelated,0,judged_mined.jsonl
+"Max-Planck-Gesellschaft, Max Planck Institute for Demographic Research","Max-Planck-Gesellschaft, Max-Planck Institut für Chemie",unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Advanced Manufacturing Office","U.S. Department of Energy, Office of Scientific and Technical Information",unrelated,0,judged_mined.jsonl
+"University of Calgary, Libraries and Cultural Resources","University of Toronto, Libraries",unrelated,0,judged_mined.jsonl
+University of Cape Town,University of the Western Cape,unrelated,0,judged_mined.jsonl
+"Ministry of Health, Labour and Welfare",Ministry of Home Affairs,unrelated,0,judged_mined.jsonl
+"Johns Hopkins School of Medicine, McKusick-Nathans Institute of Genetic Medicine",Network of Applied Medical Genetics,unrelated,0,judged_mined.jsonl
+"European Bioinformatics Institute,","Tianjin University, Center of BioInformatics",unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Library of Medicine , National Center for Biotechnology Information","National Library of Medicine, National Center for Biotechnology Information",hierarchy,0,judged_mined.jsonl
+"University of Pennsylvania,  Perelman School of Medicine, Institute for Biomedical Informatics","Vanderbilt University Medical Center,  Department of Biomedical Informatics",unrelated,0,judged_mined.jsonl
+Lincoln University,University of Chicago,unrelated,0,judged_mined.jsonl
+"European Comission, Horizon 2020","European Commission, Horizon 2020",duplicate,1,judged_mined.jsonl
+Université du Québec à Chicoutimi,Université du Québec à Trois-Rivières,unrelated,0,judged_mined.jsonl
+"Julius Kühn-Institut Bundesforschungsinstitut für Kulturpflanzen, Institut für Rebenzüchtung Geilweilerhof",Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung,unrelated,0,judged_mined.jsonl
+"Freie Universität Berlin, Department of Earth Sciences","University of Bergen, Department of Earth Sciences",unrelated,0,judged_mined.jsonl
+New York University Libraries,"University of York, Library",unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, National Snow and Ice Data Center",WSL Institute for Snow and Avalanche Research,unrelated,0,judged_mined.jsonl
+"Johann Wolfgang Goethe-Universität Frankfurt, Universitätsbibliothek Johann Christian Senckenberg",Universitätsbibliothek Johann Christian Senckenberg Frankfurt am Main,duplicate,1,judged_mined.jsonl
+"Harvard University, Institute for Quantitative Social Science","Harvard University, Institute of Quantitative Social Science",duplicate,1,judged_mined.jsonl
+Global Climate Observing System,"World Meteorological Organization, Global Climate Observing System",hierarchy,0,judged_mined.jsonl
+Institut de physique du globe de Paris,l'Observatoire de Paris,unrelated,0,judged_mined.jsonl
+Serbian Academy of Sciences and Arts,"Serbian Academy of Sciences and Arts, The Institute for Byzantine Studies",hierarchy,0,judged_mined.jsonl
+Ministry of Finance  of the People's Republic of China,Ministry of Finance of the People's Republic of China,duplicate,1,judged_mined.jsonl
+"European Commission, Research & Innovation, Seventh Framework Programm - FP7","European Commission, Research & Innovation, Seventh Framework Programm, FP7",duplicate,1,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health, National Cancer Institute, Center for Biomedical Informatics and Information Technology","U.S. National Institutes of Health, National Cancer Institute",hierarchy,0,judged_mined.jsonl
+"The University of Edinburgh, Information Services","University of Stirling, Information Services",unrelated,0,judged_mined.jsonl
+Fachhochschule Erfurt,"Universität Erfurt, Forschungszentrum Gotha",unrelated,0,judged_mined.jsonl
+German Environment Agency,The European Environment Agency,unrelated,0,judged_mined.jsonl
+"University of Birmingham, School of Biosciences","University of Manchester, eScience Lab",unrelated,0,judged_mined.jsonl
+"NOAA Fisheries Service’s Southwest Fisheries Science Center, Environmental Research Division","National Oceanographic and Atmospheric Administration, NOAA Research",unrelated,0,judged_mined.jsonl
+University Corporation for Atmospheric Research,"University Corporation for Atmospheric Research, UNIDATA",hierarchy,0,judged_mined.jsonl
+CLARIAH-ES,CLARIAH-EUS,unrelated,0,judged_mined.jsonl
+Duke University,North Carolina State University,unrelated,0,judged_mined.jsonl
+Friedrich-Schiller-Universität Jena,"Friedrich-Schiller-Universität Jena, Institut für Soziologie",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Integrated Energy Systems Office","U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Building Technologies Office",unrelated,0,judged_mined.jsonl
+Digital Humanities Center (Eberhard Karls Universität Tübingen),"University of Tübingen,  Digital Humanities Center",duplicate,1,judged_mined.jsonl
+"University of Aveiro, Department of Biology","University of New Mexico, Department of Biology",unrelated,0,judged_mined.jsonl
+Universidade Federal de São Paulo,Universidade de Aveiro,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institues of Health",US Departement of Health and Human Services,hierarchy,0,judged_mined.jsonl
+"Universität zu Köln, Philosophische Fakultät, Thomas-Institut","Universität zu Köln, Regionales Rechenzentrum",unrelated,0,judged_mined.jsonl
+"Rutgers University, Libraries",University of Minnesota Libraries,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Integrated Energy Systems Office","U.S. Department of Energy, National Energy Technology Laboratory",unrelated,0,judged_mined.jsonl
+Paul Scherrer Institute,Scripps Research Institute,unrelated,0,judged_mined.jsonl
+"Chapman University, Leathterby Libraries","University of Oregon, UO Libraries",unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Library of Medicine , National Center for Biotechnology Information",The National Center for Biotechnology Information,hierarchy,0,judged_mined.jsonl
+Université Paris Ouest Nanterre La Défense,Université de Nantes,unrelated,0,judged_mined.jsonl
+Harvard College,Harvard University,hierarchy,0,judged_mined.jsonl
+"UK Research and Innovation, Biotechnology and Biological Sciences Research Council","UK Search and Innovation, Biotechnology and Biological Sciences Research Council",duplicate,1,judged_mined.jsonl
+Georg-August Universität Göttingen,Universitätsmedizin Göttingen,hierarchy,0,judged_mined.jsonl
+"Government of Canada, Fisheries and Oceans Canada","Government of Canada, Fisheries and Oceans Canada, Canadian Coast Guard",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Energy Information Administration","U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Building Technologies Office",unrelated,0,judged_mined.jsonl
+King's College London,Queen's University,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Library of Medicine, National Center for Biotechnology Information","National Institutes of Health, United States National Library of Medicine, National Center for Biotechnology Information",duplicate,1,judged_mined.jsonl
+Ministry of Earth Science,"University of Southern California, Department of Earth Science",unrelated,0,judged_mined.jsonl
+US Geological Survey,"United States Geological Survey, Earthquake Hazards Program",hierarchy,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Goddard Space Flight Center, Astrophysics Science Division","National Aeronautics and Space Administration, Goddard Space Flight Center, Sciences and Exploration Directorate, Heliospheric Physics Laboratory",unrelated,0,judged_mined.jsonl
+Pomeranian University in Słupsk,University of Life Sciences in Lublin,unrelated,0,judged_mined.jsonl
+"Freie Universität Berlin, Department of Earth Sciences","University of Texas Austin, Department of Earth and Planetrary Sciences",unrelated,0,judged_mined.jsonl
+National Institute on Drug Abuse,"U.S. Department of Health and Human Services, National Institutes of Health, National Institute on Drug Abuse",hierarchy,0,judged_mined.jsonl
+Douglas Mental Health University Institute Foundation,"National Institutes of Health, National Institute of Mental Health, Research Domain Criteria Initiative",unrelated,0,judged_mined.jsonl
+Cornell Institute for Social and Economic Research,Cornell University Library,unrelated,0,judged_mined.jsonl
+l'Observatoire de Paris,"l'Observatoire de Paris, SYRTE",hierarchy,0,judged_mined.jsonl
+"Agencia Canaria de Investigación, Innovación y Sociedad de la Información",Banco de Información para la Investigación Aplicada en Ciencias Sociales,unrelated,0,judged_mined.jsonl
+NOAA Fisheries,"NOAA Fisheries Service’s Southwest Fisheries Science Center, Environmental Research Division",hierarchy,0,judged_mined.jsonl
+"United States Department of Agriculture, Agricultural Research Service","United States Department of Agriculture, National Institute of Food and Agriculture",unrelated,0,judged_mined.jsonl
+"British Columbia, Ministry of Environment and Climate Change Strategy",Environment and Climate Change Canada,unrelated,0,judged_mined.jsonl
+"Natonal Oceanic and Atmospheric Administration, National Centers for Environmental Information","The National Oceanic and Atmospheric Administration, National Centers for Environmental Information",duplicate,1,judged_mined.jsonl
+European Bioinformatics Institute,French Institute of bioinformatics,unrelated,0,judged_mined.jsonl
+California Institute of Technology,California Institute of Technology Library,hierarchy,0,judged_mined.jsonl
+NOAA National Centers for Environmental Information,NOAA's National Centers for Environmental Information,duplicate,1,judged_mined.jsonl
+"National Institute of Oceanography, Bioinformatics Centre",National Oceanography Centre,unrelated,0,judged_mined.jsonl
+Gordon and Betty Moore Foundation,The Gordon Foundation,unrelated,0,judged_mined.jsonl
+"European Commission,  Community Research and Development Information Service, Seventh Framework Programme","European Commission, Community Research and Development Information Service, Seventh Framework Programme",duplicate,1,judged_mined.jsonl
+Universidad de Antioquia,Universidade de Aveiro,unrelated,0,judged_mined.jsonl
+Julius Kühn-Institut,Julius Kühn-Institut. Institut für Rebenzüchtung,hierarchy,0,judged_mined.jsonl
+Erasmus Medical Center Rotterdam,Erasmus University Rotterdam,hierarchy,0,judged_mined.jsonl
+"Harvard Catalyst, Harvard Medical School",Harvard T.H. Chan School of Public Health,unrelated,0,judged_mined.jsonl
+"University of North Texas, College of Arts and Sciences, Department of Biological Sciences","University of Oxford, Department of Biology",unrelated,0,judged_mined.jsonl
+University of Cologne,"Universität zu Köln, IT Center University of Cologne",hierarchy,0,judged_mined.jsonl
+"Pennsylvania State University, College of Earth and Mineral Sciences, Department of Geosciences","University of Bergen, Department of Earth Sciences",unrelated,0,judged_mined.jsonl
+EarthScope Consortium,EarthScope Consortium Member Institutions,hierarchy,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institutes of Health, National Human Genome Research Institute","US National Institutes of Health, National Human Genome Research Institute",duplicate,1,judged_mined.jsonl
+"Harvard University, Institute for Quantitative Social Sciences","Harvard University, Institute of Quantitative Social Science",duplicate,1,judged_mined.jsonl
+European Molecular Biology Laboratory - The European Bioinformatics Institute,"European Molecular Biology Laboratory, European Bioinformatics Institute",duplicate,1,judged_mined.jsonl
+Consultative Group on International Agricultural Research,"U.S.Department of Agriculture, Agricultural Research Service",unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Goddard Earth Sciences Data and Information Services Center","National Aeronautics and Space Administration, Langley Research Center Atmospheric Science Data Center",unrelated,0,judged_mined.jsonl
+Alberta Biodiversity Monitoring Institute,Tulane University Biodiversity Research Institute,unrelated,0,judged_mined.jsonl
+Institute of Nuclear Physics Polish Academy of Sciences,National Institute for Nuclear Physics,unrelated,0,judged_mined.jsonl
+Government of Newfoundland and Labrador,"Government of Newfoundland and Labrador: Fisheries, Foresty and Agriculturen",hierarchy,0,judged_mined.jsonl
+"University of Cambridge, Department of Chemistry, Unilever Centre for Molecular Informatics","University of Cambridge, Yusuf Hamied Department of Chemistry, Centre for Molecular Informatics",duplicate,1,judged_mined.jsonl
+"European Bioinformatics Institute,","Institute of Bioinformatics, Bangalore",unrelated,0,judged_mined.jsonl
+Flinders University,University of South Australia,unrelated,0,judged_mined.jsonl
+U.S. National Science Foundation,US National Science Foundation,duplicate,1,judged_mined.jsonl
+Universität zu Köln,"Universität zu Köln, IT Center University of Cologne",hierarchy,0,judged_mined.jsonl
+Universidad Nacional de Colombia,Universidad de Santiago de Chile,unrelated,0,judged_mined.jsonl
+Universidad Simón Bolívar,Universidad Tecnológica de Bolívar,unrelated,0,judged_mined.jsonl
+ENERGY.GOV,"U.S. Department of Energy, Science.gov",hierarchy,0,judged_mined.jsonl
+"Department of Space, Indian Space Research Organisation",Space Applications Centre,hierarchy,0,judged_mined.jsonl
+U.S.Department of Health & Human Services,United States Department  of Health and Human Services,duplicate,1,judged_mined.jsonl
+National Science Foundation,National ‫Science Foundation,duplicate,1,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Mental Health","U.S. Department of Health and Human Services, National Institutes of Health",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Scientific and Technical Information","US Department of Energy, Office of Science",unrelated,0,judged_mined.jsonl
+"BC Cancer Agency, Research Centre, Canada's Michael Smith Genome Sciences Centre","BC Cancer Research Centre, Canada's Michael Smith Genome Sciences Centre",duplicate,1,judged_mined.jsonl
+"Chinese Academy of Sciences,  Institute of Geographic Sciences and Natural Resources Research","Chinese Academy of Sciences, Institute of Geographic Sciences and Natural Resources Research",duplicate,1,judged_mined.jsonl
+"National Institutes of Health, National Institute of Allergy and Infectious Diseseases, Department of Health and Human Services","U.S. Department of Health and Human Services, National Institutes of Health, National Institute of Allergy and Infectious Diseases",duplicate,1,judged_mined.jsonl
+U.S. Department of Commerce,U.S.Department of Commerce,duplicate,1,judged_mined.jsonl
+"National Institute of Health, National Institute of Allergy and Infectious Diseases","National Institutes of Health, National Institute of Allergy and Infectious Diseases",duplicate,1,judged_mined.jsonl
+"University of Manchester, eScience Lab","University of Texas at Austin, Gutell Laboratory",unrelated,0,judged_mined.jsonl
+EarthChem Program,https://www.earthchem.org/,duplicate,1,judged_mined.jsonl
+National Centre of Competence in Research MARVEL,National Research Council,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health","US Department of Health and Human Services, National Institutes of Health",duplicate,1,judged_mined.jsonl
+"U.S.  Department of Energy, Office of Science","U.S. Department of Energy, National Energy Technology Laboratory",unrelated,0,judged_mined.jsonl
+University of California San Diego,"University of California, San Diego",duplicate,1,judged_mined.jsonl
+Georg-August Universität Göttingen,Georg-August-Universität Göttingen,duplicate,1,judged_mined.jsonl
+"Biblioteca, Universidad de León","Universidad de Antioquia, Sistema de Bibliotecas",unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Institute of General Medicine Sciences","National Institutes of Health, National Library of Medicine",unrelated,0,judged_mined.jsonl
+Huma-Num,Huma-num,duplicate,1,judged_mined.jsonl
+"Hamburg University of Technology, Computer Center","Hamburg University of Technology, Library",unrelated,0,judged_mined.jsonl
+Universidad Internacional de Andalucia,Universidade de Aveiro,unrelated,0,judged_mined.jsonl
+"National Institutes of Health,  National Institute of Allergy and Infectious Diseases","National Institutes of Health, National Institute of Allergy and Infectious Diseases, Bioinformatics Resource Centers",hierarchy,0,judged_mined.jsonl
+"Government of India, Ministry of Science and Technology, Council of Scientific and Industrial Research","Government of India, Ministry of Science and Technology, Department of Science and Technology",unrelated,0,judged_mined.jsonl
+Centers for Disease Control and Prevention,"National Center for Health Statistics, Centers for Disease Control and Preventions",hierarchy,0,judged_mined.jsonl
+U.S. Department of Agriculture,"U.S.Department of Agriculture, Agricultural Research Service",hierarchy,0,judged_mined.jsonl
+"Chinese Academy of Agricultural Sciences, Biotechnology Research Institute","Chinese Academy of Agricultural Sciences, Institute of Crop Germplasm Resources",unrelated,0,judged_mined.jsonl
+"University of Alberta, Edmonton, Wishart Research Group","University of Alberta, Wishart Research Group",duplicate,1,judged_mined.jsonl
+University of Auckland,University of Cape Town,unrelated,0,judged_mined.jsonl
+"Indiana University School of Medicine, Center for Computational Biology and Bioinformatics","University of Pittsburgh, Department of Biomedical Informatics",unrelated,0,judged_mined.jsonl
+"Chinese Academy of Sciences, Institute of Hydrobiology, National Aquatic Biological Resource Center","University of Natural Resources and Life Sciences, Institute of Hydrobiology and Aquatic Ecosystem Management",unrelated,0,judged_mined.jsonl
+Staatliche Museen zu Berlin,Staatliches Museum für Naturkunde Stuttgart,unrelated,0,judged_mined.jsonl
+National Center for Scientific Research,National Research Council,unrelated,0,judged_mined.jsonl
+Continental Scientific Drilling Coordination Office,International Continental Scientific Drilling Program,hierarchy,0,judged_mined.jsonl
+"University of Toronto, Department of Computer Science","University of York, Department of Computer Science",unrelated,0,judged_mined.jsonl
+Huma-num,TGIR Huma-Num,hierarchy,0,judged_mined.jsonl
+University of Buffalo,University of New Orleans,unrelated,0,judged_mined.jsonl
+"Georg-August-Universität Göttingen, Niedersächsische Staats- und Universitätsbibliothek",Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden,unrelated,0,judged_mined.jsonl
+"Universität Heidelberg, Universitätsbibliothek",Universitätsbibliothek Heidelberg,duplicate,1,judged_mined.jsonl
+NOAA's National Centers for Environmental Information,"US Department of Commerce, National Oceanic & Atmospheric Administration, National Centers for Environmental Information",hierarchy,0,judged_mined.jsonl
+Albert-Ludwigs-Universität Freiburg,Universität Freiburg,duplicate,1,judged_mined.jsonl
+"University of California, Berkeley",University of Southern California,unrelated,0,judged_mined.jsonl
+HafenCity Universität Hamburg,Universität Hamburg,unrelated,0,judged_mined.jsonl
+Agence National de la Recherche,L'Agence Nationale de la Recherche,duplicate,1,judged_mined.jsonl
+Australian Government,"Australian Government, Geoscience Australia",hierarchy,0,judged_mined.jsonl
+Saxon State and University Library Dresden,Technical University Dresden,hierarchy,0,judged_mined.jsonl
+University of California San Francisco,Vita-Salute San Raffaele University,unrelated,0,judged_mined.jsonl
+"Columbia University, Lamont -Doherty Earth Observatory",Deep Carbon Observatory,unrelated,0,judged_mined.jsonl
+National Science and Technology Infrastructure,National Science and Technology Infrastructures,duplicate,1,judged_mined.jsonl
+"Government of India, National Informatics Centre","Government of India, National Knowledge Commission",unrelated,0,judged_mined.jsonl
+Institut de Recherches Géologiques et Minières,"Technische Universität Braunschweig, Institut für Geophysik und extraterrestrische Physik",unrelated,0,judged_mined.jsonl
+"European Bioinformatics Institute,","Kansas State University,  Bioinformatics Center",unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Cancer Institute","U.S. National Institutes of Health, National Cancer Institute",hierarchy,0,judged_mined.jsonl
+Agence National de la Recherche,Agence Nationale de la Recherche,duplicate,1,judged_mined.jsonl
+Douglas Mental Health University Institute Foundation,"Oxford University, Department of Psychiatry",unrelated,0,judged_mined.jsonl
+Bath Spa University,University of Bath,unrelated,0,judged_mined.jsonl
+Indiana University,University of Kansas,unrelated,0,judged_mined.jsonl
+"Centre National de la Recherche Scientifique, Institut National des Sciences de l'Univers",Centre national de la recherche scientifique,hierarchy,0,judged_mined.jsonl
+University System of Maryland & Affiliated Institutions,"University of Maryland, Baltimore County,  Department of Information Systems",hierarchy,0,judged_mined.jsonl
+Staatliche Museen zu Berlin,Staatliche Museen zu Berlin - Antikensammlung,hierarchy,0,judged_mined.jsonl
+National Institute of Allergy and Infectious Disease,"National Institutes of Health,  National Institute of Allergy and Infectious Diseases",hierarchy,0,judged_mined.jsonl
+Harvard-Smithsonian Center for Astrophysics,"Harvard-Smithsonian Center for Astrophysics, John G. Wolbach Library and Information Resource Center",hierarchy,0,judged_mined.jsonl
+"U.S.  Department of Energy, Office of Science","U.S. Department of Energy, Office of  Science, Fusion Energy Sciences",hierarchy,0,judged_mined.jsonl
+"University of British Columbia, Graduate Program in Bioinformatics","University of Leipzig, Interdisciplinary Centre for Bioinformatics",unrelated,0,judged_mined.jsonl
+"University of Toronto, Donnelly Centre for Cellular and Biomolecular Research","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Brenda Andrews Research Lab",hierarchy,0,judged_mined.jsonl
+"Atlantic Oceanographic & Meterological Laboratory, Physical Oceanography Division, Global Ocean Observations",National Oceanography Centre,unrelated,0,judged_mined.jsonl
+"Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen Centre for Astroparticle Physics","Goethe Universität Frankfurt, Experimental Astrophysics",unrelated,0,judged_mined.jsonl
+National Research Council of Canada,Ontario Research Fund,unrelated,0,judged_mined.jsonl
+"University of Alberta, Departments of Biological Sciences and Computing Science, Wishart Research Group","University of Pennsylvania, Perelman School of Medicine, Computational Biology and Informatics Laboratory",unrelated,0,judged_mined.jsonl
+BibliotheksVerbund Bayern,"Bundesinstitut für Risikobewertung, Bibliothek",unrelated,0,judged_mined.jsonl
+Institute of Engineering Seismology and Earthquake Engineering,International Association of Seismology and Physics of the Earth's Interior,unrelated,0,judged_mined.jsonl
+U.S. Department of Energy,"U.S. Department of Energy, Energy Information Administration",hierarchy,0,judged_mined.jsonl
+European Molecular Biology Laboratory,European Molecular Biology Laboratory - The European Bioinformatics Institute,hierarchy,0,judged_mined.jsonl
+University College of London,University of East London,unrelated,0,judged_mined.jsonl
+Universidad Austral de Chile,Universidad Simón Bolívar,unrelated,0,judged_mined.jsonl
+U.S.Department of Health & Human Services,United States Department of Health and Human Services,duplicate,1,judged_mined.jsonl
+Hospital for Sick Children,The Hospital for Sick Children,duplicate,1,judged_mined.jsonl
+University of New Brunswick,"University of New Brunswick, Libraries",hierarchy,0,judged_mined.jsonl
+European Bioinformatics Institute,"European Bioinformatics Institute,",duplicate,1,judged_mined.jsonl
+Florida International University,"University of Georgia, USA",unrelated,0,judged_mined.jsonl
+The World Bank Group,World Bank Group,duplicate,1,judged_mined.jsonl
+"The Pennsylvania State University, Social Science Research Institute","University of Iceland, Social Science Research Institute",unrelated,0,judged_mined.jsonl
+Trier Center for Digital Humanities,"Universität Trier, Lehrstuhl für Kunstgeschichte",unrelated,0,judged_mined.jsonl
+Rutgers University,"Rutgers, The State University of New Jersey",duplicate,1,judged_mined.jsonl
+Ulster University,University of Ulster,duplicate,1,judged_mined.jsonl
+"National Center for Atmospheric Research, University Corporation for Antmospheric Research, Computational and Information Systems Laboratory","National Science Foundation National Center for Atmospheric Research, Computational and Information Systems Laboratory",duplicate,1,judged_mined.jsonl
+Institute of Marine Research,National Research Council - Institute of Marine Science,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Scientific and Technical Information","U.S.Department of Energy, Office of Health and Environmental Research",unrelated,0,judged_mined.jsonl
+"Russian Academy of Sciences, Geophysical Center",Space Research Institute of the Russian Academy of Sciences,unrelated,0,judged_mined.jsonl
+"Oak Ridge National Laboratory, Physics Division, Controlled Fusion Atomic Data Center","U.S. Department of Energy, Office of Fusion Energy Sciences",unrelated,0,judged_mined.jsonl
+University of British Columbia,"University of British Columbia, Library",hierarchy,0,judged_mined.jsonl
+Georg-August-Universität Göttingen,Martin Luther University Halle-Wittenberg,unrelated,0,judged_mined.jsonl
+Université de Montréal,Université du Québec à Montréal,unrelated,0,judged_mined.jsonl
+National Science and Technology Infrastructure Center,Science & Technology Facilities Council,unrelated,0,judged_mined.jsonl
+The Metabolomics Innovation Centre,"University of California Davis, Genome Center, West Coast Metabolomics Center",unrelated,0,judged_mined.jsonl
+Izmir Institute of Technology,Polish-Japanese Institute of Information Technology,unrelated,0,judged_mined.jsonl
+"Technische Universität Dortmund, Sozialforschungsstelle Dortmund",Technische Universität Ilmenau,unrelated,0,judged_mined.jsonl
+"U.S.Department of Energy, Office of Science, Biological and Environmental Research","U.S.Department of Energy, Office of Science, Office of Basic Energy Sciences, Chemical Sciences, Geosciences and Biosciences Division",unrelated,0,judged_mined.jsonl
+Climate Change Centre Austria,German Climate Computing Centre,unrelated,0,judged_mined.jsonl
+"Australian Government, Department of Industry, Science and Resources","Australian Governmnent, Australian Research Council",unrelated,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institues of Health",United States Department  of Health and Human Services,hierarchy,0,judged_mined.jsonl
+University of East Anglia,University of Manchester,unrelated,0,judged_mined.jsonl
+George Mason University,Rockefeller University,unrelated,0,judged_mined.jsonl
+"Australian Government, Bureau of Meteorology","Australian Government, Bureau of Meteorology, Australian Space Weather Forecasting Centre",hierarchy,0,judged_mined.jsonl
+Concordia University,University of Montreal,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Advanced Manufacturing Office","United States, Department of Energy",hierarchy,0,judged_mined.jsonl
+"European Commission, Community Research and Development Information Service,  7th Framework Programme","European Commission, Community Research and Development Information Service, Seventh Framework Programme",duplicate,1,judged_mined.jsonl
+"University of Graz, Wegener Center for Climate and Global Change","Universität Hamburg, Center for Earth System Research and Sustainability, Integrated Climate Data Center",unrelated,0,judged_mined.jsonl
+Jan Kochanowski University of Kielce,Kiel University,unrelated,0,judged_mined.jsonl
+University of New South Wales,"University of New South Wales, Centre for Ecosystem Science",hierarchy,0,judged_mined.jsonl
+"Erasmus University Rotterdam, Erasmus University Library",University of Amsterdam,unrelated,0,judged_mined.jsonl
+"University of Auckland, School of Computer Science","University of Toronto, Department of Computer Science",unrelated,0,judged_mined.jsonl
+Universidade Federal do Rio Grande do Sul,Universidade de Aveiro,unrelated,0,judged_mined.jsonl
+"Cornell University, Cornell Center for Social Sciences","Harvard University, Institute for Quantitave Social Science",unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Institutes of Mental Health","U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Mental Health",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Fusion Energy Sciences, Office of  Science","U.S. Department of Energy, Office of  Science, Fusion Energy Sciences",duplicate,1,judged_mined.jsonl
+Norwegian Centre for Research Data,Research Council of Norway,unrelated,0,judged_mined.jsonl
+"University of New Mexico, Department of Biology","University of North Texas, College of Arts and Sciences, Department of Biological Sciences",unrelated,0,judged_mined.jsonl
+European Molecular Biology Laboratory - European Bioinformatics Institute,European Molecular Biology Laboratory Australia,unrelated,0,judged_mined.jsonl
+National Herbarium of the Netherlands,Netherlands Organization for Scientific Research,unrelated,0,judged_mined.jsonl
+"University of California, Scripps Institution of Oceanography",Woods Hole Oceanographic Institution,unrelated,0,judged_mined.jsonl
+Baylor College of Medicine,"Washington University in St. Louis, School of Medicine",unrelated,0,judged_mined.jsonl
+Canadian Institutes for Health Research,Canadian Institutes of Health Research,duplicate,1,judged_mined.jsonl
+"Australian Government - Department of Education, National Collaborative Research Infrastructure Strategy","Australian Government, Department of Education, Skills and Employment, National Collaborative Research Infrastructure Strategy",duplicate,1,judged_mined.jsonl
+University of Victoria,University of Waterloo,unrelated,0,judged_mined.jsonl
+"Harvard University, Department of Molecular and Cellular Biology","University of California, Berkeley, Department of Molecular and Cell Biology",unrelated,0,judged_mined.jsonl
+Sheffield Hallam University,University of Manchester,unrelated,0,judged_mined.jsonl
+Centre national de la recherche scientifique,Institut national de la recherche scientifique,unrelated,0,judged_mined.jsonl
+"Department of Energy, Office of Independent Enterprise Assessments","U.S.  Department of Energy, Office of Science",unrelated,0,judged_mined.jsonl
+University of Calgary,University of Winnipeg,unrelated,0,judged_mined.jsonl
+Centers for Disease Control and Prevention,European Centre for Disease Prevention and Control,unrelated,0,judged_mined.jsonl
+"National Institutes of Health, National Human Genome Research Institute","Weizmann Institute of Science,  Crown Human Genome Center",unrelated,0,judged_mined.jsonl
+UC Berkeley School of Information,"University of Maryland, College of Information, Trace Rerc",unrelated,0,judged_mined.jsonl
+Colorado Mesa University,"The University of Colorado, Boulder",unrelated,0,judged_mined.jsonl
+U.S. Department of Commerce | National Oceanic and Atmospheric Administration | Earth System Research Laboratory |  Physical Sciences Laboratory,"United States Department of Commerce, National Oceanic and Atmospheric Administration, Earth System Research Laboratory, Global Monitoring Laboratory",unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung, and Blood Institute","U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences",unrelated,0,judged_mined.jsonl
+"Institute of Bioinformatics, Bangalore","Technical University of Denmark, Department of Bio and Health Informatics, DTU Bioinformatics",unrelated,0,judged_mined.jsonl
+NASA's Goddard Space Flight Center,"NASA's Goddard Space Flight Center,Sciences and Exploration Directorate, Heliospheric Physics Laboratory",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health , National Insitute of Mental Health","National Institutes of Health, National Institute of Mental Health",duplicate,1,judged_mined.jsonl
+Estonian Museum of Natural History,Finnish Museum of Natural History,unrelated,0,judged_mined.jsonl
+"University of California, San Francisco",University of the Sunshine Coast,unrelated,0,judged_mined.jsonl
+"University of Kansas, Department of Molecular Biosciences","University of Vienna, Faculty for Life Sciences, Molecular Systems Biology",unrelated,0,judged_mined.jsonl
+National Oceanographic Partnership Program,National Oceanography Centre,unrelated,0,judged_mined.jsonl
+U.S Department of Health & Human Services,"U.S. Department of Health and Human Services, Health Resources and Services Administration",hierarchy,0,judged_mined.jsonl
+Technische Universität Darmstadt,Universität Heidelberg,unrelated,0,judged_mined.jsonl
+University of Manchester,"University of Manchester, School of Engineering",hierarchy,0,judged_mined.jsonl
+"University of Toronto, Centre for Cellular and Biomolecular Research, Andrews Lab","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Krause lab",unrelated,0,judged_mined.jsonl
+"Deutsches Archäologisches Institut, Eurasien-Abteilung",Heidelberger Institut für Theoretische Studien,unrelated,0,judged_mined.jsonl
+University of California San Francisco,University of the Sunshine Coast,unrelated,0,judged_mined.jsonl
+"Government of British Columbia, Ministry of Environment, Ecosystems Branch","Government of Canada, Environment and Climate Change Canada",unrelated,0,judged_mined.jsonl
+"Karlsruhe Institute of Technology, Institute for Astroparticle Physics",Leibniz Institute for Astrophysics Potsdam,unrelated,0,judged_mined.jsonl
+"National Agricultural and Food Research Organization, National Food Research Institute","National Agriculture and Food Research Organization, Institute of Agrobiological Sciences",unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Science","United States, Department of Energy",hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Building Technologies Office","US Department of Energy, Office of Science",unrelated,0,judged_mined.jsonl
+U.S Department of Health & Human Services,United States Department of Health and Human Services,duplicate,1,judged_mined.jsonl
+The University of Arizona,University of Arizona,duplicate,1,judged_mined.jsonl
+Consultative Group on International Agricultural Research,United States Department of Agriculture - Agricultural Research Service,unrelated,0,judged_mined.jsonl
+"US Geological Survey, Earth Resources Observation and Science",United States Geological Survey,hierarchy,0,judged_mined.jsonl
+"European Commission, Research and Innovation","European Union, Research and Innovation",hierarchy,0,judged_mined.jsonl
+Institute for Genomics and Evolutionary Medicine,National Institute of Genetics,unrelated,0,judged_mined.jsonl
+University of Montpellier,Université de Montpellier,duplicate,1,judged_mined.jsonl
+"National Institutes of Health, National Library of Medicine, National Center for Biotechnology Information","National Library of Medicine, National Center for Biotechnology Information",hierarchy,0,judged_mined.jsonl
+"Universidad Católica de Córdoba, Sistema de Bibliotecas",Universidad Nacional de Córdoba,unrelated,0,judged_mined.jsonl
+"European Molecular Biology Laboratory, European Bioinformatics Institute","European Molecular Biology Laboratory, European Bioinformatics Institute, Thornton Group",hierarchy,0,judged_mined.jsonl
+Hydro-Québec,Université du Québec à Trois-Rivières,unrelated,0,judged_mined.jsonl
+Huma-Num,TGIR Huma-Num,hierarchy,0,judged_mined.jsonl
+European Bioinformatics Institute,Institute of Bioinformatics,unrelated,0,judged_mined.jsonl
+"TU Berlin, Universitätsbibliothek","Universität Mannheim, Universitätsbibliothek",unrelated,0,judged_mined.jsonl
+Environmental Protection Agency,U. S. Environmental Protection Agency,duplicate,1,judged_mined.jsonl
+"National  Government of South Africa, Department of Forestry, Fisheries and the Environment","Republic of South Africa, Department Forestry, Fisheries and the Environment",duplicate,1,judged_mined.jsonl
+Malaysian Agricultural Research and Development Institute,National Agricultural Technology Institute,unrelated,0,judged_mined.jsonl
+"University of Minnesota, BioTechnology Institute","University of Vilnius, Institute of Biotechnology",unrelated,0,judged_mined.jsonl
+Insituut voor de Nederlandse Taal,Instituut voor de Nederlandse Taal,duplicate,1,judged_mined.jsonl
+EMBL Australia,EMBL-EBI,unrelated,0,judged_mined.jsonl
+"National Institute of Allergy and Infectious Diseases, Bioinformatics Resource Center","National Institutes of Health,  National Institute of Allergy and Infectious Diseases",hierarchy,0,judged_mined.jsonl
+The University of Sydney,University of Adelaide,unrelated,0,judged_mined.jsonl
+Dataverse Network Project,The Dataverse  Project,duplicate,1,judged_mined.jsonl
+"Kansas State University,  Bioinformatics Center","University of Texas at Austin, Center for Computational Biology and Bioinformatics",unrelated,0,judged_mined.jsonl
+Universidade Federal de Goiás,Universidade de Aveiro,unrelated,0,judged_mined.jsonl
+"TU Berlin, Universitätsbibliothek",Universitätsbibliothek Heidelberg,unrelated,0,judged_mined.jsonl
+"Harvard-Smithsonian Center for Astrophysics, Smithsonian Astrophysical Observatory","National Aeronautics and Space Administration, Smithsonian Astrophysical Observatory, Chandra X-Ray Observatory",unrelated,0,judged_mined.jsonl
+Hochschule für Musik FRANZ LISZT Weimar,Hochschule für Musik Franz Liszt  Weimar,duplicate,1,judged_mined.jsonl
+Centre National de la Recherche Scientifique,Le Centre national de la recherche scientifique,duplicate,1,judged_mined.jsonl
+Lincoln University,University of Nebraska Lincoln,unrelated,0,judged_mined.jsonl
+Natural Resources Canada,"Natural Resources Canada, Canadian Forest Service",hierarchy,0,judged_mined.jsonl
+The University of Edinburgh,University of Edinburgh,duplicate,1,judged_mined.jsonl
+Max Planck Institute for Mathematics in the Sciences,Max Planck Institute for the Science of Human History,unrelated,0,judged_mined.jsonl
+"Government of Canada,  Fisheries and Oceans Canada","Government of Canada, Fisheries and Oceans Canada",duplicate,1,judged_mined.jsonl
+Federation University Australia,University of Tasmania,unrelated,0,judged_mined.jsonl
+"Österreichische Akademie der Wissenschaften, Institut für Weltraumforschung",Österrreichische Akademie der Wissenschaften,hierarchy,0,judged_mined.jsonl
+"University of Toronto,   Gary Bader's lab","University of Toronto, Bader Lab",duplicate,1,judged_mined.jsonl
+Field Museum,The Field Museum,duplicate,1,judged_mined.jsonl
+Energy.gov,U.S. Department of Energy,duplicate,1,judged_mined.jsonl
+"Brookhaven National Laboratory, Nuclear Science & Technology Department, National Nuclear Data Center","Nuclear Science and Technology Department, Brookhaven Nation Laboratory, National Nuclear Data Center",duplicate,1,judged_mined.jsonl
+NIH  National Institute of Diabetes and Digestive and Kidney Diseases,"National Institutes of Health, National Institute of Diabetes, Digestive and Kidney Diseases",duplicate,1,judged_mined.jsonl
+"National Institutes of Health, National Institute of Environmental Health Sciences","U.S. Department of Health & Human Services, National Institutes of Health, National Institute of Environmental Health Sciences",duplicate,1,judged_mined.jsonl
+National Science and Technology Infrastructure,National Science and Technology Infrastructure Center,duplicate,1,judged_mined.jsonl
+"National Heart, Lung, and Blood Institute","U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung, and Blood Institute",duplicate,1,judged_mined.jsonl
+Harvard College,Yale University,unrelated,0,judged_mined.jsonl
+"International Science Council, World Data System",The Dataverse  Project,unrelated,0,judged_mined.jsonl
+"U.S Department of the Interior, National Park Service","U.S. Department of the Interior, National Park Service",duplicate,1,judged_mined.jsonl
+University of British Columbia Library,"University of British Columbia, Library",duplicate,1,judged_mined.jsonl
+Swiss National Science Foundation,US National Science Foundation,unrelated,0,judged_mined.jsonl
+Belgian Science Policy Office,Royal Belgian Institute of Natural Sciences,unrelated,0,judged_mined.jsonl
+"Kansas State University,  Bioinformatics Center","Peking University, Center for Bioinformatics",unrelated,0,judged_mined.jsonl
+L’Institut de Biologie et Chimie des Protéines,"University of Copenhagen, The Novo Nordisk Foundation, Center for Protein Research",unrelated,0,judged_mined.jsonl
+"Central University of Haryana, Department of Library and Information Science","Government of India, National Informatics Centre",unrelated,0,judged_mined.jsonl
+"University of Oxford, Oxford e-Research Center","University of Oxford, Oxford e-Research Centre",duplicate,1,judged_mined.jsonl
+CLARIN-IT,CLARIN-PL,unrelated,0,judged_mined.jsonl
+"Albert-Ludwigs-University Freiburg, University Library",Friedrich-Schiller-University Jena,unrelated,0,judged_mined.jsonl
+University of Alabama,University of Birmingham,unrelated,0,judged_mined.jsonl
+"National Heart, Lung, and Blood Institute","National Institutes of Health, National Heart, Lung and Blood Institute",hierarchy,0,judged_mined.jsonl
+"U.S.Department of Energy, Office of Health and Environmental Research","U.S.Department of Energy, Office of Science, Biological and Environmental Research",unrelated,0,judged_mined.jsonl
+"Centers for Disease Control and Prevention, National Center for Health Statistics","National Center for Health Statistics, Centers for Disease Control and Preventions",duplicate,1,judged_mined.jsonl
+"University of Alberta, Departments of Biological Sciences and Computing Science, Wishart Research Group","University of Pennsylvania, PerelmanSchool of Medizine, Computational Biology and Informatics Laboratory",unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Goddard Space Flight Center",U.S. National Aeronautics and Space Administration,hierarchy,0,judged_mined.jsonl
+Canadian Institute for Health Information,Canadian Institute of Health Research,unrelated,0,judged_mined.jsonl
+University of California San Diego,University of California at Irvine,unrelated,0,judged_mined.jsonl
+"University of Pennsylvania, PerelmanSchool of Medizine, Computational Biology and Informatics Laboratory","University of Pittsburgh, Department of Biomedical Informatics",unrelated,0,judged_mined.jsonl
+Universidad Austral de Chile,Universidad Internacional de Andalucia,unrelated,0,judged_mined.jsonl
+National Institute on Deafness and other Communication Disorders,"U.S. Department of Health & Human Services, National Institutes of Health, National Institute on Deafness and Other Communication Disorders",hierarchy,0,judged_mined.jsonl
+"Conservation International, Center for Applied Biodiversity Science, Tropical Ecology, Assessment and Monitoring Initiative",United Nations Environment Programme - World Conservation Monitoring Centre,unrelated,0,judged_mined.jsonl
+"Emory University School of Medicine, Department of Biomedical Informatics","University of Pennsylvania, Penn Institute for Biomedical Informatics",unrelated,0,judged_mined.jsonl
+"University of Toronto,   Gary Bader's lab","University of Wisconsin-Madison, O'Connor Lab",unrelated,0,judged_mined.jsonl
+"The Jackson Laboratory, Mutant Mouse Resource and Research Center","University of Missouri,  Mutant Mouse Resource & Research Center",unrelated,0,judged_mined.jsonl
+Institute for High Energy Densities of the Joint Institute for High Temperatures of the Russian Academy of Sciences,Institute of High Energy Physics,unrelated,0,judged_mined.jsonl
+"University of Cambridge, Cambridge University Library","University of Oxford, Bodleian Digital Library Systems and Services",unrelated,0,judged_mined.jsonl
+"U.S. Geological Survey, Advanced National Seismic System","United States Geological Survey, National Earthquake Information Center",unrelated,0,judged_mined.jsonl
+University of Melbourne,University of Victoria,unrelated,0,judged_mined.jsonl
+"U.S. Department of Agriculture, Natural Resources Conservation Service","United States Department of Agriculture, Natural Resources Conservation Service",duplicate,1,judged_mined.jsonl
+Instituut voor de Nederlandse Taal,Koninklijk Nederlands Meterologisch Instituut,unrelated,0,judged_mined.jsonl
+GESIS-Leibniz-Institut für Sozialwissenschaften,Leibniz-Zentrum für Agrarlandschaftsforschung e. V.,unrelated,0,judged_mined.jsonl
+German Research Foundation,Swiss National Science Foundation,unrelated,0,judged_mined.jsonl
+Huma-num,huma-num,duplicate,1,judged_mined.jsonl
+Universität Bremen,Universität Leipzig,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health","U.S. Department of Health and Human Services, National Institutes of Health",duplicate,1,judged_mined.jsonl
+Universidad Nacional de La Plata,Universidad Tecnológica de Bolívar,unrelated,0,judged_mined.jsonl
+Pontifical Catholic University of Rio de Janeiro,Universidade Federal de São Paulo,unrelated,0,judged_mined.jsonl
+Riga Technical University,Rīga Stradiņš University,unrelated,0,judged_mined.jsonl
+"Institute of Bioinformatics, Bangalore","Tianjin University, Center of BioInformatics",unrelated,0,judged_mined.jsonl
+Université du Québec à Chicoutimi,Université du Québec à Montréal,unrelated,0,judged_mined.jsonl
+"Department of Energy's Scientific Discovery, Advanced Computing program",U.S. Department of Energy's Scientific Discovery through Advanced Computing program,duplicate,1,judged_mined.jsonl
+Ministry of Education of the Peoples's Republic of China,Ministry of Science and Technology of the People's Republic of China,unrelated,0,judged_mined.jsonl
+Institute of Nuclear Physics Polish Academy of Sciences,"US Department of Energy, Office of Science, Nuclear Physics NP",unrelated,0,judged_mined.jsonl
+NASA Goddard Space Flight Center,NASA's Goddard Space Flight Center,duplicate,1,judged_mined.jsonl
+University of California,"University of California, Davis",hierarchy,0,judged_mined.jsonl
+"University of Queensland, Queensland Brain Institute","University of Southern California, Keck School of Medicine, USC Mark and Mary Stevens Neuroimaging and Informatics Institute, Laboratory of Neuro Imaging",unrelated,0,judged_mined.jsonl
+Amsterdam University of Applied Sciences,Vrije Universiteit Amsterdam,unrelated,0,judged_mined.jsonl
+"Technische Universität Dortmund, Sozialforschungsstelle Dortmund",Technische Universität München,unrelated,0,judged_mined.jsonl
+Universität Leipzig,Universität zu Köln,unrelated,0,judged_mined.jsonl
+Goddard Space Flight Center,NASA - Goddard Space Flight Center,duplicate,1,judged_mined.jsonl
+Florida State University,University of Florida,unrelated,0,judged_mined.jsonl
+"Emory University School of Medicine, Department of Biomedical Informatics","University of Pennsylvania,  Perelman School of Medicine, Institute for Biomedical Informatics",unrelated,0,judged_mined.jsonl
+Lawrence Berkeley National Laboratory,"University of California, Lawrence Berkeley National Laboratory",hierarchy,0,judged_mined.jsonl
+"Substance Abuse & Mental Health Services Administration, Center for Behavioral Health Statistics and Quality",The Centre for Addiction and Mental Health,unrelated,0,judged_mined.jsonl
+Max Planck Institute for Extraterrestrial Physics,Max-Planck-Institut für Extraterrestrische Physik,duplicate,1,judged_mined.jsonl
+"University of Tasmania, Institute for Marine & Antarctic Studies","University of Tasmania, Institute for Marine and Antarctic Studies",duplicate,1,judged_mined.jsonl
+"National Institutes of Health, United States National Library of Medicine, National Center for Biotechnology Information","National Library of Medicine, National Center for Biotechnology Information",duplicate,1,judged_mined.jsonl
+U.S. Department of Agriculture,"United States Department of Agriculture, Natural Resources Conservation Service",hierarchy,0,judged_mined.jsonl
+"Centre national de la recherche scientifique, L'Institut national des sciences de l'Univers",Institut national de la recherche scientifique,unrelated,0,judged_mined.jsonl
+Leibniz Institute DSMZ - German Collection of Microorganisms and Cell Cultures GmbH,Leibniz Institute DSMZ-German Collection of Microorganisms and Cell Cultures GmbH,duplicate,1,judged_mined.jsonl
+U.S: Department of Health and Human Services,United States Department of Health and Human Services,duplicate,1,judged_mined.jsonl
+Universitat Politècnica de València,"Universitat Politècnica de València, Servicio de Biblioteca y Documentación Científica",hierarchy,0,judged_mined.jsonl
+Alberta Innovates Bio Solutions,Alberta Innovates Health Solutions,unrelated,0,judged_mined.jsonl
+"Stanford University, School of Medicine, Department of Genetics","University of Cambridge, Department of Genetics",unrelated,0,judged_mined.jsonl
+"Chinese Academy of Sciences,  Institute of Geographic Sciences and Natural Resources Research","Chinese Academy of Sciences, Institute of Geographical Sciences and Natural Resources Research",duplicate,1,judged_mined.jsonl
+"National University of Ireland, Maynooth",Ulster University,unrelated,0,judged_mined.jsonl
+Manchester Metropolitan University,University of Liverpool,unrelated,0,judged_mined.jsonl
+Ministry of Education and Culture,Ministry of Education of the Peoples's Republic of China,unrelated,0,judged_mined.jsonl
+University Corporation for Atmospheric Research,"University Corporation for Atmospheric Research, National Center for Atmospheric Research",hierarchy,0,judged_mined.jsonl
+US Departement of Health and Human Services,United States Department of Health and Human Services,duplicate,1,judged_mined.jsonl
+New York University,York University,unrelated,0,judged_mined.jsonl
+Univeristät Wien,Universität Wien,duplicate,1,judged_mined.jsonl
+National Center for Atmospheric Research | University Corporation for Atmospheric Research,"National Center for Atmospheric Research, University Corporation for Antmospheric Research, Computational and Information Systems Laboratory",hierarchy,0,judged_mined.jsonl
+National Institutes of Health,Tigray Health Research Institute,unrelated,0,judged_mined.jsonl
+"University of Connecticut, Institute for Systems Genomics, Computational Biology Core","University of Texas at Austin, Center for Computational Biology and Bioinformatics",unrelated,0,judged_mined.jsonl
+"Academia Sinica, Institute of Information Science, Taiwan","Academia Sinica, Research Center for Information Technology Innovation, Taiwan",unrelated,0,judged_mined.jsonl
+Max-Planck-Gesellschaft,"Max-Planck-Gesellschaft, Max Planck Institute for Demographic Research",hierarchy,0,judged_mined.jsonl
+The World Bank,The World Bank Group,hierarchy,0,judged_mined.jsonl
+Digital Humanities Center (Eberhard Karls Universität Tübingen),"University of Basel, Digital Humanities Lab",unrelated,0,judged_mined.jsonl
+Universidad Politécnica de Madrid,Universidad de Murcia,unrelated,0,judged_mined.jsonl
+University of Maryland,"University of Maryland, Baltimore County",unrelated,0,judged_mined.jsonl
+Institute of Oceanology Polish Academy of Sciences,National Institute of Oceanography and Applied Geophysics,unrelated,0,judged_mined.jsonl
+Estonian Museum of Natural History,"University of Oslo, Natural History Museum",unrelated,0,judged_mined.jsonl
+National Aeronautics and Space Administration,U.S. National Aeronautics and Space Administration,duplicate,1,judged_mined.jsonl
+Bayerische Staatsbibliothek,Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden,unrelated,0,judged_mined.jsonl
+"National Astronomical Observatories, Chinese Academy of Sciences, Chinese Virtual Observatory","National Astronomical Observatory of Japan, Okayama Astrophysical Observatory",unrelated,0,judged_mined.jsonl
+MCMaster University,McMaster University,duplicate,1,judged_mined.jsonl
+New Brunswick Canada,University of New Brunswick,unrelated,0,judged_mined.jsonl
+"Stanford University, Poldrack Lab","University of North Carolina at Chapel Hill, Hahn Lab",unrelated,0,judged_mined.jsonl
+"European Commission, Research & Innovation, Seventh Framework Program","European Commission, Research & Innovation, Seventh Framework Programm, FP7",duplicate,1,judged_mined.jsonl
+"Department of Health and Human Services, National Institutes of Health","U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences",hierarchy,0,judged_mined.jsonl
+Canadian Forest Service,"Natural Resources Canada, Canadian Forest Service",hierarchy,0,judged_mined.jsonl
+Ministère de l'Enseignement supérieur et de la Recherche,Ministère de lʼEnseignement supérieur et de la Recherche,duplicate,1,judged_mined.jsonl
+Association of American State Geologists,United States Geological Survey,unrelated,0,judged_mined.jsonl
+"National Institute for Health Research, School for Primary Care Research",National Institute on Minority Health and Health Disparities,unrelated,0,judged_mined.jsonl
+Friedrich Schiller University Jena,Friedrich-Schiller-Universität Jena,duplicate,1,judged_mined.jsonl
+Chinese Academy of Fishery Sciences,"Chinese Academy of Fishery Sciences, East China Sea Fisheries Research Institute",hierarchy,0,judged_mined.jsonl
+National Institute on Aging,"National Institutes of Health, National Institute on Aging",hierarchy,0,judged_mined.jsonl
+NASA's Earth Observing System Data and Information System,"National Aeronautics and Space Administration, Earth Observing System Data and Information System",duplicate,1,judged_mined.jsonl
+Royal Society of Chemistry,"Slovak Academy of Sciences, Institute of Chemistry",unrelated,0,judged_mined.jsonl
+"University of California at Los Angeles, Library","University of California, Los Angeles Library",duplicate,1,judged_mined.jsonl
+California Geological Survey,US Geological Survey,unrelated,0,judged_mined.jsonl
+World Meteorological Organization,"World Meteorological Organization, Dobson Forum",hierarchy,0,judged_mined.jsonl
+Jet Propulsion Laboratory,"National Aeronautics and Space Administration, Jet Propulsion Laboratory",hierarchy,0,judged_mined.jsonl
+"The University of Texas at El Paso, Department of Biological Sciences","University of Oxford, Department of Biology",unrelated,0,judged_mined.jsonl
+Open Society Institute,The Open University,unrelated,0,judged_mined.jsonl
+"Government of Canada, Statistics Canada","Government of Canada, Statistics Canada, Research Data Centres Program",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health, Office of Strategic Coordination, The Common Fund",The National Institutes of Health,hierarchy,0,judged_mined.jsonl
+Goethe University Frankfurt,Johann Wolfgang Goethe-Universität Frankfurt,duplicate,1,judged_mined.jsonl
+The World Bank,World Bank Group,hierarchy,0,judged_mined.jsonl
+University of Debrecen,"University of Debrecen, University and National Library",hierarchy,0,judged_mined.jsonl
+Concordia University,Concordia University of Edmonton,unrelated,0,judged_mined.jsonl
+"Karlsruhe Institute of Technology, Scientific Computing Center","University of Texas at Austin, Institute for Computational and Engineering Sciences",unrelated,0,judged_mined.jsonl
+"Münchener DigitalisierungsZentrum, Digitale Bibliothek","Niedersächsisches Ministerium für Wirtschaft, Arbeit, Verkehr und Digitalisierung",unrelated,0,judged_mined.jsonl
+University of Buffalo,Wayne State University,unrelated,0,judged_mined.jsonl
+"National Institutes of Health,  National Institute of Allergy and Infectious Diseases","National Institutes of Health, National Institute of Allergy and Infectious Diseseases, Department of Health and Human Services",duplicate,1,judged_mined.jsonl
+"Chinese Academy of Sciences, South China Sea Institute of Oceanology",International Association of the Physical Sciences of the Ocean,unrelated,0,judged_mined.jsonl
+"European Commission, Community Research and Development Information Service,  FP7","European Commission, Community Research and Development Information Service,  Sixth Framework Programe",duplicate,1,judged_mined.jsonl
+"National Autonomous University of Mexico, Center for Genomic Sciences","National Autonomous University of Mexico, Institute of Biomedical Research",unrelated,0,judged_mined.jsonl
+"San Diego Supercomputer Center, Advanced CyberInfrastructure Development","University of California, San Diego, San Diego Supercomputer Center",hierarchy,0,judged_mined.jsonl
+AGH University of  Krakow,Roskilde University,unrelated,0,judged_mined.jsonl
+Kooperativer Bibliotheksverbund Berlin-Brandenburg,"TU Berlin, Universitätsbibliothek",hierarchy,0,judged_mined.jsonl
+German Aerospace Center,"German Aerospace Center, Earth Observation Center, German Remote Sensing Data Center of the German Aerospace Center",hierarchy,0,judged_mined.jsonl
+OSGeo Public Geospatial Data Committee,US Federal Geographic Data Committee,unrelated,0,judged_mined.jsonl
+"National Institute of Mental Health, Human Brain Project","National Institutes of Health, National Institute of Mental Health",hierarchy,0,judged_mined.jsonl
+National Institute for Public Health and the Environment,National Institute of Health,unrelated,0,judged_mined.jsonl
+"Chinese Academy of Agricultural Sciences, Institute of Crop Germplasm Resources","Chinese Academy of Science, Kunming Institute of Botany",unrelated,0,judged_mined.jsonl
+"Karlsruhe Institute of Technology, Institute of Climatology and Climate Research, Atmospheric Trace Gases and Remote Sensing","Karlsruhe Institute of Technology, Institute of Meteorology and Climate Research - Atmospheric Trace Gases and Remote Sensing",duplicate,1,judged_mined.jsonl
+CLARIN-ERIC,CLARIN-NL,hierarchy,0,judged_mined.jsonl
+Cancer Research Society,Cancer Research UK,unrelated,0,judged_mined.jsonl
+"Institut für Deutsche Sprache, Programmbereich Korpuslinguistik",Leibniz-Institut für Deutsche Sprache,hierarchy,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, Health Resources and Services Administration","U.S. General Services Administration, Data.gov",unrelated,0,judged_mined.jsonl
+"Dalhousie University, Department of Biology","University of Aveiro, Department of Biology",unrelated,0,judged_mined.jsonl
+Environmental Protection Agency,United States Environmental Protection Agency,duplicate,1,judged_mined.jsonl
+Univeristät Wien,"Universität Erfurt, Forschungsbibliothek Gotha",unrelated,0,judged_mined.jsonl
+GEOMAR Helmholtz Centre for Ocean Research Kiel,Kiel University,unrelated,0,judged_mined.jsonl
+National Institute of Ecology,"National Institutes of Health, National Institute of Environmental Health Sciences",unrelated,0,judged_mined.jsonl
+University of Kansas Libraries,"University of Oregon, UO Libraries",unrelated,0,judged_mined.jsonl
+Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.,Max-Planck-Institut für Wissenschaftsgeschichte,hierarchy,0,judged_mined.jsonl
+Children's Hospital of Eastern Ontario,Hospital for Sick Children,unrelated,0,judged_mined.jsonl
+National Autonomous University of Mexico,"National Autonomous University of Mexico, School of Sciences",hierarchy,0,judged_mined.jsonl
+"Max-Planck-Gesellschaft, Max-Planck Institut für Chemie",Max-Planck-Institut für Informatik,unrelated,0,judged_mined.jsonl
+University of Maryland,University of Virginia,unrelated,0,judged_mined.jsonl
+"National Aeronautics and Space Administration, Atmospheric Science Data Center","National Aeronautics and Space Administration, National Snow and Ice Data Center",unrelated,0,judged_mined.jsonl
+Washington State University,Washington University in St. Louis,unrelated,0,judged_mined.jsonl
+Pennsylvania State University,University of Pittsburgh,unrelated,0,judged_mined.jsonl
+British Antarctic Survey,"University of Tasmania, Institute for Marine and Antarctic Studies",unrelated,0,judged_mined.jsonl
+American Cancer Society,BC Cancer Agency,unrelated,0,judged_mined.jsonl
+Institute of Bioinformatics,"Peking University, Center for Bioinformatics",unrelated,0,judged_mined.jsonl
+"International Council for Science, World Data System","International Science Council, World Data System International Programme Office",duplicate,1,judged_mined.jsonl
+University of Lorraine,Université de Lorraine,duplicate,1,judged_mined.jsonl
+Universidad Austral de Chile,Universidad de Chile,unrelated,0,judged_mined.jsonl
+Universidad Nacional de Córdoba,Universidad de Granada,unrelated,0,judged_mined.jsonl
+"University of Toronto, Centre for Cellular and Biomolecular Research, Andrews Lab","University of Toronto, Donnelly Centre for Cellular and Biomolecular Research, Brenda Andrews Research Lab",duplicate,1,judged_mined.jsonl
+Institute of Marine Research,"National Marine Fisheries, Research Institute",unrelated,0,judged_mined.jsonl
+Human Genome Organisation,National Human Genome Research Institute,unrelated,0,judged_mined.jsonl
+"U.S. Department of Energy, Biological and Environmental Research","U.S. Department of Energy, Office of Science, Biological & Environmental Research",duplicate,1,judged_mined.jsonl
+"Georg-August Universität Göttingen, Zentrale Kustodie",Georg-August-Universität Göttingen,hierarchy,0,judged_mined.jsonl
+"U.S. Department of Energy, Office of Scientific and Technical Information","U.S.Department of Energy, Office of Science, Office of Scientific and Technical Information",duplicate,1,judged_mined.jsonl
+Lawrence Berkeley National Lab,Lawrence Berkeley National Laboratory,duplicate,1,judged_mined.jsonl
+European Molecular Biology Laboratory,European Molecular Biology Laboratory Australia,hierarchy,0,judged_mined.jsonl
+University of South Australia,University of Tasmania,unrelated,0,judged_mined.jsonl
+Danish Ministry of Higher Education and Science,University of Copenhagen,unrelated,0,judged_mined.jsonl
+"Australian Government - Department of Education, National Collaborative Research Infrastructure Strategy","Australian Government, Department of Education, National Collaborative Research Infrastructure Strategy",duplicate,1,judged_mined.jsonl
+NOAA's National Centers for Environmental Information,"National Oceanic and Atmospheric Administration, National Centers for Environmental Information",duplicate,1,judged_mined.jsonl
+Ministry of Education of the Peoples's Republic of China,Ministry of Finance  of the People's Republic of China,unrelated,0,judged_mined.jsonl
+Alberta Government,Government of Alberta,duplicate,1,judged_mined.jsonl
+Duke University,"Duke University, Trinity College of Arts & Sciences",hierarchy,0,judged_mined.jsonl
+Texas A&M University,The University of Texas at Austin,unrelated,0,judged_mined.jsonl
+"U.S. Department of Health and Human Services, National Institute of General Medical Sciences","US Department of Health and Human Services, National Institutes of Health",hierarchy,0,judged_mined.jsonl
+Central Lake Ontario Conservation,Conservation Ontario,hierarchy,0,judged_mined.jsonl
+Quebec Bio-Imaging Network,"University of Pittsburgh, Center for Biologic Imaging",unrelated,0,judged_mined.jsonl
+"University of British Columbia, Library","University of Prince Edward Island, Robertson Library",unrelated,0,judged_mined.jsonl
+"Department of Homeland Security, Science & Technology Directorate",Homeland Security,hierarchy,0,judged_mined.jsonl
+University of Wisconsin-Madison,"University of Wisconsin-Madison,  Information Technology",hierarchy,0,judged_mined.jsonl
+"Australian Commonwealth,  Department of Health","Australian Government, Department of Social Services",unrelated,0,judged_mined.jsonl
+"U.S. Department of Health & Human Services, National Institutes of Health, National Cancer Institute","U.S. Department of Health & Human Services, National Institutes of Health, National Institute of General Medical Sciences",unrelated,0,judged_mined.jsonl
+The Pennsylvania State University,University of Connecticut,unrelated,0,judged_mined.jsonl
+"Universität Kassel, Universitätsbibliothek",Universitätsbibliothek Heidelberg,unrelated,0,judged_mined.jsonl
+Karlsruhe Institute of Technology,"Karlsruhe Institute of Technology, Institut für Kunst- und Baugeschichte",hierarchy,0,judged_mined.jsonl
+"University of Natural Resources and Life Sciences, Institute of Hydrobiology and Aquatic Ecosystem Management","University of New South Wales, Centre for Ecosystem Science",unrelated,0,judged_mined.jsonl
+"National Institute of Allergy and Infectious Diseases, Bioinformatics Resource Centers","National Institutes of Health, National Institute of Allergy and Infectious Diseases",hierarchy,0,judged_mined.jsonl
+"National Institutes of Health, National Institute of Environmental Health Sciences",The National Institutes of Health,hierarchy,0,judged_mined.jsonl
+The University of Iowa Libraries,University of Minnesota Libraries,unrelated,0,judged_mined.jsonl
+Arizona State University Library,"University of Arizona, University Libraries",unrelated,0,judged_mined.jsonl
+Oak Ridge Institute for Science and Education,"Oak Ridge National Laboratory, Oak Ridge Campus",unrelated,0,judged_mined.jsonl
+Bundesanstalt für Landwirtschaft und Ernährung,Bundesministerium für Ernährung und Landwirtschaft,hierarchy,0,judged_mined.jsonl
+"Academia Sinica, Biodiversity Research Center",Global Biodiversity Informaton Facility,unrelated,0,judged_mined.jsonl
+Washington University in St. Louis,"Washington University in St. Louis, Cognitive Psychology Laboratory",hierarchy,0,judged_mined.jsonl
+Government of Andhra Pradesh,Government of Odisha,unrelated,0,judged_mined.jsonl
