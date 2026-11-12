@@ -95,30 +95,27 @@ n_parent = sum(direct_parent(n, by_norm) is not None for n in names)
 n_clusters = len(clusters)
 print(f"names={N} clusters={n_clusters} with_parent={n_parent} test_acc={acc:.3f} rules_F1={f1_rules:.3f}")
 
-# ------------------------------------------------------------------ figure 1: pipeline
-fig, ax = plt.subplots(figsize=(15, 4.1))
+# ------------------------------------------------------------------ figure 1: pipeline (vertical, about 2:1 for the poster image box)
+fig, ax = plt.subplots(figsize=(11, 5.6))
 ax.axis("off")
+ax.set_xlim(0, 100)
+ax.set_ylim(0, 52)
 steps = [
-    ("1  Names", f"{N:,}", "distinct institution\nspellings in re3data"),
-    ("2  Blocking", "269,771", "candidate pairs\n(1.4% of 18.9 million)"),
-    ("3  Decider", "776 + 3,329", "duplicate + hierarchy\nanswers (rules)"),
-    ("4  Clusters", f"{n_clusters:,}", f"institutions\n({N - n_clusters} spellings merged)"),
-    ("5  Parent links", f"{n_parent:,}", "units linked to the\ninstitution above them"),
+    ("1  Names", f"{N:,}", "distinct institution spellings in re3data"),
+    ("2  Blocking", "269,771", "pairs sharing a rare word (1.4% of 18.9 million)"),
+    ("3  Decider", "776 + 3,329", "duplicate and hierarchy answers from simple rules"),
+    ("4  Clusters", f"{n_clusters:,}", f"institutions ({N - n_clusters} spellings merged)"),
+    ("5  Parent links", f"{n_parent:,}", "units linked to the institution above them"),
 ]
-w, gap = 0.17, 0.0375
+RH, RG = 8.2, 1.75
 for i, (head, big, small) in enumerate(steps):
-    x = i * (w + gap)
-    ax.add_patch(FancyBboxPatch((x, 0.18), w, 0.62, boxstyle="round,pad=0.01,rounding_size=0.02", fc="white", ec=BLUE if i else GRAY, lw=2.2))
-    ax.text(x + w / 2, 0.72, head, ha="center", va="center", fontsize=15, fontweight="bold", color=INK2)
-    ax.text(x + w / 2, 0.50, big, ha="center", va="center", fontsize=26 if len(big) < 9 else 19, fontweight="bold", color=BLUE)
-    ax.text(x + w / 2, 0.30, small, ha="center", va="center", fontsize=12.5, color=INK2)
+    top = 51.5 - i * (RH + RG)
+    ax.add_patch(FancyBboxPatch((0.5, top - RH), 99, RH, boxstyle="round,pad=0.0,rounding_size=1.2", fc="white", ec=BLUE if i else GRAY, lw=2.4))
+    ax.text(3, top - RH / 2, head, ha="left", va="center", fontsize=16, fontweight="bold", color=INK2)
+    ax.text(28, top - RH / 2, big, ha="left", va="center", fontsize=24 if len(big) < 9 else 21, fontweight="bold", color=BLUE)
+    ax.text(58, top - RH / 2, chr(10).join(textwrap.wrap(small, 32)), ha="left", va="center", fontsize=12.5, color=INK2, linespacing=1.3)
     if i < len(steps) - 1:
-        ax.annotate("", xy=(x + w + gap - 0.004, 0.49), xytext=(x + w + 0.004, 0.49), arrowprops=dict(arrowstyle="-|>", color=INK2, lw=2))
-ax.text(0, 0.05, "An AI judge labeled 3,400 sample pairs as an answer key for testing the rules; it is not part of the tool.",
-        fontsize=12.5, color=INK2)
-ax.set_xlim(-0.01, 1.03)
-ax.set_ylim(0, 0.86)
-ax.set_title("From 6,148 spellings to 5,546 institutions", loc="left", fontsize=22, fontweight="bold", pad=18)
+        ax.annotate("", xy=(50, top - RH - RG + 0.15), xytext=(50, top - RH - 0.15), arrowprops=dict(arrowstyle="-|>", color=INK2, lw=2))
 save(fig, "1_pipeline")
 
 # ------------------------------------------------------------------ figure 2: blocking trade-off
