@@ -151,13 +151,13 @@ save(fig, "2_blocking")
 # ------------------------------------------------------------------ figure 3: method comparison
 methods = [  # name, F1, accent?, (low, high) range
     ("Substring rule", 0.47, False, None),
-    ("Exact match after cleaning", 0.56, False, None),
+    ("Exact match\nafter cleaning", 0.56, False, None),
     ("My rules (v1.1)", round(f1_rules, 2), True, None),
-    ("AI embeddings, fine-tuned (6 runs)", 0.79, False, (0.76, 0.82)),   # measured: docs/results_2026-10-14.md, sweep on 2026-10-16
-    ("AI embeddings, off the shelf", 0.81, False, None),                 # measured: baselines.py on the 111-pair test set
+    ("AI embeddings,\nfine-tuned (6 runs)", 0.79, False, (0.76, 0.82)),   # measured: docs/results_2026-10-14.md, sweep on 2026-10-16
+    ("AI embeddings,\noff the shelf", 0.81, False, None),                 # measured: baselines.py on the 111-pair test set
     ("Fuzzy string matching", 0.82, False, None),
 ]
-fig, ax = plt.subplots(figsize=(10.5, 5.8))
+fig, ax = plt.subplots(figsize=(10, 6.4))
 for i, (name, f1, accent, rng) in enumerate(methods):
     ax.barh(i, f1, height=0.62, color=BLUE if accent else GRAY, zorder=2)
     ax.text((rng[1] if rng else f1) + 0.012, i, f"{f1:.2f}", va="center", fontsize=14, fontweight="bold", color=INK)
@@ -168,12 +168,12 @@ for i, (name, f1, accent, rng) in enumerate(methods):
 ax.set_yticks(range(len(methods)))
 ax.set_yticklabels([m[0] for m in methods], fontsize=14)
 ax.set_xlim(0, 1.0)
-ax.set_xlabel("F1 score at finding duplicate institution names (1.0 = perfect)")
+ax.set_xlabel("F1 score at finding duplicates (1.0 = perfect)")
 ax.grid(axis="x", color=LIGHT, lw=1)
 ax.set_axisbelow(True)
 ax.tick_params(axis="y", length=0)
 title(ax, "Simple string matching ties AI embeddings",
-      "Same held-out test set: 111 pairs, 31 true duplicates. Bar = result; line = range over 6 training runs.\nDifferences of about 0.03 are within noise.")
+      "Same held-out test set: 111 pairs, 31 true duplicates.\nBar = result; line = range over 6 training runs.\nDifferences of about 0.03 are within noise.")
 save(fig, "3_methods")
 
 # ------------------------------------------------------------------ figure 4: confusion matrix
